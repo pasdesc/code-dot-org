@@ -157,6 +157,7 @@ ko:
           stages:
             Maze:
               name: 미로
+          description_audience: ''
         frozen:
           title: 안나, 엘사와 함께하는 코드
           description: 얼음의 마술과 아름다움을 탐구하는 안나, 엘사와 함께 코드를 해보세요. 스케이트를 타는 것 처럼 쉽게 눈 송이와 패턴을 만들어서 겨울왕국을 꾸밀 수 있게 될 것입니다. 그렇게 만든 것들은 친구들에게 자랑하세요!
@@ -4613,6 +4614,8 @@ ko:
               name: Representing Numbers
             8-bit Numbers:
               name: 8-bit Numbers
+            Encryption:
+              name: Encryption
         applab-1hour:
           title: App Lab 1 Hour Workshop
           description_audience: Middle and High School Students
@@ -6068,6 +6071,8 @@ ko:
               name: Improving and Iterating
             App Presentation:
               name: App Presentation
+            Linking Screens:
+              name: Linking Screens
           title: CSD Unit 4 Revisions Draft
           description_audience: ''
           description_short: ''
@@ -6086,7 +6091,215 @@ ko:
               name: Intro to AppLab - Choose Your Own Adventure
             Intro to AppLab - Choose Your Own Adventure 2:
               name: Intro to AppLab - Choose Your Own Adventure 2
+            Intro to AppLab - Your First App:
+              name: Intro to AppLab - Your First App
           title: Intro to App Lab
           description_audience: ''
           description_short: ''
           description: These lessons introduce you to App Lab through a series of creative projects.
+        e-f-ramp:
+          stages:
+            'Programming: My Robotic Friends':
+              name: 'Programming: My Robotic Friends'
+            Sequence and Preview in Maze:
+              name: Sequence and Preview in Maze
+            Building a Foundation:
+              name: 건물 기초 만들기
+            Debugging with Scrat:
+              name: Debugging with Scrat
+            Programming in Artist:
+              name: Programming in Artist
+            'Loops: My Loopy Robotic Friends':
+              name: 'Loops: My Loopy Robotic Friends'
+            Loops in Artist:
+              name: Loops in Artist
+            Nested Loops:
+              name: 중첩 반복
+            Nested Loops with Frozen:
+              name: Nested Loops with Frozen
+            Intro to Conditionals with Farmer:
+              name: Intro to Conditionals with Farmer
+            'Algorithms: Dice Race':
+              name: 'Algorithms: Dice Race'
+            Course E Introduction:
+              name: Course E Introduction
+            Conditionals:
+              name: 조건/선택
+            Private and Personal Information:
+              name: Private and Personal Information
+            Build a Star Wars Game:
+              name: Build a Star Wars Game
+            'Functions: Songwriting':
+              name: 'Functions: Songwriting'
+            Functions in Artist:
+              name: Functions in Artist
+            Functions in Bee:
+              name: Functions in Bee
+            Functions in Farmer:
+              name: Functions in Farmer
+            Determine the Concept:
+              name: Determine the Concept
+            Build a Play Lab Game:
+              name: Build a Play Lab Game
+            Explore Project Ideas:
+              name: Explore Project Ideas
+            The Design Process:
+              name: The Design Process
+            Build Your Project:
+              name: Build Your Project
+            Present Your Project:
+              name: Present Your Project
+            Internet:
+              name: 인터넷
+            Crowdsourcing:
+              name: 클라우드소싱
+            Nested Loops in Bee:
+              name: Nested Loops in Bee
+            Nested Loops in Bee/Zombie:
+              name: Nested Loops in Bee/Zombie
+          title: Course E & F Ramp
+          description_audience: ''
+          description_short: ''
+          description: ''
+        new-d:
+          stages:
+            'Algorithms: Graph Paper Programming':
+              name: 'Algorithms: Graph Paper Programming'
+            Introduction:
+              name: 소개
+            Events in Bounce:
+              name: Events in Bounce
+            Nested Loops:
+              name: 중첩 반복
+            Nested Loops in Artist:
+              name: Nested Loops in Artist
+            Nested Loops Project in Artist:
+              name: Nested Loops Project in Artist
+            'Algorithms: Relay Programming':
+              name: 'Algorithms: Relay Programming'
+            Debugging in Collector:
+              name: Debugging in Collector
+            While Loops in Farmer:
+              name: While Loops in Farmer
+            Conditionals with Cards:
+              name: 조건선택 카드
+            Conditionals in Bee:
+              name: Conditionals in Bee
+            Conditionals & Loops in Maze:
+              name: Conditionals & Loops in Maze
+            Conditionals & Loops in Farmer:
+              name: Conditionals & Loops in Farmer
+            Digital Citizenship:
+              name: 디지털 시민의식
+            Build a Play Lab Game:
+              name: Build a Play Lab Game
+            'Unplugged: Binary':
+              name: '언플러그드: 2진'
+            Artist Binary:
+              name: 화가 2진
+            Building a Foundation:
+              name: 건물 기초 만들기
+            Loops in Artist:
+              name: Loops in Artist
+            Nested Loops in Bee:
+              name: Nested Loops in Bee
+          title: New Course D Script
+          description_audience: ''
+          description_short: ''
+          description: ''
+        csp3-a:
+          stages:
+            new stage:
+              name: new stage
+          title: CSP Unit 3 - Subgoals Group A
+          description_audience: ''
+          description_short: Alternate version of CSP Unit 3 for subgoal labels experiment
+          description: This unit introduces the foundational concepts of computer programming, for students in Subgoals Group A.
+        new-express:
+          stages:
+            'Algorithms: Graph Paper Programming':
+              name: 'Algorithms: Graph Paper Programming'
+            Introduction:
+              name: 소개
+            'Algorithms: Relay Programming':
+              name: 'Algorithms: Relay Programming'
+            Debugging in Collector:
+              name: Debugging in Collector
+            'Loops: My Loopy Robotic Friends':
+              name: 'Loops: My Loopy Robotic Friends'
+            Loops in Artist:
+              name: Loops in Artist
+            Nested Loops Project in Frozen:
+              name: Nested Loops Project in Frozen
+            'How it Works: The Internet':
+              name: 'How it Works: The Internet'
+            'Common Sense Education: Digital Citizenship':
+              name: 'Common Sense Education: Digital Citizenship'
+            'Common Sense Education: Screen Out the Mean':
+              name: 'Common Sense Education: Screen Out the Mean'
+            'Events: The Big Event':
+              name: 'Events: The Big Event'
+            Events in Star Wars:
+              name: Events in Star Wars
+            Events with Flappy:
+              name: Events with Flappy
+            Events in Bounce:
+              name: Events in Bounce
+            'Conditionals: Conditionals with Cards':
+              name: 'Conditionals: Conditionals with Cards'
+            While Loops in Farmer:
+              name: While Loops in Farmer
+            Conditional Loops in Maze:
+              name: Conditional Loops in Maze
+            Conditionals in Minecraft:
+              name: Conditionals in Minecraft
+            Conditionals & Loops in Farmer:
+              name: Conditionals & Loops in Farmer
+            'Variables: Envelope Variables':
+              name: 'Variables: Envelope Variables'
+            Variables in Artist:
+              name: Variables in Artist
+            Variables in Play Lab:
+              name: Variables in Play Lab
+            'For Loops: For Loop Fun':
+              name: 'For Loops: For Loop Fun'
+            For Loops in Bee:
+              name: For Loops in Bee
+            For Loops in Artist:
+              name: For Loops in Artist
+            'Functions: Songwriting with Parameters':
+              name: 'Functions: Songwriting with Parameters'
+            Functions in Bee:
+              name: Functions in Bee
+            Functions with Parameters in Artist:
+              name: Functions with Parameters in Artist
+            Functions with Parameters in Bee:
+              name: Functions with Parameters in Bee
+            Explore Project Ideas:
+              name: Explore Project Ideas
+            The Design Process:
+              name: The Design Process
+            Build Your Project:
+              name: Build Your Project
+            Revise Your Project:
+              name: Revise Your Project
+            Present Your Project:
+              name: Present Your Project
+            Building a Foundation:
+              name: 건물 기초 만들기
+            Debugging with Scrat:
+              name: Debugging with Scrat
+          title: New Express Script
+          description_audience: ''
+          description_short: ''
+          description: ''
+        new-stages-sept-2017:
+          stages:
+            Loops in Artist:
+              name: Loops in Artist
+            Sequences with Scrat:
+              name: Sequences with Scrat
+          title: New stages for 9/17
+          description_audience: ''
+          description_short: ''
+          description: ''

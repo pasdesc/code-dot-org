@@ -423,6 +423,7 @@ ru:
         'infinity_playlab_events': 'Лаборатория игр. События'
         'infinity_playlab_repeat_forever': 'Лаборатория игр. Блок «повторять бесконечно»'
         'csd_concept_computer': 'Что Делает Компьютер, Компьютер?'
+        'csd_concept_binary_data': 'How Computers Work: Binary & Data'
         'csd_concept_search': 'Как Работает Поиск'
         'csd_gamelab_animation_tab': 'Вкладка Анимация'
         'csd_gamelab_conditionals_1': 'Introduction to Conditionals - Part 1'

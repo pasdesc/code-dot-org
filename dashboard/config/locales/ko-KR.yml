@@ -275,7 +275,7 @@
         gamelab: Make a Game Lab project
         weblab: Make a Web Lab (beta) project
       home: "홈"
-      my_dashboard: My Dashboard
+      my_dashboard: "대시보드"
       courses: courses
       course_catalog: Course Catalog
       project_gallery: "프로젝트 갤러리"
@@ -933,6 +933,9 @@
     remix: "리믹스"
     click_to_remix: 자신만의 버전을 만들고 싶으시면 "Remix"를 클릭하세요!
     edit_project: "프로젝트 편집"
+    sharing_disabled: Sorry, this project is not available for sharing. If this is
+      your project or the project of one of your students, please <a href='https://studio.code.org/users/sign_in'>sign
+      in</a> to your account to view the project.
     abuse:
       tos: "이 프로젝트는 Code.org의 <a href='http://code.org/tos'>이용 약관</a>을 위반하였습니다. 이
         프로젝트는 다른 사람과 공유할 수 없습니다."
@@ -990,6 +993,10 @@
     optional_stages: Optional Stages
     main_course: "메인 코스"
     extra_course_content: "추가 코스 내용"
+    csf_e_1: Ramp Up to Course E (Optional)
+    csf_e_2: Course E Content
+    csf_f_1: Ramp Up to Course F (Optional)
+    csf_f_2: Course F Content
     csd1_1: '1 장: 문제 해결 과정'
     csd1_2: '2 장: 컴퓨터와 문제 해결'
     csd2_1: '1 장: 웹 콘텐츠 및 HTML'

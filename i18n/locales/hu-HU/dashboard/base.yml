@@ -779,6 +779,7 @@ hu:
     remix: 'Remix'
     click_to_remix: "Kattints a 'Remix'-re, hogy lepörgesd a saját verziódat!"
     edit_project: 'Projekt szerkesztése'
+    sharing_disabled: "Sorry, this project is not available for sharing. If this is your project or the project of one of your students, please <a href='https://studio.code.org/users/sign_in'>sign in</a> to your account to view the project."
     abuse:
       tos: "Ezt a projektet jelentették, mint amely nem tesz eleget a Code.org <a href='http://code.org/tos'>Felhasználói Feltételekben előírtaknak,</a> így nem osztható meg másokkal."
       policy_violation: "This project contains information that cannot be shared with others. Please contact the app owner to fix the contents of their app."
@@ -831,6 +832,10 @@ hu:
     optional_stages: 'Optional Stages'
     main_course: 'Main Course'
     extra_course_content: 'Extra Course Content'
+    csf_e_1: 'Ramp Up to Course E (Optional)'
+    csf_e_2: 'Course E Content'
+    csf_f_1: 'Ramp Up to Course F (Optional)'
+    csf_f_2: 'Course F Content'
     csd1_1: '1. fejezet: A probléma-megoldási folyamat'
     csd1_2: '2. fejezet: Számítógépek és problémamegoldás'
     csd2_1: 'Chapter 1: Web Content and HTML'

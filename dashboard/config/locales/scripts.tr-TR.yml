@@ -172,6 +172,7 @@
           stages:
             Maze:
               name: Labirent
+          description_audience: ''
         frozen:
           title: Anna ve Elsa ile kodlama yap
           description: Anna ve Elsa sihri ve buzun güzelliğini keşfederken sen de
@@ -5461,6 +5462,8 @@
               name: Numaraları temsil eden
             8-bit Numbers:
               name: 8- ikilili numaralar
+            Encryption:
+              name: Encryption
         applab-1hour:
           title: Uygulama Laboratuvarı 1 saatlik atölye
           description_audience: Orta ve lise öğrencileri
@@ -7720,6 +7723,8 @@
               name: Geliştirme ve Tekrarlama
             App Presentation:
               name: Uygulama Sunumu
+            Linking Screens:
+              name: Linking Screens
           title: CSD Unit 4 Revisions Draft
           description_audience: ''
           description_short: ''
@@ -7738,8 +7743,217 @@
               name: Intro to AppLab - Choose Your Own Adventure
             Intro to AppLab - Choose Your Own Adventure 2:
               name: Intro to AppLab - Choose Your Own Adventure 2
+            Intro to AppLab - Your First App:
+              name: Intro to AppLab - Your First App
           title: Intro to App Lab
           description_audience: ''
           description_short: ''
           description: These lessons introduce you to App Lab through a series of
             creative projects.
+        e-f-ramp:
+          stages:
+            'Programming: My Robotic Friends':
+              name: 'Programlama: Robot dostlarım'
+            Sequence and Preview in Maze:
+              name: Sequence and Preview in Maze
+            Building a Foundation:
+              name: Bir Temel Oluşturma
+            Debugging with Scrat:
+              name: Debugging with Scrat
+            Programming in Artist:
+              name: Programming in Artist
+            'Loops: My Loopy Robotic Friends':
+              name: 'Loops: My Loopy Robotic Friends'
+            Loops in Artist:
+              name: Loops in Artist
+            Nested Loops:
+              name: "İç İçe Döngüler"
+            Nested Loops with Frozen:
+              name: Nested Loops with Frozen
+            Intro to Conditionals with Farmer:
+              name: Intro to Conditionals with Farmer
+            'Algorithms: Dice Race':
+              name: 'Algoritmalar: Zar yarışı'
+            Course E Introduction:
+              name: Course E Introduction
+            Conditionals:
+              name: Koşullar
+            Private and Personal Information:
+              name: "Özel ve Kişisel Bilgiler"
+            Build a Star Wars Game:
+              name: Star Wars oyunu oluştur
+            'Functions: Songwriting':
+              name: 'Fonksiyonlar: şarkı yazma'
+            Functions in Artist:
+              name: Sanatçı fonksiyonları
+            Functions in Bee:
+              name: Arı fonksiyonları
+            Functions in Farmer:
+              name: "Çiftçi fonksiyonları"
+            Determine the Concept:
+              name: Kavramı Belirme
+            Build a Play Lab Game:
+              name: Bir Play Lab Oyunu Oluştur
+            Explore Project Ideas:
+              name: Proje fikirleri keşfetmek
+            The Design Process:
+              name: Tasarım işlemi
+            Build Your Project:
+              name: Projenizi oluşturun
+            Present Your Project:
+              name: Projeni sun
+            Internet:
+              name: "İnternet"
+            Crowdsourcing:
+              name: Kalabalık Kaynaklandırma 'Crowdsourcing'
+            Nested Loops in Bee:
+              name: Arı -içiçe döngüler
+            Nested Loops in Bee/Zombie:
+              name: Nested Loops in Bee/Zombie
+          title: Course E & F Ramp
+          description_audience: ''
+          description_short: ''
+          description: ''
+        new-d:
+          stages:
+            'Algorithms: Graph Paper Programming':
+              name: 'Algoritma: Grafik Kağıdı ile Programlama'
+            Introduction:
+              name: Giriş
+            Events in Bounce:
+              name: Events in Bounce
+            Nested Loops:
+              name: "İç İçe Döngüler"
+            Nested Loops in Artist:
+              name: Nested Loops in Artist
+            Nested Loops Project in Artist:
+              name: Nested Loops Project in Artist
+            'Algorithms: Relay Programming':
+              name: 'Algoritmalar: Röle programlama'
+            Debugging in Collector:
+              name: Debugging in Collector
+            While Loops in Farmer:
+              name: While Loops in Farmer
+            Conditionals with Cards:
+              name: Kartlarla Koşullu Önermeler
+            Conditionals in Bee:
+              name: Koşullar-Arı
+            Conditionals & Loops in Maze:
+              name: Labirentte Koşullar ve Döngüler
+            Conditionals & Loops in Farmer:
+              name: Conditionals & Loops in Farmer
+            Digital Citizenship:
+              name: Sayısal Vatandaşlık
+            Build a Play Lab Game:
+              name: Bir Play Lab Oyunu Oluştur
+            'Unplugged: Binary':
+              name: 'Bağımsız: İkili Taban (Binary)'
+            Artist Binary:
+              name: Sanaçtı İkili Taban
+            Building a Foundation:
+              name: Bir Temel Oluşturma
+            Loops in Artist:
+              name: Loops in Artist
+            Nested Loops in Bee:
+              name: Arı -içiçe döngüler
+          title: New Course D Script
+          description_audience: ''
+          description_short: ''
+          description: ''
+        csp3-a:
+          stages:
+            new stage:
+              name: yeni kademe
+          title: CSP Unit 3 - Subgoals Group A
+          description_audience: ''
+          description_short: Alternate version of CSP Unit 3 for subgoal labels experiment
+          description: This unit introduces the foundational concepts of computer
+            programming, for students in Subgoals Group A.
+        new-express:
+          stages:
+            'Algorithms: Graph Paper Programming':
+              name: 'Algoritma: Grafik Kağıdı ile Programlama'
+            Introduction:
+              name: Giriş
+            'Algorithms: Relay Programming':
+              name: 'Algoritmalar: Röle programlama'
+            Debugging in Collector:
+              name: Debugging in Collector
+            'Loops: My Loopy Robotic Friends':
+              name: 'Loops: My Loopy Robotic Friends'
+            Loops in Artist:
+              name: Loops in Artist
+            Nested Loops Project in Frozen:
+              name: Nested Loops Project in Frozen
+            'How it Works: The Internet':
+              name: 'How it Works: The Internet'
+            'Common Sense Education: Digital Citizenship':
+              name: 'Common Sense Education: Digital Citizenship'
+            'Common Sense Education: Screen Out the Mean':
+              name: 'Common Sense Education: Screen Out the Mean'
+            'Events: The Big Event':
+              name: 'Olaylar: Büyük Olay'
+            Events in Star Wars:
+              name: Events in Star Wars
+            Events with Flappy:
+              name: Events with Flappy
+            Events in Bounce:
+              name: Events in Bounce
+            'Conditionals: Conditionals with Cards':
+              name: 'Conditionals: Conditionals with Cards'
+            While Loops in Farmer:
+              name: While Loops in Farmer
+            Conditional Loops in Maze:
+              name: Conditional Loops in Maze
+            Conditionals in Minecraft:
+              name: Minecraft' da Koşullar
+            Conditionals & Loops in Farmer:
+              name: Conditionals & Loops in Farmer
+            'Variables: Envelope Variables':
+              name: 'Variables: Envelope Variables'
+            Variables in Artist:
+              name: Değişkenler - Sanatçı
+            Variables in Play Lab:
+              name: Değişkenler - Oyun laboratuarı
+            'For Loops: For Loop Fun':
+              name: 'For Loops: For Loop Fun'
+            For Loops in Bee:
+              name: Arı - şununla say döngüleri
+            For Loops in Artist:
+              name: Sanatçı-Şununla say
+            'Functions: Songwriting with Parameters':
+              name: 'Functions: Songwriting with Parameters'
+            Functions in Bee:
+              name: Arı fonksiyonları
+            Functions with Parameters in Artist:
+              name: Aktör Parametrelerinde Fonksiyonlar
+            Functions with Parameters in Bee:
+              name: Functions with Parameters in Bee
+            Explore Project Ideas:
+              name: Proje fikirleri keşfetmek
+            The Design Process:
+              name: Tasarım işlemi
+            Build Your Project:
+              name: Projenizi oluşturun
+            Revise Your Project:
+              name: Projenizi Gözden Geçirme
+            Present Your Project:
+              name: Projeni sun
+            Building a Foundation:
+              name: Bir Temel Oluşturma
+            Debugging with Scrat:
+              name: Debugging with Scrat
+          title: New Express Script
+          description_audience: ''
+          description_short: ''
+          description: ''
+        new-stages-sept-2017:
+          stages:
+            Loops in Artist:
+              name: Loops in Artist
+            Sequences with Scrat:
+              name: Sequences with Scrat
+          title: New stages for 9/17
+          description_audience: ''
+          description_short: ''
+          description: ''

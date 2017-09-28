@@ -814,6 +814,9 @@
     remix: "混合"
     click_to_remix: 点击"混合"来创造出你自己的版本！
     edit_project: "编辑工程"
+    sharing_disabled: Sorry, this project is not available for sharing. If this is
+      your project or the project of one of your students, please <a href='https://studio.code.org/users/sign_in'>sign
+      in</a> to your account to view the project.
     abuse:
       tos: "此工程因违反了Code.org的<a href='http://code.org/tos'>服务条款</a> ，不能被共享。"
       policy_violation: "这个项目包含了不能和他人分享的数据。请联系应用程序的主人以修复他们的应用内容。"
@@ -867,6 +870,10 @@
     optional_stages: Optional Stages
     main_course: "主要课程"
     extra_course_content: "额外的课程内容"
+    csf_e_1: Ramp Up to Course E (Optional)
+    csf_e_2: Course E Content
+    csf_f_1: Ramp Up to Course F (Optional)
+    csf_f_2: Course F Content
     csd1_1: "第 1 章︰ 解决问题的流程"
     csd1_2: "第 2 章︰ 计算机和解决问题的能力"
     csd2_1: "第 1 章︰ 网站内容和 HTML"

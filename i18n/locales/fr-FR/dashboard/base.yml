@@ -783,6 +783,7 @@ fr:
     remix: 'Remix'
     click_to_remix: "Clique sur «Remix» pour créer ta propre version!"
     edit_project: 'Modifier le projet'
+    sharing_disabled: "Sorry, this project is not available for sharing. If this is your project or the project of one of your students, please <a href='https://studio.code.org/users/sign_in'>sign in</a> to your account to view the project."
     abuse:
       tos: "Ce projet a été signalé comme ne respectant pas les <a href='http://code.org/tos'>Conditions générales d'utilisation</a> de Code.org, et ne peut donc pas être partagé avec d'autres développeurs."
       policy_violation: "Ce projet contient des informations qui ne peuvent pas être partagées. Contactez le propriétaire de l’application pour corriger le contenu de leur application."
@@ -835,6 +836,10 @@ fr:
     optional_stages: 'Optional Stages'
     main_course: 'Cours Principal'
     extra_course_content: 'Contenu de Cours Supplémentaire'
+    csf_e_1: 'Ramp Up to Course E (Optional)'
+    csf_e_2: 'Course E Content'
+    csf_f_1: 'Ramp Up to Course F (Optional)'
+    csf_f_2: 'Course F Content'
     csd1_1: 'Chapitre 1 : Résolution de problèmes'
     csd1_2: 'Chapitre 2 : Ordinateurs et résolution de problèmes'
     csd2_1: 'Chapitre 1 : Contenu Web et HTML'

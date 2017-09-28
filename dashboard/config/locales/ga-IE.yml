@@ -1045,6 +1045,9 @@
     remix: Athmheascadh
     click_to_remix: Cliceáil "Athmheascadh" le do leagan féin a dhéanamh!
     edit_project: Cuir an Togra in Eagar
+    sharing_disabled: Sorry, this project is not available for sharing. If this is
+      your project or the project of one of your students, please <a href='https://studio.code.org/users/sign_in'>sign
+      in</a> to your account to view the project.
     abuse:
       tos: Tuairiscíodh an togra seo agus dúradh go sáraíonn sé <a href='http://code.org/tos'>Téarmaí
         Seirbhíse</a> Code.org. Dá bharr sin, ní féidir é a chomhroinnt.
@@ -1107,6 +1110,10 @@
     optional_stages: Optional Stages
     main_course: Príomhchúrsa
     extra_course_content: "Ábhar Breise"
+    csf_e_1: Ramp Up to Course E (Optional)
+    csf_e_2: Course E Content
+    csf_f_1: Ramp Up to Course F (Optional)
+    csf_f_2: Course F Content
     csd1_1: 'Caibidil 1: Próiseas Réitithe Fadhbanna'
     csd1_2: 'Caibidil 2: Ríomhairí agus Réiteach Fadhbanna'
     csd2_1: 'Caibidil 1: Ábhar Gréasáin agus HTML'

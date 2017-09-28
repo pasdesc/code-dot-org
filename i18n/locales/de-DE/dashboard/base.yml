@@ -201,7 +201,7 @@ de:
       word: 'Secret Words'
       email: 'E-Mail'
       google_classroom: 'Google Classroom'
-      clever: 'Clever'
+      clever: 'Schlau'
   follower:
     invite_sent: 'Einladung gesendet'
     added_teacher: '%{name} wurde als dein Lehrer hinzugefügt'
@@ -253,7 +253,7 @@ de:
         gamelab: 'Ein Game Lab Projekt eröffnen.'
         weblab: 'Make a Web Lab (beta) project'
       home: "Home"
-      my_dashboard: "My Dashboard"
+      my_dashboard: "Mein Armaturenbrett"
       courses: "Kurse"
       course_catalog: "Course Catalog"
       project_gallery: "Projekt Galerie"
@@ -783,6 +783,7 @@ de:
     remix: 'Remix'
     click_to_remix: "Klicke auf \"Remix\", um Deine eigene Version zu erstellen!"
     edit_project: 'Projekt bearbeiten'
+    sharing_disabled: "Sorry, this project is not available for sharing. If this is your project or the project of one of your students, please <a href='https://studio.code.org/users/sign_in'>sign in</a> to your account to view the project."
     abuse:
       tos: "Dieses Projekt wurde wegen Verstoßes gegen die <a href='http://code.org/tos'> Nutzungsbedingungen </a> von Code.org gemeldet und kann nicht mit anderen geteilt werden."
       policy_violation: "Dieses Projekt enthält Informationen, die nicht mit anderen geteilt werden können. Bitte kontaktiere den App-Besitzer zur Korrektur der Inhalte!"
@@ -835,6 +836,10 @@ de:
     optional_stages: 'Optional Stages'
     main_course: 'Hauptkurs'
     extra_course_content: 'Extra Kurs Inhalte'
+    csf_e_1: 'Ramp Up to Course E (Optional)'
+    csf_e_2: 'Course E Content'
+    csf_f_1: 'Ramp Up to Course F (Optional)'
+    csf_f_2: 'Course F Content'
     csd1_1: 'Chapter 1: The Problem Solving Process'
     csd1_2: 'Chapter 2: Computers and Problem Solving'
     csd2_1: 'Chapter 1: Web Content and HTML'

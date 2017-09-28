@@ -325,7 +325,7 @@
       about_contact: Bize Ulaşın
       about_faqs: SSS
       learn: "Öğren"
-      stats: Istatistikler
+      stats: "İstatistikler"
       help_us: Bize yardım edin
       teach: "Öğret"
       about: Hakkında
@@ -1009,6 +1009,9 @@
       karıştır.
     click_to_remix: Kendi sürümünüzü yaratmak için 'Remix'e basın!
     edit_project: Projeyi Düzenle
+    sharing_disabled: Sorry, this project is not available for sharing. If this is
+      your project or the project of one of your students, please <a href='https://studio.code.org/users/sign_in'>sign
+      in</a> to your account to view the project.
     abuse:
       tos: Bu projenin Code.org <a href='http://code.org/tos'> Hizmet Şartları'nı</a>
         ihlal ettiği raporlandı ve başkalarıyla paylaşılamaz.
@@ -1070,6 +1073,10 @@
     optional_stages: "İsteğe bağlı aşamalar"
     main_course: Ana ders
     extra_course_content: "İlave kurs içeriği"
+    csf_e_1: Ramp Up to Course E (Optional)
+    csf_e_2: Course E Content
+    csf_f_1: Ramp Up to Course F (Optional)
+    csf_f_2: Course F Content
     csd1_1: 'Bölüm 1: Problem çözme süreci'
     csd1_2: 'Bölüm 2: Bilgisayar ve Problem çözme'
     csd2_1: 'Bölüm 1: Web içerik ve HTML'

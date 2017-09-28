@@ -16,15 +16,16 @@
     errors:
       messages:
         blank: vaaditaan
-        blank_plural: are required
-        invalid_plural: are invalid
+        blank_plural: vaaditaan
+        invalid_plural: eivät kelpaa
     attributes:
       user:
         name: Nimimerkki
         name_example: Näyttönimi<br/>(Esim. Viileä koodaaja tai Jane S.)
         email: Sähköposti
-        parent_email: Parent/guardian email
-        personal_email: Personal email address
+        parent_email: Huoltajan sähköpostiosoite
+        personal_email: Henkilökohtainen sähköposti osoite <a href="%{url}"> (Klikkaa
+          tästä jos sinulla ei ole sähköpostiosoitetta)</a>
         username: Käyttäjätunnus
         password: Salasana
         password_confirmation: Salasanan vahvistus
@@ -54,7 +55,7 @@
       placeholder: Osion koodi (ABCDEF)
       instructions: Kirjoita opettajasi sinulle jakama koodi. Se on 6 kirjaiminen
         koodi, kuten "ABCDEF".
-      instructions_short: Enter your 6 letter section code
+      instructions_short: Kirjoita 6-kirjaiminen ryhmäkoodisi
     submit: Lisää opettaja
   add_hint_form:
     placeholder: Syötä vihjeesi tähän
@@ -67,7 +68,7 @@
   courses: Kurssit
   courses_page:
     title_student: Opiskele Code Studio:ssa
-    title_teacher: Teach with Code Studio
+    title_teacher: Opeta koodi Studio
   unplugged_activity: Tietokoneeton tekeminen
   of: "/"
   more: LISÄÄ
@@ -1012,6 +1013,9 @@
     remix: Remix
     click_to_remix: Klikkaa "Remix" ja tee oma versiosi!
     edit_project: Muokkaa projektia
+    sharing_disabled: Sorry, this project is not available for sharing. If this is
+      your project or the project of one of your students, please <a href='https://studio.code.org/users/sign_in'>sign
+      in</a> to your account to view the project.
     abuse:
       tos: Tämän projektin on raportoitu rikkovan Code.org:in <a href='http://code.org/tos'>
         Käyttöehtoja</a>, minkä vuoksi sitä ei voi jakaa muiden kanssa.
@@ -1075,6 +1079,10 @@
     optional_stages: Optional Stages
     main_course: Pää kurssi
     extra_course_content: Lisäkurssin sisältö
+    csf_e_1: Ramp Up to Course E (Optional)
+    csf_e_2: Course E Content
+    csf_f_1: Ramp Up to Course F (Optional)
+    csf_f_2: Course F Content
     csd1_1: 'Luku 1: Ongelmanratkaisu prosessi'
     csd1_2: 'Luku 2: Tietokoneet ja ongelmanratkaisu'
     csd2_1: 'Luku 1: Web-sisältö ja HTML'

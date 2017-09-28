@@ -285,14 +285,14 @@
         desc: ''
       courseA_unplugged_loops:
         title: Loops Unplugged
-        desc: In this lesson, you will learn about loops!
+        desc: "ამ გაკვეთილში თქვენ ისწავლით ციკლების შესახებ!"
       courseB_unplugged_MRF:
         title: "აქტივობა უკომპიუტეროდ"
-        desc: In this lesson, you will 'program' your friends!
+        desc: "ამ გაკვეთილში თქვენ `დააპროპგრამებთ` მეგობრებთან ერთად!"
       courseB_unplugged_loopyMRF:
         title: "აქტივობა უკომპიუტეროდ"
-        desc: Just like in 'My Robotic Friends', you will be 'programming' your friends,
-          but this time with loops!
+        desc: ზუსტად ისე, როგორც "ჩემს რობოტულ მეგობრებში" თქვენ "დააპროგრამებთ" თქვენს
+          მეგობრებთან ერთად, თუმცა ამჯერად ციკლების საშუალებით!
       courseC_Unplugged_ScreenOutTheMean:
         title: "აქტივობა უკომპიუტეროდ"
         desc: Today you will learn about what to do if someone is being mean online.
@@ -376,7 +376,7 @@
           სიღრმისეულად გავეცნობით ამ თემას და გაჩვენებთ, თუ როგორ ინახავს კომპიუტერი
           ორობითში უფრო რთულ ინფორმაციას (მაგალითად, სურათებსა და ფერებს)."
       courseE_unplugged_diceRace:
-        title: 'Real-Life Algorithms: Dice Race'
+        title: "ცხოვრებისეული ალგორითმები: კამათლების შეჯიბრი"
         desc: "ამ გაკვეთილში ნაჩვენებია, თუ როგორ ვიყენებთ ალგორითმებს ყოველდღიურ
           ცხოვრებაში. გაკვეთილის მსვლელობისას მოსწავლეები გამოიცნობენ და დაწერენ კამათლების
           შეჯიბრის ალგორითმს."

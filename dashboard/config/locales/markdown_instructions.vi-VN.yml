@@ -1024,44 +1024,75 @@
         using AppLab by building this one about a visit to a pet shop. To get started,
         click "Run" and then navigate to the "Dogs" screen. Once you've made
         it there click "Finish" to move on.
-      AppLab Intro 2 - Edit place1_markdown_instruction: |-
-        # Edit Your First Location\r
+      AppLab Intro 2 - Edit place1 2_markdown_instruction: |-
+        Think about how you want
+        your adventure to continue on this screen. Then add some text to tell your
+        story!\r
         \r
-        Where
-        does your character start their adventure? Keep the location and first decision
-        they'll make in mind as you start this level.\r
-        \r
-        1. Go to the "place1"
-        screen. ([Show me where](#triggercallout=selector))\r
-        2. Everything in App
-        Lab has an id. Change the id of screen1 to the name of the location where
-        your story begins. For example "spaceShipScreen" ([Show me where](#triggercallout=idChange))\r
+        1. Use the screen selector to choose the screen you just made
+        ([Show me where](#triggercallout=selector))\r
+        2. Drag a new "text area"
+        onto your screen to add it. ([Show me where](#triggercallout=textArea))\r
         3.
-        Change the text on the screen to describe your first location and the decision
-        your character needs to make.\r
+        Drag the bottom right corner of your text area to change its size.\r
+        4. Change
+        the text to tell your user what happens on this screen. Then change the color
+        of your text if you want!\r
         \r
-        Click "Finish" once you're ready to
-        move on.
+        Click "Run" and then "Finish" to move
+        on.\r
+        \r
+        ![expandable](https://images.code.org/8ba0d4f0eccaf83163e86d10eec3a291-image-1505766539456.gif)
+        Click to see a GIF of these steps
+      AppLab Intro 2 - Edit place1_markdown_instruction: |-
+        On the last screen you
+        gave your character a choice between to actions or places. Pick one of them
+        and start making a screen for it!\r
+        \r
+        1. In the screen selector choose
+        "New screen..." ([Show me where](#triggercallout=selector))\r
+        2. Change
+        the "id" of the screen to something clear, for example the name of the new
+        location ([Show me where](#triggercallout=idChange))\r
+        3. You can switch
+        back and forth between your two screens from the screen selector. ([Show me
+        where](#triggercallout=selector))\r
+        4. You can select the "background-color"
+        of your screen if you like.\r
+        \r
+        Click "Run" and then "Finish" to move
+        on and start adding to your screen.
       AppLab Intro 2 - Edit startScreen_markdown_instruction: |-
-        # Edit Start Screen\r
-        This
-        is Design Mode. The orange "Design" switch at the top of the screen takes
-        you here. You'll use Design Mode to change the look of your app.\r
+        Welcome to App Lab!
+        Right now you're in **Design Mode** where you can personalize the look of
+        your app. Get your adventure started by picking a fun title!\r
         \r
-        1.
-        Click the title of your app ([Show me where](#triggercallout=titleCallout))\r
+        1. Click
+        the title of your app. ([Show me where](#triggercallout=titleCallout))\r
         2.
-        Change the text and look of your app's title using the tools that appear
-        ([Show me where](#triggercallout=designMenu))\r
-        3. Click the black text and
-        change it to anything you want\r
-        4. Click outside the text on your screen\r
-        5.
-        Change the "background color" of your screen from the menu\r
+        Change the "text" to pick whatever name you like! ([Show me where](#triggercallout=designMenu))\r
+        3.
+        Scroll down the menu to change the color of your title ([Show me where](#triggercallout=changeTextColor))\r
         \r
-        Hit Run
-        once to make sure your new screen is looking good. Then hit "Finish" to
-        move on!
+        Once
+        you like the look of your title hit "Run" once to make sure it's looking
+        good. Then hit "Finish" to move on!\r
+        \r
+        ![expandable](https://images.code.org/47c8fc2986226beaa39e382bc0759797-image-1505765264098.com-gif-maker.gif)
+        Click here to see all three steps in a GIF
+      AppLab Intro 2 - Edit startScreen2_markdown_instruction: |-
+        Nice work! Time to
+        start filling in your story.\r
+        \r
+        1. Click the story text on this screen.
+        ([Show me where](#triggercallout=storyText))\r
+        2. Fill in your story ([Show
+        me where](#triggercallout=editStoryText))\r
+        3. Explore the different properties
+        you can change in the menu. Personalize this screen's look! ([Show me where](#triggercallout=changeTextColor))\r
+        \r
+        Hit
+        "Run" once to make everything looks good. Then hit "Finish" to move on!
       AppLab Intro 2 - Template_markdown_instruction: |-
         # Getting Started - Try this
         app\r
@@ -1084,23 +1115,241 @@
         \r
         Once you see how the project already works hit "Finish" to start
         making it yours.
+      AppLab Intro 2 - Try Cat Commander_markdown_instruction: |-
+        This is what the
+        code for Cat Commander looks like. Take one minute to scroll through the code
+        and see if you can understand how it works. Talk about it with a partner.
+        What patterns do you see? \r
+        \r
+        Once you're done, move on by clicking "Run"
+        then "Finish", to learn to build your own adventure.
       AppLab Intro 2 - add Button_markdown_instruction: |-
-        # Create and Update Buttons\r
+        Now you have two screens,
+        but no way to get between them. Time to start adding buttons!\r
         \r
-        Your
-        character needs to decide where to go next. To do this you'll need at least
-        two buttons, but for now you've only got one.\r
-        \r
-        1. Add a second button
-        by dragging it into your app ([Show me where](#triggercallout=dragButton))\r
+        1. Use
+        the screen selector to go back to your "startScreen" ([Show me where](#triggercallout=selector))\r
         2.
-        Change the text of both buttons so they say where they'll take the character\r
+        Drag a button onto the screen ([Show me where](#triggercallout=dragButton))\r
         3.
-        Change the IDs of both buttons to something that describes where they'll
-        go (for example "engineButton").\r
+        Give your button a clear "id" that describes what it does ([Show me where](#triggercallout=changeButtonID))\r
+        4.
+        Change the "text" of your button to describe where it will take the user.\r
+        5.
+        Personalize your button's other properties like "text color" or "background
+        color".\r
         \r
-        Click "Finish" once you're ready
-        to move on.
+        Click "Run" then "Finish" to move on and start writing
+        the code that will make your button work\r
+        \r
+        ![expandable](https://images.code.org/43f2678e4748a1fa09556f75cad65e97-image-1505766882756.gif)
+        Click to see a GIF of all steps
+      AppLab Intro 2 - add images_markdown_instruction: |-
+        You now know everything
+        you need to make a simple Choose Your Own Adventure app, but you can add so
+        much more! If you want to add images to your screen it's easy!\r
+        \r
+        1.
+        In another tab in your browser go online and find an image you want to use\r
+        2.
+        Right click the image and save its URL (usually "Copy link address" or "Copy
+        image URL")\r
+        3. Back in App Lab go to Design Mode\r
+        4. Drag an "image"
+        element onto your screen\r
+        5. Paste the URL you copied into the "image"
+        property\r
+        \r
+        "Run" your app once to test it. Then hit "Finish" to move
+        to learn to add sounds.\r
+        \r
+        ![expandable](https://images.code.org/5b977b1c127b3fcb1761aadcb74c79e8-image-1505772215256.gif)
+        Click to see GIF of all steps
+      AppLab Intro 2 - add more buttons 2_markdown_instruction: |-
+        Time to add a second
+        button and write the code to make it work.\r
+        \r
+        1. Drag a second button
+        onto your "startScreen" and give it a clear "id"\r
+        2. Change the text
+        and color of your button\r
+        3. In Code Mode drag in a second `onEvent()` block
+        and drag a `setScreen()` inside of it\r
+        4. Set the "id"s of your `onEvent()`
+        and `setScreen()` blocks to the button and screens you added\r
+        \r
+        If everything
+        worked you should now have a second button that changes the screen. "Run"
+        your app and hit "Finish" if it worked.\r
+        \r
+        ![expandable](https://images.code.org/33d1a6d2dcc81ed8ecd0966d2f0682ca-image-1505770427380.gif)
+        Click to see a GIF of all steps
+      AppLab Intro 2 - add more buttons_markdown_instruction: |-
+        If this is going to
+        be a real Choose Your Own Adventure, you're need to add some more choices!
+        Start by adding a screen for the second choice your player could make.\r
+        \r
+        1.
+        Use the screen selector to add a new screen. Give it a clear "id".\r
+        2.
+        Set the "background color" of your screen\r
+        3. Add a "Text Area" to your
+        screen describing what happens on it.\r
+        \r
+        Click "Run" then "Finish"
+        to move on. You'll add another button and write the code to make it work.\r
+        \r
+        ![expandable](https://images.code.org/f1c83578a245d832c94c78aeba6ef317-image-1505768404048.gif)
+        Click to see a GIF of all steps
+      AppLab Intro 2 - add onEvent_markdown_instruction: |-
+        <img src="https://images.code.org/89a0cddfc305cb44a3d888c5de864d2e-image-1505423852271.17.02
+        PM.png" style="float:right;height:120px">\r
+        \r
+        This is Code Mode where
+        you write the code of your app. You're going to add code that looks like
+        this picture.\r
+        \r
+        1. Click and drag an "onEvent" block into your workspace
+        ([Show me where](#triggercallout=onEvent))\r
+        2. Use the left dropdown to
+        pick your button's ID\r
+        3. Click and drag a "setScreen" block inside the
+        "onEvent" block ([Show me where](#triggercallout=setScreen))\r
+        4. Use the
+        dropdown to pick your new screen's ID\r
+        \r
+        Your app now switches screens!
+        Try it out yourself by hitting "Run". Then "Finish" to move on.\r
+        \r
+        ![expandable](https://images.code.org/b9970c3478dfb15e7531034d26fbcc40-image-1505767231404.gif)
+        Click to see all steps in a GIF
+      AppLab Intro 2 - add sound_markdown_instruction: |-
+        <img src="https://images.code.org/3c1d6506a6a3c350380b921e08588a2b-image-1505429594117.52.37
+        PM.png" style="float:right;height:100px">\r
+        \r
+        You can add sound to your
+        app too! Add them outside an `onEvent()` to play from the start of the adventure
+        (good for background music) or inside an `onEvent()` to play when that button
+        is clicked (good for "Win" / "Lose" sounds).\r
+        \r
+        1. Drag a `playSound()`
+        block into your program\r
+        2. Click the dropdown, then "Choose...", then
+        "Sound Library" to find the library of sounds built into App Lab\r
+        3. Try
+        out the "Background" category for longer songs that will play for your entire
+        adventure.\r
+        4. Hit "Choose" to select the sound you like.\r
+        5. You can
+        also drag code inside an `onEvent` block to play sound only when an event
+        happens. Shorter sounds work better here.\r
+        \r
+        Run your app. There should
+        be sound playing now too!
+      AppLab Intro 2 - finish and share_markdown_instruction: |-
+        Congrats on finishing
+        your Hour of Code! You can share your work with friends! Click "Share" to
+        get a link or even text it to them.\r
+        \r
+        You can keep working on your project
+        here. Whenever your friends go to the link you shared they'll get the latest
+        version you made. How far will you build your adventure?
+      AppLab Intro 3 - Change Screen Color_markdown_instruction: |-
+        Change the `"background-color"`
+        of the screen to `"red"`. Click the picture to see how\r
+        \r
+        ![expandable](https://images.code.org/8b1d99aa6bd6274e05b1844fab7e8b2a-image-1505870100643.gif)
+      AppLab Intro 3 - Change Text 2_markdown_instruction: |-
+        Give `"label1"` a `"font-size"`
+        of `40` and set its `"text-color"` to `"blue"`. Don't forget the double
+        quotes `"` for colors. Click the picture to see how. \r
+        \r
+        ![expandable](https://images.code.org/70f1ef9698ff41c15f9825755fde3782-image-1505958989565.gif)
+      AppLab Intro 3 - Change Text_markdown_instruction: |
+        Make the `"font-size"`
+        of `"label1"` even bigger. Click the picture to see how.\r
+        \r
+        ![expandable](https://images.code.org/6125888ad13353978132b19dfca8cc49-image-1505953367275.gif)\r
+      AppLab Intro 3 - Change Two Buttons_markdown_instruction: |-
+        Make the `"background-color"`
+        of the left button `"red"` and the right one `"blue"`. Hover over a button
+        with your mouse to read its `"id"`. Click the picture to see how.\r
+        \r
+        ![expandable](https://images.code.org/d6418be215384e89872a72c2bd6d4a8a-image-1505875864576.gif)
+      AppLab Intro 3 - Full Text_markdown_instruction: |-
+        Set the `"text"` of this
+        label to anything you want (for example `"Hi there!"`). Make sure you include
+        the double-quotes `"`. Click the picture to see how.\r
+        \r
+        ![expandable](https://images.code.org/4e8549acbca3449cb336fe0ed495f8f3-image-1505878779849.gif)
+      AppLab Intro 3 - onEvent before_markdown_instruction: |-
+        Set the screen's `"background-color"`
+        to `"orange"`. Then add code inside the `onEvent()` so the button will set
+        the screen's `"background-color"` to `"pink"`. Click the picture to see
+        how.\r
+        \r
+        ![expandable](https://images.code.org/6c338185d7fe959daed2465c4f91fb55-image-1505888600472.gif)
+      AppLab Intro 3 - onEvent intro_markdown_instruction: |-
+        Blocks placed inside
+        the new `onEvent()` block will only run when you `"click"` the `"bigButton"`.
+        Add code so the button will make the screen's `"background-color"` turn
+        `"green"`. Remember to use double-quotes `"` for colors. Click the picture
+        to see how.\r
+        \r
+        ![expandable](https://images.code.org/bbb452fdee5c546894a4f2025024ace3-image-1505882181893.gif)
+      AppLab Intro 3 - onEvent mouseInOut_markdown_instruction: |-
+        Your program can
+        use multiple `onEvent()` blocks. The left button already sets both buttons'
+        `"background-color"` to `"purple"`. Add code to make the right button
+        set both buttons' `"background-color"` to `"green"`. Click the picture
+        to see how.\r
+        \r
+        ![expandable](https://images.code.org/5cd0c24b0f7f855daa2225a4b6a08087-image-1505932139152.gif)
+      AppLab Intro 3 - onEvent mouseOut_markdown_instruction: |-
+        The `"mouseout"`
+        event fires when your mouse moves out of a button. Write code that will set
+        the screen's `"background-color"` back to `"black"` and set the button's
+        `"text"` to `"Off!"` when the mouse moves out of the button. Remember
+        to use double quotes `"`. Click the picture to see how.\r
+        \r
+        ![expandable](https://images.code.org/a3403900844f631cc2579539c8d68ed1-image-1505937421979.gif)
+      AppLab Intro 3 - onEvent mouseOver_markdown_instruction: |-
+        `"click"` is just
+        one type of event. `"mouseover"` events run when your mouse is over a button,
+        even if you don't click it. Add code to set the `"background-color"` of
+        the screen to `"black"` when the mouse is over the `"offButton"`. Click
+        the picture to see how.\r
+        \r
+        ![expandable](https://images.code.org/756e2c5ee19fd94963ca364fd46bcbd8-image-1505935772425.gif)
+      AppLab Intro 3 - onEvent twoButtons_markdown_instruction: |-
+        Your program can
+        use multiple `onEvent()` blocks. The left button already sets both buttons'
+        `"background-color"` to `"purple"`. Add code to make the right button
+        set both buttons' `"background-color"` to `"green"`. Click the picture
+        to see how.\r
+        \r
+        ![expandable](https://images.code.org/5cd0c24b0f7f855daa2225a4b6a08087-image-1505932139152.gif)
+      AppLab Intro 3 - playSound_markdown_instruction: |-
+        The `"playSound()"` block
+        plays sounds. The `"horseButton"` already plays a horse sound. Add code
+        to make the `"duckButton"` play a duck sound. Click the picture to see how.\r
+        \r
+        ![expandable](https://images.code.org/30e35a2c35ac309545d90af9330ba76d-image-1505939876315.gif)
+      AppLab Intro 3 - stopSound_markdown_instruction: |-
+        The `stopSound()` block stops
+        all sounds. The `"playButton"` plays a very long sound. Add code to make
+        the `"stopButton"` stop all sounds. Click the picture to see how.\r
+        \r
+        ![expandable](https://images.code.org/a5081cce1969c5a784b4440369706801-image-1505941723405.gif)
+      AppLab Intro 3 - thisOrThat_markdown_instruction: |-
+        Make a This or That app.
+        Decide what happens to the screen and text when the user clicks each button.\r
+        \r
+        When
+        you're done with your app click "Share" at the top to send it to a friend
+        to play! Click the picture to see how to share.\r
+        \r
+        ![expandable](https://images.code.org/c1d23a0288a42d48963053e0d9a1002e-image-1505943063546.gif)
       AppLab_test02_markdown_instruction: |-
         #This is the title \r
         \r
@@ -4714,7 +4963,7 @@
          * a list\r
          * a header\r
         \r
-      CSD U2 lists intro_markdown_instruction: |
+      CSD U2 lists intro_markdown_instruction: |-
         # Lists\r
         <div style="float: right;
         height: 250px; width: 40%; overflow-y: scroll; margin-left: 20px; font-size:14px"
@@ -4742,22 +4991,22 @@
         do I make an unordered list?**</summary>\r
         Making an unordered list has two
         steps: making the list and adding the list items.  To make the unordered list,
-        write the unordered list tags `&lt;ul&gt; &lt;/ul&gt;`.  Next, add your list
-        items **inside** the unordered list tags.  To make each list item, use the
-        list item tags `&lt;li&gt; &lt;/li&gt;` and write the list item inside the
-        tags.\r
+        write the unordered list tags `<ul> </ul>`.  Next, add your list items **inside**
+        the unordered list tags.  To make each list item, use the list item tags `<li>
+        </li>` and write the list item inside the tags.\r
         <br /><br />\r
-        It can be helpful to indent your &lt;li&gt; tags
-        so it's clear they are contained in the &lt;ul&gt; tag.\r
+        It can
+        be helpful to indent your &lt;li&gt; tags so it's clear they are contained
+        in the &lt;ul&gt; tag.\r
         </details>\r
         <details>\r
-        <summary>**What
-        is an ordered list?**</summary>\r
-        An ordered list is a set of bulleted items
-        which are numbered.\r
+        <summary>**What is an
+        ordered list?**</summary>\r
+        An ordered list is a set of bulleted items which
+        are numbered.\r
         <br /><br />\r
-        An ordered list element has the tag
-        &lt;ol&gt; . This is an abbreviation for <strong>O</strong>rdered <strong>L</strong>ist.
+        An ordered list element has the tag &lt;ol&gt;
+        . This is an abbreviation for <strong>O</strong>rdered <strong>L</strong>ist.
         Each item in the list is marked by a list item element &lt;li&gt;. This is
         an abbreviation for <strong>L</strong>ist <strong>I</strong>tem.  The list
         item element is a child element, which means that it goes inside of its parent
@@ -4769,30 +5018,30 @@
         do I make an ordered list?**</summary>\r
         Making an ordered list has two steps:
         making the list and adding the list items.  To make the ordered list, write
-        the ordered list tags `&lt;ol&gt; &lt;/ol&gt;`.  Next, add your list items
-        **inside** the ordered list tags.  To make each list item, use the list item
-        tags `&lt;li&gt; &lt;/li&gt;` and write the list item inside the tags.\r
-        <br
-        /><br />\r
-        It can be helpful to indent your &lt;li&gt; tags so it's clear
-        they are contained in the &lt;ol&gt; tag.\r
+        the ordered list tags `<ol> </ol>`.  Next, add your list items **inside**
+        the ordered list tags.  To make each list item, use the list item tags `<li>
+        </li>` and write the list item inside the tags.\r
+        <br /><br />\r
+        It can
+        be helpful to indent your &lt;li&gt; tags so it's clear they are contained
+        in the &lt;ol&gt; tag.\r
         \r
         </details>\r
         </div>\r
         \r
-        You
-        can also use HTML to make different types of lists on your web page.  This
-        recipe includes two different types of lists, one ordered (with numbers) and
-        one unordered (with bullets).\r
+        You can also use
+        HTML to make different types of lists on your web page.  This recipe includes
+        two different types of lists, one ordered (with numbers) and one unordered
+        (with bullets).\r
         \r
         #  Do This\r
         \r
-        * Use the inspector
-        tool to see the code that is making the two different kinds of lists.\r
-        *
-        Make sure you and your partner agree on what the different tags do.\r
-        * Fix
-        the code so that the second list items display correctly.\r
+        * Use the inspector tool to see the
+        code that is making the two different kinds of lists.\r
+        * Make sure you and
+        your partner agree on what the different tags do.\r
+        * Fix the code so that
+        the second list items display correctly.
       CSD U2 navigation_markdown_instruction: |
         # Create a Navigation Bar\r
         \r
@@ -14039,43 +14288,31 @@
       CSD U4 - Design Mode Project_markdown_instruction: |-
         # Mocking Up Your App\r
         \r
-        Now
-        that you have some practice laying out elements in App Lab you can start working
-        on mocking your own app. With your group divvy up the screens so that everyone
-        is working on a different screen. Because you'll be dividing the work up
-        you'll want to do some planning ahead of time to deicde on a common look
-        and feel for your pages. For example, you'll want to agree on things such
-        as:\r
+        Using
+        your paper prototype, create a digital version of your screen using the Design
+        Mode elements you've learned about.\r
         \r
-        * Where do navigation buttons go?\r
-        * What colors will you use
-        for backgrounds, text, and buttons\r
-        * What's the general style and layout?\r
+        # Do This\r
         \r
-        #
-        Do This\r
-        \r
-        * Decide on a _namespace_ for your page, this will be something
-        you add to the beginning of every id so that your element ids don't conflict
-        with others when you merge everyone's screens together\r
-        \t* For example,
-        if you are making the home page, you might use "home_" as your namespace
-        - leading to ids such as:\r
+        * Rename the
+        screen to match your _namespace_.\r
+        * Use the built-in elements to lay out
+        your app screen, giving each a proper ID\r
+        \t* For example, if your namespace
+        is "home_" you might create IDs like:\r
             \t* "home_title"\r
-                * "home_loginButton"\r
                 *
-        "home_logo"\r
-        * Use the built-in elements to lay out your app screen\r
+        "home_login_button"\r
+                * "home_logo"\r
+        * For any components of
+        your app that can't be recreated with the built in elements you can either:\r
+        \t*
+        Redesign to utilize built in elements\r
+            * Find an image to use in place
+        of your element\r
+            * Draw the element using your preferred image editor\r
         *
-        For any components of your app that can't be recreated with the built in
-        elements you can either:\r
-        \t* Redesign to utilize built in elements\r
-            *
-        Find an image to use in place of your element\r
-            * Draw the element using
-        your preferred image editor\r
-        * Share your design regularly with your teammates
-        to ensure consistent style
+        Share your design regularly with your teammates to ensure consistent style
       CSD U4 - Design Mode Text_markdown_instruction: |
         # Adding Text\r
         <img src="https://images.code.org/86ba633e04f90f3ca47dff3dcd064847-image-1469812708683.15.36.png"
@@ -14216,21 +14453,23 @@
         Discuss your answers with your partner.\r
          * Was there any other information
         you need to be certain your numbers are correct?
-      CSD U5 binary 4-new_markdown_instruction: |-
+      CSD U5 binary 4-new_markdown_instruction: |
         # Decoding multiple numbers\r
         \r
         Here's
         a widget that can calculate numbers of 4, 5, or 6 bits.  You can use it to
         find the two world records encoded in the binary string below.\r
         \r
-        1. Most
-        number of people lifted and thrown in two minutes. (4 bits)\r
-        1. Most canned
-        drinks opened by a parrot in one minute. (6 bits)\r
+        ![](https://images.code.org/13b0d3307e688575b53e3e6bc86fb739-image-1505426509385.01.06
+        PM.png)\r
         \r
-        # Do This\r
-        * Decode
-        the two numbers from the binary string.
+        1. Most number of people lifted and thrown in two minutes.
+        (4 bits)\r
+        1. Most canned drinks opened by a parrot in one minute. (6 bits)\r
+        \r
+        #
+        Do This\r
+        * Decode the two numbers from the binary string.\r
       CSD U5 binary 4_markdown_instruction: |-
         # Bit Length\r
         \r
@@ -14275,20 +14514,24 @@
         decode the string that uses eight bit numbers.\r
         * Check you answer with
         a partner to see whether you got the same answer.
-      CSD U5 binary 5-new_markdown_instruction: |-
+      CSD U5 binary 5-new_markdown_instruction: |
         # Decoding multiple numbers\r
         \r
         Here's
         a widget that can calculate numbers up to to eight bits.  You can use it to
         find the values of the two world records below.\r
         \r
-        1. Record1 (5 bits)\r
-        2.
-        Records (5 bits)\r
+        ![](https://images.code.org/e86788ff9b92a2b01b99749fa1aba8e8-image-1505426626592.01.14
+        PM.png)\r
+        \r
+        1. Longest tail on a dog (in inches) (5 bits)\r
+        2. Most spoons
+        balanced on someone's face (5 bits)\r
         \r
         # Do This\r
-        * Decode the two numbers from a the binary
-        string.
+        * Decode the two
+        numbers from a the binary string.\r
+        \r
       CSD U5 binary 6-new_markdown_instruction: |-
         # Decoding multiple numbers\r
         \r
@@ -14296,16 +14539,19 @@
         a new bit string.  This time, you don't know the bit length of the two numbers.  Try
         to decode the numbers without knowing the bit length.\r
         \r
-        1. Record1 (?
-        bits)\r
-        2. Records (? bits)\r
+        ![](https://images.code.org/cde9a4d100147b950a9be7540453fe89-image-1505426886341.07.46
+        PM.png)\r
+        \r
+        1. Largest wind chime, in feet (? bits)\r
+        2. Furthest arrow
+        shot with someone's feet (in feet) (? bits)\r
         \r
         # Do This\r
-        * Try to decode the two numbers
-        from the binary string.\r
-        * Discuss with your partner why you cannot now
-        for sure whether your answer is correct.
-      CSD U5 binary 7-new_markdown_instruction: |-
+        * Try to
+        decode the two numbers from the binary string.\r
+        * Discuss with your partner
+        why you cannot now for sure whether your answer is correct.
+      CSD U5 binary 7-new_markdown_instruction: |
         # Bit Length\r
         \r
         If you don't
@@ -14315,24 +14561,36 @@
         For example, the following binary string could be decoded
         many different ways.\r
         \r
-        If you split the string like this, the string
-        reads ? ?.\r
+        ![](https://images.code.org/cde9a4d100147b950a9be7540453fe89-image-1505426886341.07.46
+        PM.png)\r
         \r
-        If you split it like this, the string reads ? ?.\r
+        If you split the string like this, the string reads 12, 84.\r
+        \r
+        ![](https://images.code.org/c8586b93427166ae6ecfdb8b1ff66bdd-image-1505427228630.13.01
+        PM.png) ![](https://images.code.org/7d9814dc4bae8512dfaebbe459c29c9b-image-1505427230882.13.08
+        PM.png)\r
         \r
         \r
-        To
-        solve this problem, people agree on a fixed length for every number.  The
-        following string uses the same two numbers, but each number takes up exactly
-        eight bits.\r
+        If you split it like this, the string reads 42, 20.\r
         \r
+        ![](https://images.code.org/2e62b4a71b98b68bdf04713c508e4cb2-image-1505427233001.13.13
+        PM.png) ![](https://images.code.org/10a316c870b575db4b30a687815bf481-image-1505427235482.13.19
+        PM.png)\r
+        \r
+        To solve this problem, people agree on a fixed length for every
+        number.  The following string uses the same two numbers, but each number takes
+        up exactly eight bits, no matter how many bits it actually needs.\r
+        \r
+        ![](https://images.code.org/257cb728fde57421e58ef31164be5a51-image-1505427467235.13.26
+        PM.png)\r
         \r
         # Do This\r
         \r
-        * Use the binary widget to decode
-        the string that uses eight bit numbers.\r
-        * Check you answer with a partner
-        to see whether you got the same answer.
+        * Use the binary widget to decode the string
+        that uses eight bit numbers.\r
+        * Check you answer with a partner to see whether
+        you got the same answer.\r
+        \r
       CSD U5 black white images pixelation 2_markdown_instruction: |-
         # Do This\r
         \r
@@ -18967,20 +19225,39 @@
         Do** column of your team's chart and moving it to the **Doing** column. For
         each sticky you tackle:\r
         \r
-        * Make a remix of your app at it's current
-        state. This ensures that you always keep a working copy of your app as you
-        try to add new features\r
-        * Give your remix a meaningful name, such as "Pancake
-        Finder - original", or "Pancake Finder - navigation fix"\r
-        * Return here
-        to work on your app\r
-        * Add a comment to the top of your program describing
-        the feature or bug fix you are implementing\r
-        * Work on your iteration until
-        it works. Try to stay focused on only the single feature or bug that you've
-        selected.\r
-        * When done, move your sticky to the **Done** column, pick a
-        new one, and start the process over.
+        * Add a comment to the top of your program
+        describing the feature or bug fix you are implementing\r
+        * Work on your iteration
+        until it works. Try to stay focused on only the single feature or bug that
+        you've selected.\r
+        * When done, move your sticky to the **Done** column,
+        pick a new one, and start the process over.
+      CSDU4 Project Events_markdown_instruction: |-
+        # Linking Screens\r
+        \r
+        With all
+        of your screens in place you can start adding events that will change the
+        screens. When you're done with this step you'll actually have an interactive
+        prototype!\r
+        \r
+        # Do This\r
+        \r
+        For each screen of your app:\r
+        \r
+        * Find
+        all of the button IDs\r
+        * For each button, add an event handler that watches
+        that ID\r
+        * In each event handler, use `setScreen()` to move the the right
+        screen\r
+        * Test it all out!\r
+        \r
+        Depending on the number of screens and
+        buttons your app has, this can be a pretty involved process. Make sure that
+        you test your work often, using `console.log()` blocks to debug any strange
+        behavior with your app. When you think you've got the whole think working,
+        compare your app with other members of your group to see if they work the
+        same.
       CSDU4 Project Functionality_markdown_instruction: |
         # Add Some Functionality\r
         \r
@@ -33114,6 +33391,13 @@
         toppings)\r
         - Create a function that allows you to add a coupon code for
         a 30% discount
+      MC_HOC_2017_01_markdown_instruction: |-
+        Click "Run" to move the player using
+        the **arrow keys**.  \r
+        \r
+        To pass this level, you will need to get to the
+        door and open it (using the **space bar**) so you can get to the orange square
+        inside.
       MSM Defining Vars 1_markdown_instruction: |-
         Write a program that produces a
         50 pixel solid green triangle.
@@ -34943,6 +35227,79 @@
         <hr/>\r
         <i>Play
         the game, and make it past level 4 to move to the next puzzle.</i>
+      SG U3L02 Assessment_markdown_instruction: |-
+        This lesson introduced the notion
+        of "efficiency" in programming, and that it might mean different things
+        at different times.  Think of an example *outside* of computer science in
+        which you have heard the term “efficiency” and compare it to the ways we talked
+        about efficiency in programming.  \r
+        \r
+        In what ways is the meaning of "efficiency"
+        the same? In what ways is it different?
+      SG U3L02 Free Response Getting Started_markdown_instruction: "Today we solved\na
+        series of problems with a limited set of commands (only 4). Give at least\none
+        reason why it's useful to learn how to solve and program solutions with\na
+        limited set of commands.  "
+      SG U3L02 Free Response Wrap Up_markdown_instruction: |
+        Summarize your experiences
+        with this first App Lab lesson by answering the following questions:\r
+        \r
+        *
+        What surprised you about programming with such a small set of basic commands?\r
+        *
+        Were you able to be creative with such a limited set of tools?\r
+        * What was
+        most frustrating about this activity? If you could add one additional simple
+        command, what would it be and why?\r
+        \r
+      SG U3L2 Using Simple Commands_markdown_instruction: |-
+        <img src="https://images.code.org/0aca9e3ba0945f31ddd56438a45ed69c-image-1436286498758.png"
+        align=right>\r
+        \r
+        Given only 4 turtle commands, write code in App Lab to
+        complete the drawings in each of the challenges below.  Your goal is to write
+        code that solves the problem as efficiently as possible using only the commands
+        provided.\r
+        \r
+        What does “efficient” mean?  In computer science it can actually
+        mean several different things depending on what you’re talking about.  Work
+        on these challenges, try to solve them in a way that you think is best and
+        we’ll ask about efficiency at the end.\r
+        \r
+        <img src="https://images.code.org/d26ed114448c5ffe75a75ed761fab5f0-image-1447888033281.gif"
+        align=right>\r
+        # Do This: \r
+        Draw a 1 x 1 square to the front and left of
+        the turtle as efficiently as possible. The program should stop with turtle
+        in its original position, facing its original direction.\r
+        \r
+        Once you think
+        you have a solution, click the Finish button - it will appear once you run
+        the program.
+      SG U3L2_Turtle3by3Grid_markdown_instruction: |
+        # Do This: \r
+        Draw a 3x3 grid
+        to the *front* and *right* of the turtle as efficiently as possible. The turtle
+        should end at its original location, facing its original direction.\r
+        \r
+        ![](https://images.code.org/c15fee1f27c817a352a521c7ddcb5006-image-1436282127747.png)\r
+        \r
+        **HINT:**
+        This problem presents some subtle challenges. Work with your partner to discuss
+        possible solutions. Try more than one path. Testing your ideas on paper might
+        be a faster way to brainstorm.\r
+      SG U3L2_TurtleSquare_right_markdown_instruction: |
+        <img src="https://images.code.org/ad48e7224312a6c41f4fc5727af53cc0-image-1436287265071.png"
+        align=right> \r
+        # Do This:\r
+        This time, draw a 1 x 1 square to the *front
+        and right* of the turtle as efficiently as possible.  Notice that there is
+        no command to turn right! You need to figure out how to draw this by only
+        turning left and moving forward.  The program should stop with turtle in its
+        original position, facing its original direction.\r
+        \r
+        When you're done
+        click the Finish button to move onto the next problem.\r
       Sam the Butterfly 2_markdown_instruction: |-
         Sam's mom wants to make sure that
         she can always see at least a bit of him, so lets write some functions that
@@ -53331,19 +53688,29 @@
         # This is the template for the U4 model
         app
       U4 Model Design 1_markdown_instruction: |-
-        <a href="https://curriculum.code.org/media/screen_model.png"
-        target="_blank"><img src="https://curriculum.code.org/media/screen_model.png"
-        style="width: 150px; float: right"></a>\r
+        <div markdown="1" style="float:
+        right; margin: 20px;">\r
+        \r
+        ![expandable](https://curriculum.code.org/media/screen_model.png)\r
+        \r
+        <br/>\r
+        \r
+        Click
+        to expand\r
+        \r
+        </div>\r
         \r
         # Creating a digital prototype\r
         \r
         Using
-        the wireframe to the left (click to open in a new tab) you're going to create
-        a digital prototype of the example app "Recycling Finder". We've already
-        added the title, but it doesn't look quite right.\r
+        the prototype to the right (click the image to enlarge it) you're going to
+        create a digital prototype of the example app "Recycling Finder". We've
+        already added added a few of the elements for you, including the title, but
+        it doesn't look quite right yet. We'll go over each element of this as we
+        go, but for now let's just focus on the title.\r
         \r
-        <img src="https://images.code.org/66633526e03550bedb8503fefdc2ece3-image-1502921575904.png"
-        style="width: 300px; float: right; clear: both;">\r
+        <!--<img src="https://images.code.org/66633526e03550bedb8503fefdc2ece3-image-1502921575904.png"
+        style="width: 300px; float: right; clear: both;">-->\r
         \r
         # Do This\r
         \r
@@ -53352,26 +53719,30 @@
         on the left.\r
         * **Click on the title text** to view its properties.\r
         *
-        **Change the field "text"** to match the prototype.\r
-        * **Change the "font
-        size"** to make the title larger.\r
+        **Change the property "text"** to match the prototype.\r
+        * **Change the
+        "font size"** to make the title larger.\r
         * **Change the "text alignment"**
         so the title is centered on the screen.
       U4 Model Design 2_markdown_instruction: |-
-        <a href="https://curriculum.code.org/media/screen_model.png"
-        target="_blank"><img src="https://curriculum.code.org/media/screen_model.png"
-        style="width: 150px; float: right"></a>\r
+        <div markdown="1" style="float:
+        right; margin: 20px;">\r
+        \r
+        ![expandable](https://images.code.org/c0a6e147bc1cb940893f87ffd25b5015-image-1505758331506.png)\r
+        \r
+        <br/>\r
+        \r
+        Click
+        to expand\r
+        \r
+        </div>\r
         \r
         # Adding more text\r
         \r
-        Each
-        screen of your app is composed of multiple design _elements_. You can drag
-        out elements from the "Design Toolbox" on the left side of the workspace.
-        To add more blocks of text, just drag out additional "label" elements.\r
-        \r
-        <img
-        src="https://images.code.org/27a2ebafe6066c4d0cb7242b0418d03c-image-1502926052747.png"
-        style="width: 150px; float: right; clear: both;">\r
+        Each screen of your
+        app is composed of multiple design _elements_. You can drag out elements from
+        the "Design Toolbox" on the left side of the workspace. To add more blocks
+        of text, just drag out additional "label" elements.\r
         \r
         # Do This\r
         \r
@@ -53386,45 +53757,62 @@
         * **Change
         any other properties** to make the text look like you want it to.
       U4 Model Design 3_markdown_instruction: |-
-        <a href="https://curriculum.code.org/media/screen_model.png"
-        target="_blank"><img src="https://curriculum.code.org/media/screen_model.png"
-        style="width: 150px; float: right"></a>\r
+        <div markdown="1" style="float:
+        right; margin: 20px;">\r
+        \r
+        ![expandable](https://images.code.org/cad5b0e54f67976fee68ecf29c2a603b-image-1505758463551.png)\r
+        \r
+        <br/>\r
+        \r
+        Click
+        to expand\r
+        \r
+        </div>\r
         \r
         # Adding images\r
         \r
-        The
-        prototype just has a plain red box where the logo should be - let's add an
-        image to spice it up. The "image" element allows you to either upload an
-        image from the internet, or select from a library of graphic icons.\r
+        The prototype just has
+        a plain black square where the logo should be - let's add an image to spice
+        it up. The "image" element allows you to either upload an image from your
+        computer or select from a library of graphic icons.\r
         \r
-        \r
-        #
-        Do This\r
-        \r
-        * **Drag out a new "image" element** and place between the
-        description and the title.\r
-        * **Change the id** to match the prototype.\r
-        *
-        **Click the "Choose..." link** next to the "image" field.\r
-        * **Select
-        the "Icons" tab** and choose an icon for your logo.\r
-        * **Change the color**
-        of the icon using the "icon color" field.
-      U4 Model Design 4_markdown_instruction: |-
-        <a href="https://curriculum.code.org/media/screen_model.png"
-        target="_blank"><img src="https://curriculum.code.org/media/screen_model.png"
-        style="width: 150px; float: right"></a>\r
-        \r
-        # Adding buttons\r
-        \r
-        Buttons
-        allow your user to easily interact with your app. This prototype screen will
-        need three buttons (each shaded blue on the prototype.)\r
         \r
         # Do This\r
         \r
         *
-        **Drag out a new "button" element** for each of the three buttons.\r
+        **Drag out a new "image" element** and place between the description and
+        the title.\r
+        * **Change the id** to match the prototype.\r
+        * **Click the
+        "Choose..." link** next to the "image" field.\r
+        * **Select the "Icons"
+        tab** and choose an icon for your logo.\r
+        * **Change the color** of the icon
+        using the "icon color" field.
+      U4 Model Design 4_markdown_instruction: |-
+        <div markdown="1" style="float:
+        right; margin: 20px;">\r
+        \r
+        ![expandable](https://images.code.org/17b565cb2f5da12babc16fbd22685732-image-1505758655682.png)\r
+        \r
+        <br/>\r
+        \r
+        Click
+        to expand\r
+        \r
+        </div>\r
+        \r
+        # Adding buttons\r
+        \r
+        Buttons allow your
+        user to easily interact with your app. This prototype screen will need three
+        buttons (each shaded gray on the prototype.) We've already added the Search
+        button, so you just need to add Contact and About.\r
+        \r
+        # Do This\r
+        \r
+        *
+        **Drag out a new "button" element** for each of the two remaining buttons.\r
         *
         **Change the ids** to match the prototype.\r
         * **Change the text** to match
@@ -53435,53 +53823,78 @@
         <img src="https://images.code.org/4cab6a5233cf07df0d8e312932762012-image-1444314797615.gif"
         style="width: 500px;">
       U4 Model Design 5_markdown_instruction: |-
-        <a href="https://curriculum.code.org/media/screen_model.png"
-        target="_blank"><img src="https://curriculum.code.org/media/screen_model.png"
-        style="width: 150px; float: right"></a>\r
+        <div markdown="1" style="float:
+        right; margin: 20px;">\r
+        \r
+        ![expandable](https://images.code.org/d257d0b06a24195a40adc60e4c96c0e1-image-1505759167176.png)\r
+        \r
+        <br/>\r
+        \r
+        Click
+        to expand\r
+        \r
+        </div>\r
         \r
         # Making a Search Box\r
         \r
-        The
-        search box in our prototype can be recreated using a "Text Input" element.
-        This is a box that your user can type into, and later your software can read
-        what was entered and do something with it.\r
+        The search box
+        in our prototype can be recreated using a "Text Input" element. This is
+        a box that your user can type into, and later your software can read what
+        was entered and do something with it.\r
         \r
         # Do This\r
         \r
-        * **Add
-        a Text Input** element.\r
+        * **Add a Text
+        Input** element.\r
         * **Change the id** to match the prototype.\r
-        *
-        **Add a label** to match the prototype.
+        * **Add
+        a Label** next to the text box that says "Location".
       U4 Model Design 6_markdown_instruction: |-
-        <a href="https://curriculum.code.org/media/screen_model.png"
-        target="_blank"><img src="https://curriculum.code.org/media/screen_model.png"
-        style="width: 150px; float: right"></a>\r
+        <div markdown="1" style="float:
+        right; margin: 20px;">\r
+        \r
+        ![expandable](https://images.code.org/7c8f4893c0b1f4bcd2280c950e389c95-image-1505759396699.png)\r
+        \r
+        <br/>\r
+        \r
+        Click
+        to expand\r
+        \r
+        </div>\r
         \r
         # Checkboxes\r
         \r
-        The type
-        of recyclables you're searching for can be set using "Checkbox" elements
-        (not to be confused with "Radio Button").\r
+        The type of recyclables
+        you're searching for can be set using "Checkbox" elements. We already added
+        a checkbox and label for glass, so you just need to add ones for paper and
+        plastic.\r
         \r
         # Do This\r
         \r
-        * **Add
-        a Checkbox** for each of the options.\r
-        * **Change the ids** to match the
-        prototype.\r
-        * **Add labels** to match the prototype.
+        * **Add a Checkbox** for each of the options.\r
+        *
+        **Change the ids** to match the prototype.\r
+        * **Add labels** to describe
+        each checkbox.
       U4 Model Design 7_markdown_instruction: |-
-        <a href="https://curriculum.code.org/media/screen_model.png"
-        target="_blank"><img src="https://curriculum.code.org/media/screen_model.png"
-        style="width: 150px; float: right"></a>\r
+        <div markdown="1" style="float:
+        right; margin: 20px;">\r
+        \r
+        ![expandable](https://curriculum.code.org/media/screen_model.png)\r
+        \r
+        <br/>\r
+        \r
+        Click
+        to expand\r
+        \r
+        </div>\r
         \r
         # Finishing Touches\r
         \r
-        By
-        now you should have a fairly complete (though non-functional) digital version
-        of the paper prototype we started with. All that's left to do is check back
-        over your paper prototype and add any final touches you might have missed.\r
+        By now you should
+        have a fairly complete (though non-functional) digital version of the paper
+        prototype we started with. All that's left to do is check back over your
+        paper prototype and add any final touches you might have missed.\r
         \r
         #
         Do This\r
@@ -53491,18 +53904,40 @@
         * **Read through your IDs** and fix any that aren't descriptive.\r
         *
         **Clean up** any rough edges by resizing or moving around elements.
-      U4 Model Program 1_markdown_instruction: |
-        <a href="https://docs.google.com/drawings/d/e/2PACX-1vTgxoSXreBsnItvtepC1PMudCL50dWomPUBja8dYqGKn0BfrTRBT9F1IJEne1PDcQVCg8V2GWk1hZ59/pub?w=960&amp;h=720"
-        target="_blank"><img src="https://docs.google.com/drawings/d/e/2PACX-1vTgxoSXreBsnItvtepC1PMudCL50dWomPUBja8dYqGKn0BfrTRBT9F1IJEne1PDcQVCg8V2GWk1hZ59/pub?w=960&amp;h=720"
-        style="width: 200px; float: right"></a>\r
+      U4 Model Program 1.5_markdown_instruction: |-
+        <div markdown="1" style="float:
+        right; margin: 20px;">\r
         \r
+        ![expandable](https://curriculum.code.org/media/screen_model_about.png)\r
+        \r
+        <br/>\r
+        \r
+        Click
+        to expand\r
+        \r
+        </div>\r
+        \r
+        # Design the About Screen\r
+        \r
+        To add elements
+        to your new About screen, you'll need to first select it from the screens
+        dropdown.\r
+        \r
+        # Do This\r
+        \r
+        * **Switch to the About screen.**\r
+        * **Create
+        the About screen** using the prototype to the right.\r
+        * **Use the screens
+        dropdown** to switch between your Home and About screens.
+      U4 Model Program 1_markdown_instruction: |-
         # Adding a New Screen\r
         \r
-        To
-        complete your app, you're going to need more than than just a home screen.
-        Each card that you created in your paper prototype is represented by a "screen"
-        in App Lab. To create more screens, just click the dropdown at the top of
-        the app display and select "New Screen..."\r
+        To complete
+        your app, you're going to need more than than just a home screen. Each card
+        that you created in your paper prototype is represented by a "screen" in
+        App Lab. To create more screens, just click the dropdown at the top of the
+        app display and select "New Screen..."\r
         \r
         <img src="https://images.code.org/2b49c36a57fb904d4fcf219ca498647d-image-1504714832027.png"
         style="width: 200px">\r
@@ -53510,30 +53945,55 @@
         # Do This\r
         \r
         * **Create a New Screen**
-        and give it the ID "about".\r
-        * **Create the About screen** using the prototype
-        to the right.\r
-        * **Use the screen dropdown** to switch between your Home
-        and About screens.\r
+        and give it the ID "about".
+      U4 Model Program 2.5_markdown_instruction: |-
+        # Contact Screen Import\r
+        \r
+        Yet
+        another student created a Contact screen that you can import into your app.
+        Their share link is **<a href ="https://studio.code.org/projects/applab/fFmXCrlRaqcQl8dsTTXX-Q/"
+        target="_blank">https://studio.code.org/projects/applab/fFmXCrlRaqcQl8dsTTXX-Q/</a>**\r
+        \r
+        #
+        Do This\r
+        \r
+        * **Select "Import Screen...** from the screens dropdown.\r
+        *
+        **Copy and paste the above url** into the import screens dialog.\r
+        * **Select
+        the screen** you wish to import.\r
+        * **Click Import** to import the screen.\r
+        *
+        **Use the screens dropdown** to make sure your app has Home, About, Contact,
+        and Search screens.
       U4 Model Program 2_markdown_instruction: |-
-        <img src="https://images.code.org/9ca7398a9b7403dc39ec6a6b2d2b8a5e-image-1477346132059.png"
-        style="float: right; max-width: 400px">\r
+        <div markdown="1" style="float:
+        right; margin: 20px;">\r
+        \r
+        ![expandable](https://images.code.org/9ca7398a9b7403dc39ec6a6b2d2b8a5e-image-1477346132059.png)\r
+        \r
+        <br/>\r
+        \r
+        Click
+        to expand\r
+        \r
+        </div>\r
         \r
         # Screen Import\r
         \r
-        In
-        addition to adding new blank screens, you can import screens from "Import
-        Screen..." To import a screen from someone else, you'll need them to give
-        you the sharing URL.\r
+        In addition to adding
+        new blank screens, you can import screens from "Import Screen..." To import
+        a screen from someone else, you'll need them to give you the sharing URL.\r
         \r
-        **Note:** Screens you import _must not_ share
-        any IDs with elements already in your app!\r
+        **Note:**
+        Screens you import _must not_ share any IDs with elements already in your
+        app!\r
         \r
         # Do This\r
         \r
-        Another
-        student has created a search results screen that you can import into your
-        app. Their app's share link is **https://studio.code.org/projects/applab/XkcpDVj8MJWQvUr9OSgIlA/**\r
+        Another student has created a search results
+        screen that you can import into your app. Their app's share link is **<a
+        href="https://studio.code.org/projects/applab/XkcpDVj8MJWQvUr9OSgIlA/" target="_blank">https://studio.code.org/projects/applab/XkcpDVj8MJWQvUr9OSgIlA/</a>**\r
         \r
         *
         **Select "Import Screen...** from the screens dropdown.\r
@@ -53544,35 +54004,35 @@
         * **Click Import** to import the screen.\r
         * **Use
         the screens dropdown** to switch between your Home, About, and Search screens.
-      U4 Model Program 3_markdown_instruction: |-
+      U4 Model Program 3_markdown_instruction: |
         # Button Events\r
         \r
         With our screens
         in place, it's time to start actually _programming_ the app so that it responds
         to button clicks. For each button on each screen, you'll want to add an `onEvent`
         block that watches for that button to be clicked and responds appropriately.
-        To start off with we'll just watch the "home_about" button and print something
-        to the console when it's clicked\r
+        To start off with we'll just watch the "home_search_btn" button and print
+        something to the console when it's clicked\r
         \r
         # Do This\r
         \r
-        You're now in Code
-        Mode (you can use the buttons above your app to switch between Code Mode and
-        Design Mode). This is where you can write the code that will respond to users
-        interacting with your app.\r
+        You're
+        now in Code Mode (you can use the buttons above your app to switch between
+        Code Mode and Design Mode). This is where you can write the code that will
+        respond to users interacting with your app.\r
         \r
-        \r
-        ![](https://images.code.org/c3c64665d20c23446770bdcf19540f42-image-1504724037058.png)\r
+        ![](https://images.code.org/278b27dd31b6ca014c0dd32c5f964a54-image-1505764431751.png)\r
         \r
         *
         **Drag out an `onEvent` block** from the code toolbox.\r
-        * **Select "home_about_btn"**
+        * **Select "home_search_btn"**
         from the "id" dropdown.\r
         * **Drag out a `console.log` block** from the
         variables drawer.\r
         * **Run your app**.\r
         * **Click the About button** and
-        look for messages in the console.
+        look for messages in the console.\r
+        \r
       U4 Model Program 4_markdown_instruction: |-
         # Changing Screens On Click\r
         \r
@@ -57828,7 +58288,7 @@
         Fantastic!  \r
         \r
         Let's add
-        some pizazz by changing the brush using the `set pattern` block before our
+        some style by changing the brush using the `set pattern` block before our
         loop starts.
       courseC_artist_loops1a_markdown_instruction: "Let's build something bigger,\none
         step at a time!  \\r\n\\r\nUse the `jump to 200 over 200 down` to get the\nartist
@@ -57920,11 +58380,10 @@
         \r
         ![expandable](https://images.code.org/d8e0ad6294aa5e04e4aab56631a6b50b-image-1496714582863.02.14.png)
       courseC_artist_loopsPre1a_markdown_instruction: |-
-        Now, put the code that you
-        already have inside of a `repeat` loop, and spin it around 6 times.\r
-        - You
-        will need to turn 60 degrees at the end of each loop to get the image on the
-        screen.
+        Now, put this code into  a
+        `repeat` loop and spin it around 6 times.\r
+        - Notice that we have added a
+        60 degree turn at the end of each loop to get a full rotation.
       courseC_artist_loopsPrePre1a_markdown_instruction: |-
         Use the `jump to 200 over
         200 down` block to get the artist to the center of the play area, then draw
@@ -58834,6 +59293,11 @@
         great!"*\r
         \r
         Help the bee collect all of the nectar.
+      courseD_bee_nestedLoops1a_markdown_instruction: |-
+        *"This is going to **BEE**
+        great!"*\r
+        \r
+        Help the bee collect all of the nectar.
       courseD_bee_nestedLoops2_markdown_instruction: |-
         This time, help the bee collect
         all of the nectar using as few blocks as possible.
@@ -59191,7 +59655,7 @@
         Get
         the zombie to the sunflower using only the blocks available.
       courseD_maze_ramp1_markdown_instruction: |-
-        For this puzzle, drag all of the
+        For this puzzle, snap all of the
         blocks together and click "Run" to watch it go!
       courseD_maze_ramp2_markdown_instruction: |-
         Drag an extra `move forward` block
@@ -59213,13 +59677,26 @@
         the pig!"*\r
         \r
         Avoid the TNT.
+      courseD_maze_ramp5a_markdown_instruction: |-
+        Pay attention to the sequence and
+        see if you can figure out how to get to that pig!
+      courseD_maze_ramp5b_markdown_instruction: |-
+        Pay attention to the sequence and
+        see if you can figure out how to get to that pig!
       courseD_maze_ramp6_markdown_instruction: |-
         *"Keep calm and help me find the
         bad pig. Otherwise I might get angry!"*\r
         \r
-        When you have several blocks
-        in a row, try moving them inside of a `repeat` loop.  This will do the same
-        thing with less code!
+        When you have several of the
+        same block in a row, try using a `repeat` loop, instead.  This will do the
+        same thing with less code!
+      courseD_maze_ramp6a_markdown_instruction: |-
+        *"Keep calm and help me find the
+        bad pig. Otherwise I might get angry!"*\r
+        \r
+        When you have several of the
+        same blocks in a row, try using a `repeat` loop, instead.  This will do the
+        same thing with less code!
       courseD_maze_ramp7_markdown_instruction: |-
         *"It's time to get angry!"*  \r
         \r
@@ -59290,8 +59767,8 @@
         blocks to the correct events to get Pegleg moving.  \r
         \r
         ---\r
-        Get Pegleg
-        to the dragon to solve this puzzle.
+        Help Pegleg
+        gather the flags to solve this puzzle.
       courseD_playLab_cond2_markdown_instruction: "Time to add points!  \\r\n\\r\nEdit\nthe
         code to give Pegleg (actor 1) a point when he makes it to the dragon (actor\n2). "
       courseD_playLab_cond3_markdown_instruction: "It's time to use what we've\nlearned
@@ -59333,6 +59810,28 @@
         above so that if the pirate is in the safe zone, the program will wait one
         second, then deduct a point as long as he stays beneath the octopus line.
       courseD_playLab_cond6cloneForTest_markdown_instruction: Can we make this work?
+      courseD_scrat_ramp1_markdown_instruction: |-
+        For this puzzle, snap all of the
+        blocks together and click "Run" to watch it go!
+      courseD_scrat_ramp2_markdown_instruction: |-
+        Drag an extra `move forward` block
+        out of the toolbox, then attach all blocks to `when run` to finish your code.
+      courseD_scrat_ramp3_markdown_instruction: |-
+        There is one extra block that is
+        going to cause Scrat to crash.  \r
+        Throw it away by dragging it back to the
+        toolbox.
+      courseD_scrat_ramp4_markdown_instruction: |-
+        Avoid the cracked ice to keep Scrat
+        safe!
+      courseD_scrat_ramp5_markdown_instruction: Avoid the cracked ice!
+      courseD_scrat_ramp6_markdown_instruction: |-
+        Help Scrat get to the acorn using
+        a loop!
+      courseD_scrat_ramp7_markdown_instruction: Help Scrat get to the acorn!
+      courseD_scrat_ramp8_markdown_instruction: |-
+        **Challenge:** Use what you've
+        learned to get Scrat to the acorn!
       courseE_artist_concept1_markdown_instruction: |-
         Recreate this image. \r
         \r
@@ -59478,7 +59977,7 @@
         a new loop to spin it around and make a snowflake!\r
         \r
         *(You will need
-        to spin it 6 times at 60 degrees to get this pattern.)*
+        to spin it 6 times, turning 60 degrees each time, to get this pattern.)*
       courseE_artist_ramp11_markdown_instruction: |-
         Great!  Now let's make a square
         using Artist!  The blocks are a little different, but the idea is the same.\r
@@ -59715,27 +60214,41 @@
         \r
         \r
         \r
-      courseE_farmer_ramp11a_markdown_instruction: |
-        Oh my!  These bundles of lettuce
-        are so close together that the farmer doesn't know how many there are! \r
-        \r
-        ___\r
-        \r
-        We've
-        added a new block to the toolbox called the `while there is lettuce` block.  Use
-        this to pick lettuce only while there is still lettuce to pick! \r
-        \r
-        \r
+      courseE_farmer_ramp11a_markdown_instruction: "Oh my!  This pile is so big that\nit's
+        hard to guess how much dirt is in it.  \\r\n\\r\n___\\r\n\\r\nWe've added\na
+        new block to the toolbox called the `while there is a pile` block.  Use\nthis
+        to remove dirt only while there is still some to scoop! "
+      courseE_farmer_ramp11b_markdown_instruction: |-
+        Let's try that again, but with
+        more piles!
       courseE_farmer_ramp12_markdown_instruction: |
-        Now use nested loops (`repeat`
-        and `while`) to solve this puzzle.\r
-        \r
-        \r
+        Pick all of the lettuce.\r
       courseE_farmer_ramp12a_markdown_instruction: "Help the farmer walk the path\nto
         find all of the lettuce\\r\n\\r\nIn this puzzle, lettuce is growing at the\nend
         of every path.  If there is a path in front of her, the farmer can keep\nmoving
         forward.  Otherwise, she needs to pick all of the lettuce, then turn\nto stay
         on the path. "
+      courseE_farmer_ramp12b_markdown_instruction: |-
+        Now the harvester needs to pick
+        all of the lettuce.  Use `while there is lettuce` inside of a `repeat` loop
+        to get it all!
+      courseE_farmer_ramp12c_markdown_instruction: "The lettuce is now only at the\nend
+        of the path.  \\r\nTravel down the path **until** you reach a head of lettuce,\nthen
+        continue to pick it **while** there is still some left.  "
+      courseE_farmer_ramp12d_markdown_instruction: "The lettuce is scattered all\nover
+        the garden.  \\r\nTravel down each path **until** you reach a head of\nlettuce,
+        then continue to pick it **while** there is still some left.  "
+      courseE_farmer_ramp12e_markdown_instruction: "The lettuce is scattered all\nover
+        the garden.  \\r\nTravel down each path **until** you reach a head of\nlettuce,
+        then continue to pick it **while** there is still some left.  "
+      courseE_farmer_ramp12f_markdown_instruction: |-
+        Challenge: The only way to get
+        all of the crops is to move forward until you get to the lettuce, then turn
+        left **if** there is a path to the left.  Otherwise, turn right.
+      courseE_farmer_ramp12g_markdown_instruction: |-
+        Move forward until you get to
+        the lettuce, then turn left **if** there is a path to the left.  Otherwise,
+        turn right.
       courseE_farmer_ramp13_markdown_instruction: |
         Goodness!  Look at all of these
         sprouts. Some of them will turn into corn, and others into lettuce.  \r
@@ -66616,6 +67129,43 @@
         you use in your everyday life? "
       pre-assessment survey q25A_markdown_instruction: "If yes, what computer science\ncourse(s)
         had you taken before your current computer science  class? "
+      ramp_artist_loops1_markdown_instruction: |-
+        What a lovely day!  \r
+        \r
+        Help
+        the Artist cover his flowers before the winter by moving forward by 60 pixels.
+      ramp_artist_loops2_markdown_instruction: |-
+        Add some beauty by repeating that
+        step five times, changing to a random color between each move.
+      ramp_artist_loops3_markdown_instruction: |-
+        Draw the colorful line 5 times again,
+        this time using a `repeat` loop.
+      ramp_artist_loops4_markdown_instruction: |-
+        What happens when you add a 72 degree
+        right turn after everything else inside your loop?
+      ramp_artist_loops5_markdown_instruction: |-
+        Loops sure make writing code easier!\r
+        \r
+        Use
+        loops to draw this staircase.\r
+        - Each stairstep is 50 pixels tall and 50
+        pixels wide\r
+        - You will need to turn 90 degrees in each direction
+      ramp_artist_loops6_markdown_instruction: |-
+        This staircase is much bigger, but
+        it takes the same amount of code as the last puzzle!\r
+        \r
+        Fix this loop
+        to complete the puzzle.
+      ramp_artist_loops7_markdown_instruction: |-
+        Look for a pattern and make this
+        code shorter using loops!
+      ramp_artist_loops8_markdown_instruction: |-
+        **Challenge:** Look for a pattern
+        and make this code shorter using loops.
+      ramp_artist_loops9_markdown_instruction: |-
+        Solve this puzzle by drawing a square
+        with 200 pixel sides.
       sample1_markdown_instruction: |-
         Our adventurer wants to collect coins.  But
         she can only use 4 blocks to get them.  \r
