@@ -1675,7 +1675,7 @@
   playlab_shortcode: "실행"
   artist_shortcode: art
   header_home: "홈"
-  header_my_dashboard: My Dashboard
+  header_my_dashboard: "대시보드"
   header_courses: courses
   header_course_catalog: Course Catalog
   header_project_gallery: "프로젝트 갤러리"
