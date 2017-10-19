@@ -3797,6 +3797,9 @@
         an example of a game you can make in play lab.
       FoodFight_instruction: This is an example of a game you can make in play lab.
       Frequency Analysis_instruction: Test
+      Function intro Ryan_instruction: |-
+        Use the `build bridge` function twice to
+        make a path to the torch.
       'Game Lab Workshop: Random_instruction': |-
         Pick a shape block and use calls
         to randomNumber() in place of one or more of the parameters. Maker sure you
@@ -4203,6 +4206,8 @@
       MC_HOC_2017_04_instruction: |-
         Change the loop from the last puzzle to help the
         Agent make a path over the wider part of this river.
+      MC_HOC_2017_04POINT5_Cole_instruction: Get the Agent to the pressure plate.
+      MC_HOC_2017_04POINT5_RYAN_instruction: Get the Agent to the pressure plate.
       MC_HOC_2017_04_Cole_instruction: Get the Agent to the pressure plate.
       MC_HOC_2017_04_Kiki_instruction: Get the Agent to the pressure plate.
       MC_HOC_2017_05_instruction: |-
@@ -4217,8 +4222,8 @@
         Fix this code to help the Agent build a bridge
         across this river.
       MC_HOC_2017_07_Cole_instruction: |-
-        Use a function to clear the path to the orange
-        square.
+        These cacti are in the way! Use `destroy
+        block` to destroy each cactus that is in the way.
       MC_HOC_2017_07_Kiki_instruction: |-
         Use a function to clear the path to the orange
         square.
@@ -4227,6 +4232,9 @@
         Change the provided function to work for
         this biome.
       MC_HOC_2017_08_Kiki_instruction: Change the function to work for this puzzle.
+      MC_HOC_2017_08_RY_instruction: |-
+        Use the functions to find a way across the
+        lava.
       MC_HOC_2017_09_Cole_instruction: |-
         Program the Agent to clear the player's
         path.
@@ -4242,6 +4250,13 @@
       MC_HOC_2017_10_Kiki_instruction: |-
         Create a function to help you finish this
         minecart.
+      MC_HOC_2017_10_RYAN_instruction: |-
+        Create a function to help you finish this
+        minecart.
+      MC_HOC_2017_10_RYAN2_instruction: |-
+        Create a function to help you finish this
+        minecart.
+      MC_HOC_2017_4.5v2_instruction: Get the Agent to the pressure plate.
       MC_HOC_2017_Ryan_03_instruction: |-
         Now use loops to help The Agent build a bridge
         over the river by placing blocks in the water.
@@ -5239,10 +5254,8 @@
         ki smo jo sprogramirali, da nariše šesterokotnike. Zaženi kodo in poglej,
         kaj počne in potem eksperimentiraj s funkcijo in opazuj kaj se zgodi. Ali
         lahko narediš, da izriše vzorece kvadratov, trikotnikov ali osemkotnikov?
-      Standalone_Artist_9_instruction: |-
-        Now go ahead and make whatever picture you'd
-        like! You've even got an empty function that you can make do whatever you
-        want!
+      Standalone_Artist_9_instruction: Sedaj nadaljuj in naredi kakršno koli sliko
+        želiš! Imaš prazno funkcijo s katero lahko narediš karkoli želiš!
       Standalone_Artist_v2_instruction: Dobrodošel pri Umetniku! Najprej poskusi narediti
         enostaven kvadrat z uporabo zavi desno in premakni se naprej blokov. Vsaka
         stran naj bo 100 pikslov dolga.
@@ -9547,7 +9560,6 @@
         it is hiding a flower before you get nectar.  "
       courseF_bee_conditionals3_instruction: |
         Help the bee collect all of the nectar.
-        \r
       courseF_bee_conditionals4_instruction: |-
         Get all of the nectar using as few
         blocks as possible.

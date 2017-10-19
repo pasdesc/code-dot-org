@@ -90,7 +90,7 @@
         desc: For å lære om betingete instruksjoner skal elevene spille et kortspill og lage regler som "Hvis jeg tegner et rødt kort, får jeg et poeng" og "Hvis jeg tegner et svart kort, får du et poeng."
       BigEvent:
         title: Den store begivenheten
-        desc: Eleven blir introdusert for programmeringskonseptet "hendelse" som er handlnger som datamaskinen overfoker. Læreren trykker på knapper på en papirfjernkontroll og elevene svarer basert på hvilken knapp som er trykket.
+        desc: Eleven blir introdusert for programmeringskonseptet "hendelse" som er handlnger som datamaskinen overvåker. Læreren trykker på knapper på en papirfjernkontroll og elevene svarer basert på hvilken knapp som er trykket.
       GoingPlacesSafely:
         title: Trygg reise
         desc: Internett er en kraftig, men noen ganger farlig sted. Lærere presentere hvordan å være trygg når du navigerer på Internett.
@@ -117,10 +117,10 @@
         desc: Elever bruker konseptet med refrenget i en sang for å lære om å sende parametere (som tilpasser en funksjon uten å være nødt til å skrive om hele funksjonen).
       DiceRace:
         title: 'Virkelige algoritmer: Terningrace'
-        desc: Denne leksjonen viser måter vi bruker algoritmer i vårt daglige liv, ved hjelp av plante et frø som et eksempel. Som en del av dette skal elevene finne og skrive ned algoritmen for terningracet.
+        desc: Denne leksjonen viser måter vi bruker algoritmer på i vårt daglige liv. Som en del av dette, vil studentene identifisere og skrive ned algoritmen for terningracet.
       Internet:
         title: Internett
-        desc: Studentene sende meldinger som representerer ulike Internett metoder bruke papirark.
+        desc: Studentene sender meldinger som representerer ulike internett overføringsmetoder ved hjelp av papirark.
       Crowdsourcing:
         title: Crowdsourcing
         desc: Elevene bruker crowdsourcing, en problemløsningsteknikk som er vanlig å bruke i informatikk, for å fullføre en oppgave sammen i et klasserom mer effektivt enn hvis en elev prøvde det alene.
@@ -201,7 +201,7 @@
         desc: Internett er en kraftig, men noen ganger farlig sted. Lærere presentere hvordan å være trygg når du navigerer på Internett.
       courseABC_unplugged_bigEvent:
         title: Den store begivenheten
-        desc: Eleven blir introdusert for programmeringskonseptet "hendelse" som er handlnger som datamaskinen overfoker. Læreren trykker på knapper på en papirfjernkontroll og elevene svarer basert på hvilken knapp som er trykket.
+        desc: Eleven blir introdusert for programmeringskonseptet "hendelse" som er handlnger som datamaskinen overvåker. Læreren trykker på knapper på en papirfjernkontroll og elevene svarer basert på hvilken knapp som er trykket.
       courseB_unplugged_digitalFootprint:
         title: Dine digitale fotavtrykk
         desc: Lærere introdusere elever ideen at sette informasjon om seg selv online skaper en digitale fotavtrykk eller "sti" som har konsekvenser.
@@ -231,13 +231,13 @@
         desc: Selv om mange mennesker tenker på binærsystemet som kun 0 og 1, viser vårt forrige kurs elevene at den informasjonen kan bli representert i en rekke av binære alternativer. Denne leksjonen tar det konseptet et steg videre da det illustrerer hvordan en datamaskin kan lagre enda mer kompleks informasjon (som for eksempel bilder og farger) binært også.
       courseE_unplugged_diceRace:
         title: 'Real-Life Algorithms: Dice Race'
-        desc: Denne leksjonen viser måter vi bruker algoritmer i vårt daglige liv, ved hjelp av plante et frø som et eksempel. Som en del av dette skal elevene finne og skrive ned algoritmen for terningracet.
+        desc: Denne leksjonen viser måter vi bruker algoritmer på i vårt daglige liv. Som en del av dette, vil studentene identifisere og skrive ned algoritmen for terningracet.
       courseE_unplugged_songwritingParameters:
         title: Låtskriving med parametere
         desc: Elever bruker konseptet med refrenget i en sang for å lære om å sende parametere (som tilpasser en funksjon uten å være nødt til å skrive om hele funksjonen).
       courseE_unplugged_internet:
         title: Internett
-        desc: Studentene sende meldinger som representerer ulike Internett metoder bruke papirark.
+        desc: Studentene sender meldinger som representerer ulike internett overføringsmetoder ved hjelp av papirark.
       courseE_unplugged_crowdsourcing:
         title: Crowdsourcing
         desc: Elevene bruker crowdsourcing, en problemløsningsteknikk som er vanlig å bruke i informatikk, for å fullføre en oppgave sammen i et klasserom mer effektivt enn hvis en elev prøvde det alene.

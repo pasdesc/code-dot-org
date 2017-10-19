@@ -13705,6 +13705,27 @@
         010 010`\r
         \r
         `001 001 001 001 010 010 010 010 010 010`
+      CSD U6 getProperty Text Input_markdown_instruction: |-
+        # Getting Text\r
+        \r
+        The
+        `getProperty()` block makes it easy to take text input from a user. In this
+        app, the user can type in their name, click "Submit," and see their name
+        below.\r
+        \r
+        # Do This\r
+        \r
+        * Drag out a `setProperty` block\r
+        * For the
+        first parameter, select "name" (the element's id)\r
+        * For the second parameter,
+        select "text" (the property you want to set)\r
+        * For the third parameter,
+        write your name in quotes (the value to set)\r
+        \r
+        _Note: We've removed
+        the Design Mode tab for now so you can practice working with `setProperty`,
+        but it'll come back later once you're building apps of your own._
       CSD U6 setProperty Text_markdown_instruction: |-
         # Changing the Text\r
         \r
@@ -30724,6 +30745,13 @@
         how long it takes you to crack the cipher! Is this a good method of encrypting
         secret data?\r
         \r
+      Function intro Ryan_markdown_instruction: |-
+        A "function" is a chunk of code
+        that can be written once and called many times from your program.  \r
+        \r
+        In
+        this puzzle, we have provided you with a function called `build bridge`.  Use
+        it twice to create a path for the player.
       'Game Lab Workshop: Random_markdown_instruction': |
         # Randomized Shapes\r
         \r
@@ -31972,12 +32000,11 @@
         door and open it (using the **space bar**) so you can get to the orange square
         inside.
       MC_HOC_2017_01_Cole_markdown_instruction: |-
-        To play this level, click the orange
-        "Run" button beneath the play space, then move the player around using the
-        **arrow keys**.  \r
+        Move the player around using the
+        **arrow keys**.\r
         \r
-        Can you get the player to the pressure plate to open
-        the door?
+        Get the player to the orange square inside the house
+        to win!
       MC_HOC_2017_01_Kiki_markdown_instruction: "To play this level, click the orange\n\"Run\"
         button beneath the play space, then move the player around using the\n**arrow
         keys**.  "
@@ -32000,11 +32027,11 @@
         Program the Agent to move forward twice to follow the
         white path and get to the pressure plate so he can open the door for the player.
       MC_HOC_2017_03_Cole_markdown_instruction: |-
-        Another locked door on the way to
-        the Secret Grove!  \r
+        The path out of the Secret Grove
+        leads to the Swamp. Get the torch to prepare for the adventure. \r
         \r
-        Help The Agent open the gate by writing code to
-        get him to the pressure plate.
+        Help
+        The Agent open the gate by writing code to get him to the pressure plate.
       MC_HOC_2017_03_Kiki_markdown_instruction: |-
         The player's adventure will begin
         behind the locked door, in the Secret Grove!  \r
@@ -32015,14 +32042,26 @@
       MC_HOC_2017_04_markdown_instruction: |-
         Change the loop from the last puzzle
         to help the Agent make a path over the wider part of this river.
-      MC_HOC_2017_04_Cole_markdown_instruction: |-
-        The entry to the Secret Grove led
-        to this beautiful Oasis!  To pass this level, the player needs to get to the
-        orange square in the cabana.  \r
+      MC_HOC_2017_04POINT5_Cole_markdown_instruction: |-
+        You made it out of the swamp!  Now,
+        get the player safely to the orange square.\r
         \r
-        The Agent can cross water without a
-        bridge! Use a `repeat` loop to help the Agent get all the way up to the pressure
-        plate, which opens the cabana door.
+        Help The Agent clear the
+        path by finding a simple pattern and using loops to cross the first two pressure
+        plates.
+      MC_HOC_2017_04POINT5_RYAN_markdown_instruction: |-
+        You made it out of the swamp!  Now,
+        get the player safely through the maze.\r
+        \r
+        Help The Agent clear the path
+        by using the `turn right` block to get to the pressure plate.
+      MC_HOC_2017_04_Cole_markdown_instruction: |-
+        To get out of the swamp, the player
+        needs to get to the orange square inside the house.\r
+        \r
+        Use a `repeat`
+        loop to help the Agent get all the way up to the pressure plate that opens
+        the hidden door.
       MC_HOC_2017_04_Kiki_markdown_instruction: |-
         The entry to the Secret Grove led
         to this beautiful Oasis!  To pass this level, the player needs to get to the
@@ -32038,8 +32077,7 @@
         correctly.  Instead, we've given you a function called `destroy and move`
         that will do the hard work for you each time the Agent gets to an obstacle.
       MC_HOC_2017_05_Cole_markdown_instruction: |-
-        It's time for the player to leave
-        the Secret Grove and continue the adventure, but the bridge is out! \r
+        Oh no, the bridge is out! \r
         \r
         Help
         the Agent rebuild the bridge so that the player can get to the orange square.
@@ -32063,13 +32101,11 @@
         Fix this code to help the Agent build a bridge across the
         water.
       MC_HOC_2017_07_Cole_markdown_instruction: |-
-        Loops are not the only way to repeat
-        code.\r
+        These cacti are in the way! \r
         \r
-        Here, we've given you a function called `destroy and move` that
-        will do the hard work for you each time the Agent gets to an obstacle. When
-        you reach a cactus, call `destroy and move` to complete two actions with one
-        block!
+        Find
+        the pattern and use `destroy block` to destroy each cactus that is in the
+        way.
       MC_HOC_2017_07_Kiki_markdown_instruction: "Loops are not the only way to repeat\ncode!
         \ \\r\n\\r\nHere, we've given you a function called `clear cacti` that\nwill
         do the hard work of clearing three cacti every time you use it.  Use\ntwo
@@ -32089,16 +32125,25 @@
         \r
         Change
         the function to work for this level.
+      MC_HOC_2017_08_RY_markdown_instruction: |-
+        Now there are **TWO** functions to
+        choose from!\r
+        \r
+        Use these functions to quickly build a bridge across the
+        lava for the player.
       MC_HOC_2017_09_Cole_markdown_instruction: |-
         Use functions to help the Agent
-        destroy the torch and clear the way for the player.
+        destroy the giant blocks of dirt that are blocking the player's path to the
+        pressure plate.
       MC_HOC_2017_09_Kiki_markdown_instruction: "This starting code cannot be removed.\\r\n\\r\nAdd\ncommands
         to the `create trail` function so that the program in the workspace\nwill
         get the Agent to the pressure plate. "
+      MC_HOC_2017_09_RS_CLONE_markdown_instruction: |-
+        Fix this function to fill in
+        the holes, then step on the pressure plate to clear a path to the torch.
       MC_HOC_2017_10_Cole_markdown_instruction: |-
-        Try building a function from the
-        beginning that will make it easier for the Agent to finish this minecart and
-        get the player to the orange square.
+        Use the functions to clear a path
+        for the mine cart, and walk into the Nether Portal.
       MC_HOC_2017_10_Cole_old_markdown_instruction: |-
         Try building a function from
         the beginning that will make it easier for the Agent to finish this minecart
@@ -32107,12 +32152,27 @@
         Try building a function from the
         beginning that will make it easier for the Agent to finish this minecart and
         get the player to the orange square.
-      MC_HOC_2017_11_Cole_markdown_instruction: |-
-        Now it's up to you! See what you
-        can create around this frozen lake.
+      MC_HOC_2017_10_RYAN_markdown_instruction: |-
+        Try building functions from the
+        beginning that will make it easier for the Agent to finish this minecart and
+        get the player to the orange square.
+      MC_HOC_2017_10_RYAN2_markdown_instruction: |-
+        Try building functions from the
+        beginning that will make it easier for the Agent to finish this minecart and
+        get the player to the orange square.
       MC_HOC_2017_11_Kiki_markdown_instruction: |-
         Now it's up to you! See what you
         can create around this frozen lake.
+      MC_HOC_2017_13_Cole_markdown_instruction: |-
+        Now it's up to you! Use the Agent's
+        code to help you explore this world.
+      MC_HOC_2017_4.5v2_markdown_instruction: |-
+        You made it out of the swamp!  Now,
+        get the player safely to the orange square.\r
+        \r
+        Help The Agent clear the
+        path by finding a simple pattern and using loops to cross the first two pressure
+        plates.
       MC_HOC_2017_Ryan_03_markdown_instruction: |-
         Did you know that you can put more
         than one piece of code into a loop?  \r
@@ -33815,20 +33875,17 @@
         Take the code that draws the rectangle and move it
         into a new function called `drawRectangle()`. The first line of your program
         should be a single call to `drawRectangle()`. The rest of the code should
-        just be function definitions,including your definition for "right".\r
+        just be function definitions, including your definition for **right**.\r
         \r
         You'll
-        only need one subgoal for this, define function.\r
+        only need one subgoal for this, `\\\\Define function`.\r
         \r
         NOTE: your program
         will still do the same thing.  We are just changing the way it is written
         to demonstrate that you can use functions you've already written as building
         blocks in new functions.\r
         \r
-        ![](https://images.code.org/fd6e8b4d2218a242bae19ac9c78b5d5f-image-1447799438050.gif)\r
-        \r
-        In
-        workspace -pullthrough code.
+        ![](https://images.code.org/fd6e8b4d2218a242bae19ac9c78b5d5f-image-1447799438050.gif)
       SG U3L03 - draw step_markdown_instruction: |-
         We are going to walk you through
         a process that shows you the benefit of thinking about programming tasks in
@@ -33860,23 +33917,15 @@
         the end the turtle should be facing the same direction it started.\r
         \r
         \r
-        You’ll
-        use four subgoals for this. First, you’ll define a function, which will include
-        moving the turtle and orienting the turtle. Last, don’t forget to call the
-        function. If you get stuck, plan your solution with subgoals.\r
-        \r
-        In workspace
-        – pre-populate with (start of pull-through)\r
-        \r
-        * function drawStep()\r
-        *
-        function right()\r
-          * turnLeft();\r
-          * turnLeft();\r
-          * turnLeft();\r
+        You'll
+        use four subgoals for this. First, you'll **define a function** (`//Define
+        function`), which will include **moving the turtle** (`\\\\Move turtle`) and
+        **orienting the turtle** (`//Orient turtle`). Last, don't forget to **call
+        the function** (`//Call function`). If you get stuck, plan your solution with
+        subgoals.\r
         \r
         ![](https://images.code.org/4fa605353695afa0cd01ec01a1e2c709-image-1441772033658.gif)
-      SG U3L03 Define and use turnAround_markdown_instruction: |
+      SG U3L03 Define and use turnAround_markdown_instruction: |-
         #Do This:\r
         **Define**
         a function called `turnAround` which turns the turtle around. Once you've
@@ -33894,27 +33943,17 @@
         \r
         ![](https://images.code.org/3faf16575757ffae616dffd761085ab5-image-1467818996127.gif)\r
         \r
-        You’ll
-        use four subgoals to solve this problem (sort of). First you’ll define the
-        function, which will include orienting the turtle. As you’ll start to see,
-        even subgoals can be broken down into subgoals sometimes. This will be helpful
-        when you start creating more complex functions. Then you’ll call the function
-        and move the turtle. \r
-        Don’t forget to name your functions.\r
+        You'll
+        use four subgoals to solve this problem (sort of). First you'll **define
+        the function**, which will include **orienting the turtle**. As you will start
+        to see, even subgoals can be broken down into subgoals sometimes. This will
+        be helpful when you start creating more complex functions. \r
         \r
-        In workspace
-        – pre-populate with\r
+        Then you'll
+        **call the function** and **move the turtle**.\r
         \r
-        * //Define function\r
-        * Define function block
-        (with text myFunction)\r
-           * //Orient turtle\r
-        * //Call function\r
-        * Call
-        function block (with text myFunction)\r
-        * //Move turtle\r
-        \r
-        \r
+        Don't forget to name
+        your functions.
       SG U3L03 Draw a T using turnAround_markdown_instruction: |-
         #Do This:\r
         Get
@@ -33922,35 +33961,26 @@
         your old friend the `moveForward()` function to create a plus sign that is
         centered at the turtle's first position, as shown below. Even though you
         just wrote this function, we've already **defined** `turnAround()` for you.
-        Remember, add lines of code that call the function *above* the definition.\r
         \r
-        *NOTE:
-        the turtle should end where it started, which is also the middle of the plus
-        sign, as shown below. Each of the four segments of the plus sign are one `moveForward()`
-        long.* \r
+        \r
+        Remember, add lines of code that call the function *above* the definition.
+        The function definition is after the function call to support **abstraction**.
+        If you don't need to know how the function works inside, you never have to
+        look at it, you can just call it.\r
+        \r
+        *NOTE: the turtle should end where
+        it started, which is also the middle of the plus sign, as shown below. Each
+        of the four segments of the plus sign are one `moveForward()` long.* \r
         \r
         ![](https://images.code.org/9d6c2d7d69c2f1c68c5b273bdbae65c7-image-1441296690812.11.14
         AM.png)\r
         \r
         \r
-        You'll use three subgoals for this problem: call function,
-        orient turtle, and move turtle. Define function is already done for you. We've
-        put subgoals for the first few steps in already. Plan the rest of the code
-        with subgoal comment block to get the most efficient path before filling it
-        in with blocks.\r
-        \r
-        In workspace-pre-populate with\r
-        * //Define function\r
-        *
-        Function turnaround\r
-        \t* //Orient turtle\r
-            * turnleft\r
-            * turnleft\r
-        *
-        //Move turtle\r
-        * //Call function\r
-        * //Move turtle\r
-        * //Call function
+        You'll use three subgoals for this problem: `//call function`,
+        `//orient turtle`, and `//move turtle`. Defining the function is already done
+        for you. We've put subgoals for the first few steps in already. Plan the
+        rest of the code with subgoal blocks (in the **Goals** tab) to get the most
+        efficient path before filling it in with blocks.
       SG U3L03 Free Response Wrap Up_markdown_instruction: |
         In your own words, explain
         at least one reason why programming languages have functions.  Include an
@@ -33988,12 +34018,10 @@
         </table>\r
         \r
         To solve this puzzle, you’ll use three subgoals.
-        You’ll define the function, which will include calling 2 different functions
-        and moving the turtle. Then you’ll call the function that you defined.\r
-        \r
-        In
-        workspace – prepopulate with pullthrough code\r
-        \r
+        You’ll **Define the function** (`//Define function`), which will include **calling**
+        2 different functions (`//Call function`) and **moving the turtle** (`//Move
+        turtle`). Then you'll **call the function** (`//Call function`) that you
+        defined.\r
       SG U3L03 define turnRight and draw a rectangle_markdown_instruction: |-
         # Draw
         a rectangle with right\r
@@ -34007,7 +34035,7 @@
         Then **use** this function in some code
         to draw a rectangle, as shown below.  Make sure the turtle ends facing the
         same direction and in the same location it started. The rectangle below is
-        2 moveForwards tall and 1 moveForward wide*\r
+        2 `moveForward`s tall and 1 `moveForward` wide.\r
         \r
         ![](https://images.code.org/fd6e8b4d2218a242bae19ac9c78b5d5f-image-1447799438050.gif)\r
         \r
@@ -34017,15 +34045,12 @@
         as building blocks in new functions.\r
         \r
         You'll use three subgoals to
-        solve the problem: orient turtle, move turtle, and call function. Define function
-        is already done for you. Notice that we haven't filled the subgoals in for
-        you.If you are having trouble finding the solution, plan your approach with
-        subgoals before filling it in with blocks. If you're not having trouble,
-        feel free to skip the subgoals.\r
-        \r
-        In workspace- prepopulate with(start
-        of pullthrough)\r
-        * Define function block(with text "right")
+        solve the problem: `//Orient turtle`, `//Move turtle`, and `//Call function`.
+        `//Define function` is already done for you. Notice that we haven't filled
+        the subgoals in for you (for the right function or drawing the rectangle).
+        If you are having trouble finding the solution, plan your approach with subgoals
+        before filling it in with blocks. If you're not having trouble, feel free
+        to skip the subgoals.
       SG U3L03 draw diamond_markdown_instruction: |
         #Do This:\r
         We're finally ready
@@ -34061,20 +34086,18 @@
         which makes calls to `drawStep()` and `right()`.\r
         \r
         For most programming
-        problems that you face, the problem won’t be broken down into pieces like
-        it was for this series of puzzle. You’ll have to figure out your own hierarchy
+        problems that you face, the problem won't be broken down into pieces like
+        it was for this series of puzzle. You'll have to figure out your own hierarchy
         of functions based on which patterns you want to use multiple times. This
         is why planning your solution ahead of time can make your code more efficient.
-        Subgoals will help you do this. Once you recognize that the diamond can be
-        drawn using the same function repeated 4 times, you can note with a subgoal
-        comment that you’ll need to define and call a function for drawSide. Then
-        you can figure out that one side can be drawn using the same function 3 times
-        plus a couple of steps, you can make note to define and call drawStep. Once
-        you’ve planned the solution, you can fill in blocks to complete it.\r
         \r
-        In
-        workspace – pullthrough code\r
         \r
+        Subgoals will help you do this. Once you recognize that the diamond
+        can be drawn using the same function repeated 4 times, you can note with a
+        subgoal comment that you'll need to define and call a function for `drawSide()`.
+        Then you can figure out that one side can be drawn using the same function
+        3 times plus a couple of steps, you can make note to define and call `drawStep()`.
+        Once you've planned the solution, you can fill in blocks to complete it.\r
       SG U3L04 - 3 by 3 with functions_markdown_instruction: |-
         #Do This:\r
         \r
@@ -34088,7 +34111,8 @@
         \r
         You'll
         need 4 subgoals for this task. Think about how you can define and call functions
-        to draw most of the square,then fill in the rest of move and orient turtle.\r
+        to draw most of the square, then fill in the rest using `//Move turtle` and
+        `//Orient turtle`.\r
         \r
         ![](https://images.code.org/121251ed82b4986848062abacdef6963-image-1441824892425.54.18
         PM.png)
@@ -34111,8 +34135,9 @@
         calls to subsequent functions.\r
         \r
         You'll use four subgoals for this:
-        define and call functions and move and orient the turtle.If you don't already
-        have a plan somewhere else, plan out your program with subgoals first.\r
+        `//Define function` and `//Call function` and `//Move turtle` and `//Orient
+        turtle`. If you don't already have a plan somewhere else, plan out your program
+        with subgoals first.\r
         \r
         \r
         ![](https://images.code.org/afed66de9dc3cdb10f627a176139c58f-image-1441822234028.09.33
@@ -34132,40 +34157,36 @@
         abstraction. Pick a function you wrote in your solution to the 3x3 square
         problem and explain how it helps manage the complexity of your program.
       SG U3L06 - moveForwardwithParams_markdown_instruction: |-
-        # A New Way to Move\r
-        The
-        `moveForward()` turtle command that we've used so far moves the turtle the
-        same amount every time (25 pixels in fact). Similarly, `turnLeft()` turns
-        the turtle to the left exactly 90 degrees. Today we are going to see how some
-        functions can **accept input**, such as a number, to be used more flexibly.
-        For example, you can write `moveForward(103)` to move the turtle exactly 103
-        pixels if you like.\r
+        # A New Way to Move
+        the Turtle\r
+        The `moveForward()` turtle command that we've used so far moves
+        the turtle the same amount every time (25 pixels in fact). Similarly, `turnLeft()`
+        turns the turtle to the left exactly 90 degrees. Today we are going to see
+        how some functions can **accept input**, such as a number, to be used more
+        flexibly. For example, you can write `moveForward(103)` to move the turtle
+        forward exactly 103 pixels if you like.\r
         \r
         # Do This:\r
         \r
-        **How far is it to the top edge
-        of the screen?**\r
+        **How far
+        is it to the top edge of the screen?**\r
         \r
-        Run the program to see the new version of `moveForward()`
-        in action. Then **changing only the number supplied to `moveForward()`**,
-        move the turtle to the top edge of the screen. Experiment to find out the
-        distance in pixels between where the turtle starts and the top edge of the
-        screen.\r
+        Run the program to see the new
+        version of `moveForward()` in action. Then **changing only the number supplied
+        to `moveForward()`**, move the turtle to the top edge of the screen. Experiment
+        to find out the distance in pixels between where the turtle starts and the
+        top edge of the screen.\r
         \r
-        Once you've found it, compare with a neighbor to see that
-        you're seeing the same thing and click **Finish** to move on.\r
+        Once you've found it, compare with a neighbor
+        to see that you're seeing the same thing and click **Finish** to move on.\r
         \r
         You'll
-        only use one subgoal- Move turtle -but now you have more flexibility in how
-        this subgoal is achieved.\r
+        only use one subgoal - `//Move turtle` -but now you have more flexibility
+        in how this subgoal is achieved.\r
         \r
         **Note:** There might be slight differences
         depending on whether you get the turtle to just touch the edge, or go off
-        the screen entirely.\r
-        \r
-        In workspace -prepopulate with\r
-        \r
-        moveForward(100)
+        the screen entirely.
       SG U3L06 Assessment_markdown_instruction: |
         It is said that *functions with
         parameters generalize the behavior of a more specific command and allow programmers
@@ -34191,11 +34212,10 @@
         error when you run the program.\r
         \r
         \r
-        \r
         # New Commands!\r
         \r
-        Check
-        it out.  The turtle toolbox now contains the *parameterized* versions of the
+        Check it
+        out.  The turtle toolbox now contains the *parameterized* versions of the
         turtle commands including `turnLeft(angle)` and `turnRight(angle)`.  \r
         \r
         #
@@ -34206,41 +34226,38 @@
         call functions to make the code more efficient.\r
         \r
         At a minimum, you'll
-        use move turtle and Orient turtle to do this. You can also solve the problem
-        by defining and calling functions.\r
+        use `//Move turtle` and `//Orient turtle` to do this. You can also solve the
+        problem by using `\\\\Define function` and `//Call function`.\r
         \r
-        <img src="https://images.code.org/0207568ff82b0571fa6757081330749d-image-1441901783815.png"
+        <img
+        src="https://images.code.org/0207568ff82b0571fa6757081330749d-image-1441901783815.png"
         width=150>
       SG U3L06 Challenge 2 purple square_markdown_instruction: |-
+        # More New Commands:
+        Pen Properties\r
         \r
-        ![](https://images.code.org/3fe10e1b65edb37306099098161be001-image-1441990727053.gif)\r
+        Two powerful new commands have been added to the toolbox,
+        `penColor()` and `penWidth()`. These both serve the subgoal `//Set pen properties`.
+        By changing the properties of the pen, you are no longer limited to just a
+        thin black line. \r
         \r
+        **Read the documentation:** Read through the documentation
+        by **hovering over** `penColor()` and `penWidth()` which let you set the color
+        and size of the pen your turtle uses to draw. The documentation for `penColor()`
+        has a lot in it!  For now just look at the **named colors**, things like "red",
+        "green", etc.  Don't worry, you'll get a lot of opportunities to practice
+        with colors in a variety of ways.  We're just getting started!\r
         \r
-        #
-        More New Commands: Pen Properties\r
+        # Do
+        This:\r
         \r
-        Two powerful new commands have been
-        added to the toolbox, `penColor()` and `penWidth()`.These both serve the subgoal
-        `Set pen properties`. By changing the properties of the pen,you are no longer
-        limited to just a thin black line. \r
-        \r
-        **Read the documentation:** Read
-        through the documentation by hovering over `penColor()` and `penWidth()` which
-        let you set the color and size of the pen your turtle uses to draw. The documentation
-        for `penColor()` has a lot in it!  For now just look at the **named colors**,
-        things like "red", "green", etc.  Don't worry, you'll get a lot of opportunities
-        to practice with colors in a variety of ways.  We're just getting started!\r
-        \r
-        #
-        Do This:\r
-        \r
-        **Draw the square:** Use pen color and width functions to
-        draw the thick blue square shown below.  The size of the square doesn't matter.\r
+        **Draw the square:** Use pen color and width functions to draw
+        the thick blue square shown below.  The size of the square doesn't matter.\r
         \r
         In
-        addition to the usually move and orient turtle(and define and call function
-        if you want to be extra efficient), you'll also need to use the new subgoal
-        `set pen properties`.\r
+        addition to the usual `//Move turtle` and `//Orient turtle` (and `//Define
+        function` and `//Call function` if you want to be extra efficient), you'll
+        also need to use the new subgoal `//Set pen properties`.\r
         \r
         <img src="https://images.code.org/6ed36a408e568a0410f10d017550843f-image-1441904430698.png"
         style="height: 250px">
@@ -34273,22 +34290,11 @@
         ![](https://images.code.org/e63f3cf801abf22c01c475031c46ff66-image-1441992129690.gif)\r
         \r
         You'll
-        need two subgoals for this: Set pen properties and Move Turtle. Because you
-        need to make two dots at the beginning without moving the turtle, you're
-        really doing "set pen properties" twice in a row. Because this problem will
+        need two subgoals for this: `//Set pen properties` and `//Move Turtle`. Because
+        you need to make two dots at the beginning without moving the turtle, you're
+        really doing `//Set pen properties` twice in a row. Because this problem will
         take a little bit of experimentation to get the dots the right size, we've
-        already outlined the problem solution with subgoals.\r
-        \r
-        In workspace -
-        prepopulate with\r
-        * //Set pen properties\r
-        * //Set pen properties\r
-        *
-        //Move turtle\r
-        * //Set pen properties\r
-        * //Move turtle\r
-        * //Set pen
-        properties
+        already outlined the problem solution with subgoals.
       SG U3L06 Challenge 4 bullseye_markdown_instruction: |-
         # Hexadecimal Colors\r
         \r
@@ -34313,7 +34319,7 @@
         your first try?*\r
         \r
         For each circle in the bullseye, you'll complete
-        the same subgoal: set pen properties.\r
+        the same subgoal: `//Set pen properties`.\r
         \r
         <img src="https://images.code.org/d53ae656d6eeae3611449b65db669242-image-1441981098736.png"
         style="height: 250px">\r
@@ -34327,11 +34333,11 @@
         There is another command that lets you set
         the pen color called `penRGB(r,g,b,a)`.\r
         \r
-        * The first 3 parameters present
+        * The first 3 parameters represent
         values (in the range 0-255) for the red, green, and blue channels. \r
         * The
         4th parameter `a` stands for "alpha".  The "alpha channel" for color lets
-        you set the level of **opacity** as a decimal value between 0 and 1 - it is
+        you set the level of **opacity** as a decimal value between 0 and 1. It is
         interpreted as a percentage, so 0.5 equates to 50% opaque.  For example: `penRGB(113,
         102, 160, 0.5)`.\r
         \r
@@ -34339,35 +34345,36 @@
         tracing the path. In the original robotic turtle used 50 years ago,this meant
         that the pen was down so that it would draw on the paper. The turtle can also
         move with the pen up, or not tracing its path. The commands to switch between
-        these two are penUP and penDown. The pen by default is set to down position,so
-        to stop drawing with the pen use penUp.When you want to start drawing again,
-        use penDown.\r
+        these two are `penUp()` and `penDown()`. The pen by default is set to down
+        position, so to stop drawing with the pen use `penUp()`. When you want to
+        start drawing again, use `penDown()`.\r
         \r
         # Do This:\r
         \r
-        **Read the Documentation:** To figure
-        out how to use `penRGB()` go read the documentation, paying special attention
-        to the syntax used to give a command **multiple values**.\r
+        **Read the
+        Documentation:** To figure out how to use `penRGB()` go read the documentation,
+        paying special attention to the syntax used to give a command **multiple values**.\r
         \r
-        <img src="https://images.code.org/3247af8d88da11a042d0bd9a76b49f12-image-1441982501960.png"
+        <img
+        src="https://images.code.org/3247af8d88da11a042d0bd9a76b49f12-image-1441982501960.png"
         style="height: 250px; float: left; margin: 10px">\r
         \r
         **Draw the circles:
         ** \r
         \r
-        Use `penRGB()`,`penUp` and `dot()` to draw two overlapping circles
+        Use `penRGB()`,`penUp()` and `dot()` to draw two overlapping circles
         as shown in the image.\r
         \r
         All of these new blocks give you new ways to
-        achieve the subgoal "Set pen properties". You use this subgoal multiple
-        times to complete this problem as well as "Move turtle".
-      SG U3L06 Challenge 6 squiggles_markdown_instruction: |-
+        achieve the subgoal `//Set pen properties`. You use this subgoal multiple
+        times to complete this problem as well as the `//Move turtle` subgoal.
+      SG U3L06 Challenge 6 squiggles_markdown_instruction: |
         # Multiple Parameters
         - Making Arcs\r
         \r
         Many commands need more than one parameter to make sense.
         When a command needs more than one parameter, the parameters are separated
-        by commas.**The order of the parameters matters**.\r
+        by commas. **The order of the parameters matters**.\r
         \r
         Two new commands
         have been added to the block palette, `arcLeft()` and `arcRight()` which both
@@ -34375,44 +34382,36 @@
         \r
         Read the documentation for `arcLeft()` and `arcRight()`
         . Notice that in the documentation you can see what the order of parameters
-        is.First angle, then radius.\r
+        is: first angle, then radius.\r
         \r
+        \r
+        # Do This:\r
         <img src="https://images.code.org/320a5e54abb95b267738d5e15946b51c-image-1441985535028.png"
         style="height: 250px; float: left; margin: 10px">\r
         \r
-        # Do This:\r
+        **Draw a squiggly
+        line: ** \r
         \r
-        **Draw
-        a squiggly line: ** \r
-        \r
-        Using `arcLeft` and `arcRight` along with the
-        functions you have already learned to draw a **purple squiggle on a blue background**.
-        Feel free to use any of the methods for choosing colors.\r
+        Using `arcLeft` and `arcRight` along with the functions you
+        have already learned to draw a **purple squiggle on a blue background**. Feel
+        free to use any of the methods for choosing colors.\r
         \r
         \r
         \r
         Hints:\r
         *
-        To make the figure exactly, you need to turn before calling arcLeft or arcRight
-        to orient the turtle first.\r
-        * The parameters to arcLeft and arcRight are
-        the same.\r
-        * The colors are "PowderBlue" and "Purple" - though you can
-        use other colors if you like.\r
+        To make the figure exactly, you need to `//Orient turtle` before calling `arcLeft()`
+        or `arcRight()` by turning the turtle first.\r
+        * The parameters to `arcLeft()`
+        and `arcRight()` are the same.\r
+        * The colors are "PowderBlue" and "Purple"
+        - though you can use other colors if you like.\r
         \r
-        The subgoals for this problem are listed
-        below to help you get started.Notice that you'll achieve "Move turtle"
-        using the new arc blocks. As we learn more features of App Lab, you'll have
-        more options for how to complete subgoals. \r
+        The subgoals for this
+        problem are already in the workspace to help you get started. Notice that
+        you'll achieve `//Move turtle` using the new arc blocks. As we learn more
+        features of App Lab, you'll have more options for how to complete subgoals.
         \r
-        \r
-        In workspace - prepopulate
-        with\r
-        *\t//Set pen properties\r
-        *   //Orient turtles\r
-        *   //Set pen properties\r
-        *   //Move
-        turtle
       SG U3L06 Challenge 7 smiley face_markdown_instruction: |-
         # Moving Relative to
         the Screen\r
@@ -34427,26 +34426,28 @@
         on the screen based on its X and Y coordinates. `turnTo()` turns the turtle
         in a specific direction. Together these commands can make many drawings easier
         to complete.\r
-        Just like moveForward, moveTo achieves the subgoal " Move
-        turtle ". And just like turnLeft, turnTo achieves the subgoal "Orient turtle".\r
         \r
-        #
-        Do This:\r
+        Just like `moveForward()`, `moveTo()` achieves the subgoal
+        `//Move turtle`. And just like `turnLeft()`, `turnTo()` achieves the subgoal
+        `//Orient turtle`.\r
         \r
-        **Read the documentation: ** Read the documentation for `moveTo()`
-        and `turnTo()`. Pay specific attention to how the coordinate system is arranged
-        in App Lab as it is different from what you might have seen in a math class.\r
+        # Do This:\r
         \r
-        **Draw
-        the smiley: ** Use these new commands to help you draw the smiley face pictured
-        below.\r
+        **Read the documentation: ** Read
+        the documentation for `moveTo()` and `turnTo()`. Pay specific attention to
+        how the coordinate system is arranged in App Lab as it is different from what
+        you might have seen in a math class.\r
         \r
-        **HINT: ** Don't forget to use `penUp()` and `penDown()`.\r
+        **Draw the smiley: ** Use these
+        new commands to help you draw the smiley face pictured below.\r
         \r
-        Make
-        sure that you plan your program with subgoals before you start filling in
-        the blocks. Especially because you'll have to do some trial and error with
-        the parameters, planning with subgoals will help keep you organized.\r
+        **HINT:
+        ** Don't forget to use `penUp()` and `penDown()`.\r
+        \r
+        Make sure that you
+        plan your program with subgoals before you start filling in the blocks. Especially
+        because you'll have to do some trial and error with the parameters, planning
+        with subgoals will help keep you organized.\r
         \r
         ![](https://images.code.org/20cab2a0b3a4fdfd53d7a1876963fa10-image-1441990625064.png)
       SG U3L06 Challenge 8 make your own_markdown_instruction: |-
@@ -34520,7 +34521,7 @@
         lets you see and use any previous version of your code.\r
         \r
         ![](https://images.code.org/881d72d190c0637705f8021369962701-image-1443117323816.gif)
-      SG U3L07 - allSeaGrass_markdown_instruction: |
+      SG U3L07 - allSeaGrass_markdown_instruction: |-
         # Add Seagrass\r
         <img src="https://images.code.org/a67f893ea9187b253ec4f6abcb16b7cf-image-1443048301130.30.42
         PM.png" style="width: 200px; float: right">\r
@@ -34532,7 +34533,7 @@
         \r
         *
         **Add a `for` loop** to `drawAllSeagrass` that draws about **50 pieces** of
-        seagrass using your updated `drawSeagrass` function.\r
+        seagrass using your updated `drawSeagrass` function.
       SG U3L07 - bubbles_markdown_instruction: |-
         # Add Bubbles\r
         <img src="https://images.code.org/ffeec83d7bb838f87f46ec1638710440-image-1443019519379.44.49
@@ -34589,30 +34590,12 @@
         ![](https://images.code.org/ead2720df19b117cae753c4397dd832d-image-1442868072299.png)\r
         \r
         When
-        we used the subgoal “Define function” before, we only gave the function a
-        name and then filled it in with blocks. In this problem the subgoal “Define
-        function” includes giving the function a name, defining the parameters, and
-        filling it in with blocks. For this puzzle, we’ve done the first two steps
-        for you, but you’ll be doing it all in the coming puzzles.\r
+        we used the subgoal `//Define function` before, we only gave the function
+        a name and then filled it in with blocks. In this problem the subgoal `//Define
+        function` includes giving the function a name, defining the parameters, and
+        filling it in with blocks. For this puzzle, we've done the first two steps
+        for you, but you'll be doing it all in the coming puzzles.\r
         \r
-        In workspace
-        – prepopulate with\r
-        \r
-        * //Set pen properties\r
-        * penUp\r
-        * //Move turtle\r
-        *
-        moveTo (150, 150)\r
-        * //Call function\r
-        * drawTriangle (100)\r
-        * //Move
-        turtle\r
-        * moveTo (250, 300)\r
-        * //Call function\r
-        * drawTriangle (150)\r
-        *
-        //Define function\r
-        * function drawTriangle (sideLength)\r
         \r
       SG U3L07 - fish_markdown_instruction: |-
         # Add Fish\r
@@ -34652,16 +34635,16 @@
         \r
         #
         Do This:\r
-        * **Drag** out a `for` loop block.This serves the subgoal “Write
-        a loop.” Much like the subgoal “Define function,” you will then fill in the
-        loop, which might involve achieving more subgoals, like move and orient turtle.\r
+        * **Drag** out a `for` loop block. This serves the subgoal `//Write
+        a loop`. Much like the subgoal `//Define function`, you will then fill in
+        the loop, which might involve achieving more subgoals, like `//Move turtle`
+        and `//Orient turtle`.\r
         \r
-        *
-        **Inside the loop:**\r
-        \t* **Add** a call to `moveForward`.\r
-            * **Add**
-        a call `turnLeft`. (HINT: try turning by 137 degrees to start. You can change
-        after that.)\r
+        * **Inside the loop:**\r
+        \t* **Add** a call
+        to `moveForward()`.\r
+            * **Add** a call `turnLeft()`. (HINT: try turning
+        by 137 degrees to start. You can change after that.)\r
             \r
         ![](https://images.code.org/4da4a0c8a10a3c9637df96507fece183-image-1443038466204.gif)\r
         \r
@@ -34678,12 +34661,7 @@
         **Move
         on** once you feel like you have a decent grasp of using a `for` loop: setting
         the number of times to repeat, running the program, and setting the run speed.\r
-        \r
-        In
-        workspace – prepopulate with\r
-        \r
-        //Write a loop\r
-      SG U3L07 - loopsWithRandom_markdown_instruction: |
+      SG U3L07 - loopsWithRandom_markdown_instruction: |-
         # Using Multiple Loops\r
         \r
         Some
@@ -34707,7 +34685,7 @@
         it take?\r
         \r
         HINT: you can copy/paste the original loop and just change
-        the color of the dots and number of iterations.\r
+        the color of the dots and number of iterations.
       SG U3L07 - randomDots1_markdown_instruction: |-
         # Looping with Random Values\r
         \r
@@ -34734,7 +34712,7 @@
         \r
         **Compare what you found**
         with a neighbor to see how close your results are.  Then **move on**.
-      SG U3L07 - randomSquare_markdown_instruction: |
+      SG U3L07 - randomSquare_markdown_instruction: |-
         # Practice Using Loops - Part
         2\r
         \r
@@ -34742,14 +34720,12 @@
         \r
         Use a `for`
         loop to call a function that you wrote.  We've provided the code for the
-        `drawSquare` function for you. \r
+        `drawSquare()` function for you. \r
         \r
         **Drag out** a `for` loop.\r
         \r
         **Inside
-        the loop** add a call to `drawSquare`, and a call to `turnRight`.\r
-        \r
-        ![](https://images.code.org/c4037292ac237ac60919fae2c24790db-image-1443104130552.gif)\r
+        the loop** add a call to `drawSquare()`, and a call to `turnRight()`.\r
         \r
         **Run
         the program** to see what's happening.\r
@@ -34766,12 +34742,8 @@
         loop then **move on**.\r
         \r
         To solve the problem, you'll achieve the subgoal
-        "Write a loop" and within your loop, you'll "Call function" and "Orient
-        turtle".\r
-        \r
-        In workspace – prepopulate with what's already there, but
-        replace "// Insert your code here" with // Write a loop and replace "//
-        Draw a Square of the given size" with // Define function\r
+        `//Write a loop` and within your loop, you'll use `//Call function` and `//Orient
+        turtle`.
       SG U3L07 - seaGrass_markdown_instruction: |-
         # Controlling Loops with Parameters\r
         <img
@@ -34841,7 +34813,7 @@
         \r
         ![](https://images.code.org/1aadf83bcecaf5ca6c505e46d43e5f45-image-1443046811335.20.04
         PM.png)
-      SG U3L07 - sunBeams_markdown_instruction: |
+      SG U3L07 - sunBeams_markdown_instruction: |-
         # Add Sunbeams\r
         <img src="https://images.code.org/9e08dae8486f66422d492b8d8a6777eb-image-1443048962131.55.54
         PM.png" style="width: 200px; float: right">\r
@@ -34862,7 +34834,7 @@
         * **Place the commands already inside the function in your loop.** This
         way your code will move the turtle to a random x location at the top of the
         image (y is 0), `turnTo` a random angle between **165 and 175 degrees**, and
-        call `drawSunbeam`.\r
+        call `drawSunbeam`.
       SG U3L07 - topDownDesign_markdown_instruction: |-
         # Top-Down Design\r
         <img src="https://images.code.org/b4379f51db96b8b1c921de2579e16357-image-1443011791766.21.53
@@ -34921,7 +34893,7 @@
         as to which is better, but what do you think?  What kinds of circumstances
         would lead you to writing a function versus using a loop?\r
         \r
-      SG U3L07 More Subgoals_markdown_instruction: |
+      SG U3L07 More Subgoals_markdown_instruction: |-
         # Documentation\r
         As we move
         forward you are going to see more and more (and more!) commands added to the
@@ -34934,12 +34906,12 @@
         ![](https://images.code.org/3fe10e1b65edb37306099098161be001-image-1441990727053.gif)\r
         \r
         When
-        you **hover your mouse over a command** in the block palette a bubble pops
-        up with a quick reminder of what a function does, and what its parameters
-        are. If you click "See examples", you will be taken to more detailed documentation
-        of the command which includes **code examples** that you can even copy and
-        paste.\r
-      SG U3L08 - createTwoParamTriangle_markdown_instruction: |
+        you **hover your mouse over a non-subgoal command** in the block palette a
+        bubble pops up with a quick reminder of what a function does, and what its
+        parameters are. If you click "See examples", you will be taken to more detailed
+        documentation of the command which includes **code examples** that you can
+        even copy and paste.
+      SG U3L08 - createTwoParamTriangle_markdown_instruction: |-
         # Defining Functions
         with Multiple Parameters\r
         \r
@@ -34953,38 +34925,18 @@
         your function `drawTriangle`. \r
         * **Define `drawTriangle` to have two parameters
         ** within the parentheses making sure to give them **descriptive and meaningful**
-        names separated by commas, such as (size,width). \r
-        *  Then **write ** the
+        names separated by commas, such as `(size,width)`. \r
+        * Then **write ** the
         code inside `function drawTriangle(size, width)` that will make it work as
         described.\r
-        *  If you get stuck, come up with a top-down plan and the subgoals
+        * If you get stuck, come up with a top-down plan and the subgoals
         you need for creating a function that draws a triangle.\r
         * Test it out!  **Run
         ** the code and experiment to create an image similar to the one below.\r
         \r
-        ![](https://images.code.org/a389c07c259c8877989b6920328a4c78-image-1442529590755.39.38
-        PM.png)\r
-        \r
-        Remember that to achieve the subgoal “Define function,” you
-        need to give it a name, identify the parameters, and fill it in with blocks.\r
-        In
-        workspace – prepopulate with\r
-        * //Set pen properties\r
-        * penUp\r
-        * //Move
-        turtle\r
-        * moveTo (200, 200)\r
-        * //Call function\r
-        * drawTriangle (150,
-        5)\r
-        * //Move turtle\r
-        * moveTo (300, 400)\r
-        * //Call function\r
-        * drawTriangle
-        (200, 10)\r
-        * //Define function\r
-        \r
-        \r
+        Remember
+        that to achieve the subgoal `//Define function`, you need to give it a name,
+        identify the parameters, and fill it in with blocks.
       SG U3L08 - digitalScene_markdown_instruction: |-
         # Design Your Digital Scene\r
         \r
@@ -34999,7 +34951,7 @@
         \r
         **Design your scene** using these functions,
         placing your calls at the top of the file.
-      SG U3L08 - drawSquareWithParam_markdown_instruction: |
+      SG U3L08 - drawSquareWithParam_markdown_instruction: |-
         # Defining and Using
         a Function with a Parameter\r
         From the video, you learned that defining multiple
@@ -35025,7 +34977,7 @@
         **HINT:**
         You should only need to change one thing about an existing line of code. You
         don't need to add or remove any lines of code. Remember: The parameter `size`
-        acts like a placeholder for a value that gets plugged into each call to `moveForward()`.\r
+        acts like a placeholder for a value that gets plugged into each call to `moveForward()`.
       SG U3L08 - fish_markdown_instruction: |-
         # Adding parameters to functions: *drawFish*\r
         \r
@@ -35091,7 +35043,7 @@
         one -- those functions draw based on where the turtle is just before the call.\r
         *
         Test out your code. If something doesn't work like you expect, consider whether
-        you can add anything to the functions definitions to make them better.\r
+        you can add anything to the functions' definitions to make them better.\r
         *
         **Continue ** to the next level, **where your code will be waiting for you.**\r
         \r
@@ -35110,13 +35062,14 @@
         \r
         **Note:**
         this means that drawFish will now have 4 parameters total: size, red, green,
-        and blue.\r
+        and blue. Remember that identifying these parameters are all part of the subgoal
+        `//Define function`.\r
         \r
-        **HINT:** inside drawFish just replace the numbers of the
-        penRGB values with the parameters of your function.\r
+        **HINT:** inside drawFish just replace the numbers
+        of the penRGB values with the parameters of your function.\r
         \r
-        **Change** the
-        function calls at the top your code to draw different colored fish.\r
+        **Change**
+        the function calls at the top your code to draw different colored fish.\r
         \r
         ![](https://images.code.org/14b52d152c818903b0fc87061126f0f8-image-1442608501173.34.30
         PM.png)
@@ -35130,7 +35083,8 @@
         \r
         **Add a parameter** to the function definition for drawStarfish
         that allows you to control its size - like `drawStarfish(size)`. Make sure
-        your parameter has a **descriptive and meaningful** name.\r
+        your parameter has a **descriptive and meaningful** name. Also make sure to
+        change the blocks within the function to use the parameter name that you chose.\r
         \r
         **Update
         your function calls** to use your new version of `drawStarfish` and change
@@ -35138,7 +35092,7 @@
         \r
         ![](https://images.code.org/320485cb05b50bcdb8aa8d13c0164502-image-1442606362191.59.12
         PM.png)
-      SG U3L08 - randomInput_markdown_instruction: |
+      SG U3L08 - randomInput_markdown_instruction: |-
         # Random Input\r
         \r
         You have
@@ -35171,7 +35125,7 @@
         and also get some **interesting looking images**. Every time you run the program
         you can get slightly different looking scenes like the ones below.\r
         \r
-        ![](https://images.code.org/d2031f555ed23bcfa4a6a6165074b559-image-1442852053630.png)\r
+        ![](https://images.code.org/d2031f555ed23bcfa4a6a6165074b559-image-1442852053630.png)
       SG U3L08 - seaGrass_markdown_instruction: |-
         # Adding Parameters to Functions:
         *drawSeagrass*\r
@@ -35191,7 +35145,7 @@
         \r
         ![](https://images.code.org/0b7d1750101a4c81ef8d77d8668f94f2-image-1442606862829.07.30
         PM.png)
-      SG U3L08 - squareTwoParams_markdown_instruction: |-
+      SG U3L08 - squareTwoParams_markdown_instruction: |
         # Calling Functions with
         Multiple Parameters\r
         \r
@@ -35210,29 +35164,10 @@
         ![](https://images.code.org/ddd85deb33ff82f3c257d25cdc9e6384-image-1442526350229.45.38
         PM.png)\r
         \r
-        Just like for the subgoal "Define function",the subgoal "Call
-        function" used to involve only identifying the function's name. Now when
-        you call a function, you need to identify the function's name and the value
-        of the parameters for the function.\r
-        \r
-        In workspace – prepopulate with
-        \r
-        * //Set pen properties\r
-        * penUp\r
-        * //Move turtle\r
-        * moveTo (150,
-        150)\r
-        * //Call function\r
-        * \r
-        * //Move turtle\r
-        * moveTo (250, 300)\r
-        *
-        //Call function\r
-        * \r
-        * //Define function\r
-        * function drawSquare (size,
-        borderWidth)\r
-          * (all of the blocks that are currently in there)
+        Just like for the subgoal `//Define function`, the subgoal
+        `//Call function` used to involve only identifying the function's name. Now
+        when you call a function, you need to identify the function's name and the
+        value of the parameters for the function.\r
       SG U3L08 Assessment2_markdown_instruction: |-
         “Abstraction” is often used to
         focus on a general case and ignore a specific instance of a problem. \r
@@ -35240,7 +35175,7 @@
         Given
         this meaning of the word, how are functions with parameters an example of
         abstraction?
-      SG U3L08 comments_markdown_instruction: |
+      SG U3L08 comments_markdown_instruction: |-
         # Commenting code\r
         \r
         When you
@@ -35260,7 +35195,7 @@
         on. Imagine that you are describing the purpose of the code to one of your
         classmates.\r
         \r
-        ADD ANIMATED GIF HERE.\r
+        ADD ANIMATED GIF HERE.
       SG U3L2 Using Simple Commands_markdown_instruction: |-
         <!--<img src="https://images.code.org/0aca9e3ba0945f31ddd56438a45ed69c-image-1436286498758.png"
         align=right> -->\r
@@ -44722,6 +44657,163 @@
          <img src="https://images.code.org/177d70ab086d1481ad2ba5d367379aff-image-1445353103029.gif"
         style="width: 500px">\r
          </details>
+      U3-AP-Practice-FR-design-process_markdown_instruction: |-
+        # AP Practice - Performance
+        Task Response\r
+        \r
+        Top-down design is design process and strategy for breaking
+        down complex things.  The AP Create Peformance task asks you to write about
+        your development process when writing code.  \r
+        \r
+        Let's take a minute
+        to understand this writing prompt and how it is scored. Here is the actual
+        writing prompt **2b** from the AP Create Task guidelines:\r
+        \r
+        <div style="width:
+        70%; margin: auto; font-family: serif; font-size: 12pt; line-height: 1.3;
+        background-color: #EEEEEE; padding: 10px">\r
+        \r
+        <b>2b.</b> Describe the
+        incremental and iterative development process of your program, focusing on
+        two distinct points in that process. Describe the difficulties and/or opportunities
+        you encountered and how they were resolved or incorporated. In your description
+        clearly indicate whether the development described was collaborative or independent.
+        At least one of these points must refer to independent program development.
+        <i>(Must not exceed 200 words)</i>\r
+        </div>\r
+        <br>\r
+        Your response to this
+        prompt can get up to 2 points, and is scored looking at two major things:\r
+        \r
+        1.
+        (1 point) Do you describe a real *iterative* process for writing the *whole*
+        program - "Incremental and iterative" means that you continuously improved
+        your program based on testing, reflection, or feedback from a partner.\r
+        \r
+        2.
+        (1 point) Do you actually describe *two* points in time while writing your
+        code, what the specific issue was, and how you got past it by *reflecting*
+        or *incorporating feedback* from a collaborative partner.\r
+        \r
+        Here are
+        the actual scoring guidelines:\r
+        \r
+        ![](https://images.code.org/1cb4a1840d281a9c5c5096becc8c9054-image-1507827422107.png)\r
+        \r
+        ##
+        Now you try it\r
+        \r
+        Try to write a response to this AP Prompt thinking about
+        either how you developed the idea for the snowflake drawing program, or how
+        you resolved to make the 3x3 grid program.  You might have to use a little
+        bit of imagination to assume that it's part of a larger program you created
+        yourself.  The point is to *practice writing* about your development process.
+      U3-AP-Practice-FR-manage-complexity_markdown_instruction: |-
+        # AP Practice -
+        Performance Task Response\r
+        \r
+        The AP Create Performance task asks you to
+        write about an abstraction that you developed and wrote into your code. Most
+        of the time that means identifying a function or procedure you wrote to help
+        "manage complexity" in your program.\r
+        \r
+        Here is the actual prompt from
+        the Create Performance Task:\r
+        \r
+        <div style="width: 70%; margin: auto;
+        background-color: #EEEEEE; padding: 10px; font-family: serif; font-size: 12pt">\r
+        \r
+        <b>2d.</b>
+        Capture and paste a program code segment that contains an abstraction you
+        developed individually on your own (marked with a <b>rectangle</b>). This
+        abstraction must integrate mathematical and logical concepts. Explain how
+        your abstraction helped manage the complexity of your program.\r
+        <br>\r
+        <i>(Must
+        not exceed 200 words)</i>\r
+        \r
+        </div>\r
+        \r
+        <br>\r
+        \r
+        Below is a segment
+        of code from an "under the sea" program with a rectangle drawn around a
+        portion of the code identifying an abstraction. Imagine that you wrote this
+        and are composing an AP response about how this abstraction manages complexity.  (Note:
+        ignore the requirement that the abstraction integrate "mathematical and logical
+        concepts" for this practice response.  Just write about managing complexity).\r
+        \r
+        ![](https://images.code.org/d98fa58fce78eff86fd734f32e2960e4-image-1507913593511.png)\r
+        \r
+        Explain
+        how the abstraction marked with the rectangle in the code above helps manage
+        complexity of this program.
+      U3-AP-Practice-FR-score-abstraction-response_markdown_instruction: |-
+        # AP Practice
+        - Scoring a PT Response\r
+        \r
+        In this scenario imagine that **you are scoring
+        an AP Performance Task response.**  Below we show the student's submitted
+        code as well as their written response for writing prompt **2d**.\r
+        \r
+        As
+        a reminder, here is that prompt:\r
+        \r
+        <div style="width: 80%; margin: auto;
+        background-color: #EEEEEE; padding: 10px; font-family: serif; font-size: 12pt">\r
+        \r
+        <b>2d.</b>
+        Capture and paste a program code segment that contains an abstraction you
+        developed individually on your own (marked with a <b>rectangle</b>). The abstraction
+        must integrate mathematical and logical concepts. Explain how your abstraction
+        helped manage the complexity of your program. \r
+        <br>\r
+        <i>(Must not exceed
+        200 words)</i>\r
+        </div>\r
+        <br>\r
+        \r
+        And here is the student written response
+        that goes with the code shown at right:\r
+        \r
+        <div style="width: 80%; margin:
+        auto; background-color: #d9eff7; padding: 10px; font-family: monospace; font-size:
+        12pt; line-height: 18pt; display: inline-block">\r
+        \r
+        <img src="https://images.code.org/732ea3633d67312724382facaa281955-image-1507928836621.png"
+        style="float: right; margin-right: 40px">\r
+        <strong>Student response:</strong><br>\r
+        \r
+        The
+        abstraction I have identified draws a heart in the program.  The whole program
+        draws a picture with turtle graphics that says "I [heart] CS" where the
+        [heart] is actually a drawing of a heart shape. Because I am using the parameterized
+        versions of these turtle functions it helps manage the complexity of the code.
+        Without the parameters the drawing is achieve-able but would require many
+        many more lines of code.  For example: the command to <code>arcRight(220,
+        30)</code>  - which moves the turtle in a 220-degree arc with a 30-pixel radius
+        - is possible to do with a long series of repeated <code>moveForward</code>,
+        and <code>turnRight</code> commands, possibly hundreds. By using the <code>arcRight</code>
+        command I encapsulate in one line what the code should be doing rather than
+        having to reason about hundreds of lines of code.\r
+        </div>\r
+        <div style="clear:
+        both"></div>\r
+        <br>\r
+        Use the scoring guide (shown below) to determine
+        if the student should be awarded the point for each of the two criteria about
+        abstractions (row 7 and 8)\r
+        \r
+        ![](https://images.code.org/478c762d2ac876b8b830caabd62c1571-image-1507929333152.png)\r
+        \r
+        #
+        You score it\r
+        In the response area below write the following:\r
+        \r
+        For
+        each row determine (1) if the point should be awarded and (2) justify your
+        decision - why did you (or did you not) award the point. Cite the specific
+        criteria in the scoring guide that was or wasn't met.
       U3-Design Mode-ID and Event Handler_markdown_instruction: |-
         # Activate Your
         Button\r
@@ -46141,8 +46233,8 @@
         \r
         In
         the next several challenges you will be working to improve **one program**
-        that draws a simple underwater scene.  Each time you click Finish, your code
-        will be pulled forward into the next challenge and you'll get new instructions
+        that draws an underwater scene.  Each time you  finish a puzzle and move on
+        to the next one, your code will be pulled forward and you'll get new instructions
         telling you what to add.\r
         \r
         # Do This:\r
@@ -46151,14 +46243,20 @@
         program provided to get a basic understanding of what it does.\r
         * **Add
         function calls ** to the top of the program so that **two fish, two starfish,
-        and two pieces of seagrass** appear somewhere in the scene.\r
-        * **Hint:**
-        you need to call `moveTo` before drawing a second fish, starfish or seagrass,
-        otherwise you won't see the second one because it will draw exactly over
-        the first one -- those functions draw based on where the turtle is just before
-        the call.\r
-        * **Continue ** to the next level, **where your code will be
-        waiting for you.**\r
+        and two pieces of seagrass** appear somewhere in the scene. You don't need
+        to provide values for the parameters at this stage.\r
+        * **Hint:** you need
+        to call `moveTo` before drawing a second fish, starfish or seagrass, otherwise
+        you won't see the second one because it will draw exactly over the first
+        one -- those functions draw based on where the turtle is just before the call.\r
+        *
+        Test out your code. If something doesn’t work like you expect, consider whether
+        you can add anything to the functions’ definitions to make them better.\r
+        *
+        **Continue ** to the next level, **where your code will be waiting for you.**\r
+        \r
+        In
+        workspace – prepopulate with what is already there\r
         \r
         ![](https://images.code.org/a53accb7edf7ed4e09d56bab903e1af9-image-1442604192660.22.35
         PM.png)
@@ -60472,7 +60570,7 @@
         You can only collect nectar
         from flowers, but you can check any space to see if there is a flower. If
         there is a flower under any of these clouds, the bee will need to collect
-        nectar *once*.
+        nectar **once**.
       courseF_bee_conditionals4_markdown_instruction: |-
         In this puzzle, we know that
         every flower has exactly one nectar, but the flowers aren't spaced evenly.\r
@@ -61483,62 +61581,36 @@
         \r
         \r
         \r
-      csd4dlp-assessment_markdown_instruction: |
-        <br><br>\r
-        \r
-        > **NOTE: before
-        you start this reflection, make sure you’ve reviewed the lesson in Unit 4,
-        and have a good sense of the the role of assessment across the unit. If you
-        haven’t already reviewed the materials, do that now and come back to this
-        reflection later.**\r
-        \r
-        \r
-        # Assessment in Unit 4\r
-        \r
-        For this reflection,
-        you’re going to consider each of the prompts below and craft a written response
-        that demonstrates your understanding of the lessons in Unit 4. Your response
-        should clearly address each of the items below: \r
-        \r
-        1. What summative
-        and formative assessment opportunities are built into the unit? \r
-        \t* What’s
-        the role of the project(s) in the unit? \r
-        \t* How does the project(s) apply
-        content and skills that were developed during the unit? \r
-        \t* What kinds
-        of special considerations come with the group project in this unit?\r
-        2.
-        What skills and knowledge should students leave the unit with?\r
-        3. 3. What
-        are the core 2017 CSTA standards concepts (algorithms & programming, computing
-        systems, data analysis, impacts of computing, and networks & the internet),
-        and practices (Fostering an Inclusive Computing Culture, Collaborating Around
-        Computing, Recognizing and Defining Computational Problems, Developing and
-        Using Abstractions, Creating Computational Artifacts, Testing and Refining
-        Computational Artifacts, and Communicating About Computing) emphasized in
-        this unit? How are they emphasized?\r
-        \r
-        \r
-        \r
-        >## Getting Credit for
-        Completing this Reflection \r
-        \r
-        >- Once you submit your reflection, your
-        response to the prompt above will be shared anonymously and reviewed by your
-        peers, and you will review the work done by other facilitators. Reviewers
-        will be looking for thoughtful and thorough answers that demonstrate that
-        you have spent time considering the reflection questions listed above. Reviewers
-        will have an opportunity to give feedback on your submission, and you can
-        respond to that feedback and resubmit.\r
-        - In order to get credit for completing
-        this prompt, two reviewers need to agree that you have responded to the prompts
-        fully. If reviewers don’t feel comfortable making a decision about your task
-        submission, they can elevate to an instructor for review. You will always
-        have a chance to address feedback from your reviewers and resubmit your reflections!
-        Reviewer feedback will show up at the bottom of this page, once it’s available.
-        \r
-         \r
+      csd4dlp-assessment_markdown_instruction: "<br><br>\\r\n\\r\n> **NOTE: before\nyou
+        start this reflection, make sure you’ve reviewed the lesson in Unit 4,\nand
+        have a good sense of the the role of assessment across the unit. If you\nhaven’t
+        already reviewed the materials, do that now and come back to this\nreflection
+        later.**\\r\n\\r\n\\r\n# Assessment in Unit 4\\r\n\\r\nFor this reflection,\nyou’re
+        going to consider each of the prompts below and craft a written response\nthat
+        demonstrates your understanding of the lessons in Unit 4. Your response\nshould
+        clearly address each of the items below: \\r\n\\r\n1. What skills and\nknowledge
+        should students leave the unit with? What summative and formative\nassessment
+        opportunities are built into the unit to assess those skills and\nknowledge?\\r\n2.
+        What kinds of special considerations come with the group\nproject in this
+        unit?\\r\n3. What are the core 2017 CSTA standards concepts\n(algorithms &
+        programming, computing systems, data analysis, impacts of computing,\nand
+        networks & the internet), and practices (Fostering an Inclusive Computing\nCulture,
+        Collaborating Around Computing, Recognizing and Defining Computational\nProblems,
+        Developing and Using Abstractions, Creating Computational Artifacts,\nTesting
+        and Refining Computational Artifacts, and Communicating About Computing)\nemphasized
+        in this unit? How are they emphasized?\\r\n\\r\n>## Getting Credit\nfor Completing
+        this Reflection \\r\n\\r\n>- Once you submit your reflection,\nyour response
+        to the prompt above will be shared anonymously and reviewed\nby your peers,
+        and you will review the work done by other facilitators. Reviewers\nwill be
+        looking for thoughtful and thorough answers that demonstrate that\nyou have
+        spent time considering the reflection questions listed above. Reviewers\nwill
+        have an opportunity to give feedback on your submission, and you can\nrespond
+        to that feedback and resubmit.\\r\n- In order to get credit for completing\nthis
+        prompt, two reviewers need to agree that you have responded to the prompts\nfully.
+        If reviewers don’t feel comfortable making a decision about your task\nsubmission,
+        they can elevate to an instructor for review. You will always\nhave a chance
+        to address feedback from your reviewers and resubmit your reflections!\nReviewer
+        feedback will show up at the bottom of this page, once it’s available.\n\\r\n "
       csd4dlp-lessons_markdown_instruction: |
         <br><br>\r
         \r
@@ -61556,29 +61628,26 @@
         demonstrates your understanding of the lessons in Unit 4. Your response should
         clearly address each of the items below: \r
         \r
-        1. Which other unit(s) in
-        the curriculum is is most closely tied to (either because it sets up the later
-        unit or builds on an earlier unit)? How is it connected to the other unit(s)?
+        1. CS Discoveries is set
+        up to allow for the class to be taught as two separate semesters where Unit
+        4 may be the first unit of a new course. What is the role of this unit in
+        kicking off semester 2 of the curriculum?\r
+        2. How is the problem solving
+        process used in this unit? How it is connected to how they used the problem
+        solving process in Units 1 to 3?\r
+        4. Where do you see the Curriculum Values
+        and philosophy emphasized in this unit?\r
         \r
-        2. How is the problem solving process used in this unit? How do students
-        build on that problem solving process throughout the unit?\r
-        3. CS Discoveries
-        is set up to allow for the class to be taught as two separate semesters where
-        Unit 4 may be the first unit of a new course. What is the role of this unit
-        in kicking off semester 2 of the curriculum?\r
-        4. Where do you see the Curriculum
-        Values and philosophy emphasized in this unit?\r
+        >## Getting Credit for Completing
+        this Reflection \r
         \r
-        >## Getting Credit for
-        Completing this Reflection \r
-        \r
-        >- Once you submit your reflection, your
-        response to the prompt above will be shared anonymously and reviewed by your
-        peers, and you will review the work done by other facilitators. Reviewers
-        will be looking for thoughtful and thorough answers that demonstrate that
-        you have spent time considering the reflection questions listed above. Reviewers
-        will have an opportunity to give feedback on your submission, and you can
-        respond to that feedback and resubmit.\r
+        >- Once you submit your reflection, your response
+        to the prompt above will be shared anonymously and reviewed by your peers,
+        and you will review the work done by other facilitators. Reviewers will be
+        looking for thoughtful and thorough answers that demonstrate that you have
+        spent time considering the reflection questions listed above. Reviewers will
+        have an opportunity to give feedback on your submission, and you can respond
+        to that feedback and resubmit.\r
         - In order to get credit for completing
         this prompt, two reviewers need to agree that you have responded to the prompts
         fully. If reviewers don’t feel comfortable making a decision about your task
@@ -61587,7 +61656,6 @@
         Reviewer feedback will show up at the bottom of this page, once it’s available.
         \r
          \r
-        \r
         \r
       csd4dlp-tools_markdown_instruction: |
         \r
@@ -61633,57 +61701,35 @@
          \r
         \r
         \r
-      csd5dlp-assessment_markdown_instruction: |
-        <br><br>\r
-        \r
-        > **NOTE: before
-        you start this reflection, make sure you’ve reviewed the lesson in Unit 5,
-        and have a good sense of the the role of assessment across the unit. If you
-        haven’t already reviewed the materials, do that now and come back to this
-        reflection later.**\r
-        \r
-        \r
-        # Assessment in Unit 5\r
-        \r
-        For this reflection,
-        you’re going to consider each of the prompts below and craft a written response
-        that demonstrates your understanding of the lessons in Unit 5. Your response
-        should clearly address each of the items below: \r
-        \r
-        1. What summative
-        and formative assessment opportunities are built into the unit? \r
-        \t* What’s
-        the role of the project(s) in the unit? \r
-        \t* How does the project(s) apply
-        content and skills that were developed during the unit? \r
-        2. What skills
-        and knowledge should students leave the unit with?\r
-        3. What are the core
-        2017 CSTA standards concepts (algorithms & programming, computing systems,
-        data analysis, impacts of computing, and networks & the internet), and practices
-        (Fostering an Inclusive Computing Culture, Collaborating Around Computing,
-        Recognizing and Defining Computational Problems, Developing and Using Abstractions,
-        Creating Computational Artifacts, Testing and Refining Computational Artifacts,
-        and Communicating About Computing) emphasized in this unit? How are they emphasized?\r
-        \r
-        >##
-        Getting Credit for Completing this Reflection \r
-        \r
-        >- Once you submit your
-        reflection, your response to the prompt above will be shared anonymously and
-        reviewed by your peers, and you will review the work done by other facilitators.
-        Reviewers will be looking for thoughtful and thorough answers that demonstrate
-        that you have spent time considering the reflection questions listed above.
-        Reviewers will have an opportunity to give feedback on your submission, and
-        you can respond to that feedback and resubmit.\r
-        - In order to get credit
-        for completing this prompt, two reviewers need to agree that you have responded
-        to the prompts fully. If reviewers don’t feel comfortable making a decision
-        about your task submission, they can elevate to an instructor for review.
-        You will always have a chance to address feedback from your reviewers and
-        resubmit your reflections! Reviewer feedback will show up at the bottom of
-        this page, once it’s available. \r
-         \r
+      csd5dlp-assessment_markdown_instruction: "<br><br>\\r\n\\r\n> **NOTE: before\nyou
+        start this reflection, make sure you’ve reviewed the lesson in Unit 5,\nand
+        have a good sense of the the role of assessment across the unit. If you\nhaven’t
+        already reviewed the materials, do that now and come back to this\nreflection
+        later.**\\r\n\\r\n\\r\n# Assessment in Unit 5\\r\n\\r\nFor this reflection,\nyou’re
+        going to consider each of the prompts below and craft a written response\nthat
+        demonstrates your understanding of the lessons in Unit 5. Your response\nshould
+        clearly address each of the items below: \\r\n\\r\n1. What skills and\nknowledge
+        should students leave the unit with? What summative and formative\nassessment
+        opportunities are built into the unit to assess those skills and\nknowledge?\\r\n3.
+        What are the core 2017 CSTA standards concepts (algorithms\n& programming,
+        computing systems, data analysis, impacts of computing, and\nnetworks & the
+        internet), and practices (Fostering an Inclusive Computing\nCulture, Collaborating
+        Around Computing, Recognizing and Defining Computational\nProblems, Developing
+        and Using Abstractions, Creating Computational Artifacts,\nTesting and Refining
+        Computational Artifacts, and Communicating About Computing)\nemphasized in
+        this unit? How are they emphasized?\\r\n\\r\n>## Getting Credit\nfor Completing
+        this Reflection \\r\n\\r\n>- Once you submit your reflection,\nyour response
+        to the prompt above will be shared anonymously and reviewed\nby your peers,
+        and you will review the work done by other facilitators. Reviewers\nwill be
+        looking for thoughtful and thorough answers that demonstrate that\nyou have
+        spent time considering the reflection questions listed above. Reviewers\nwill
+        have an opportunity to give feedback on your submission, and you can\nrespond
+        to that feedback and resubmit.\\r\n- In order to get credit for completing\nthis
+        prompt, two reviewers need to agree that you have responded to the prompts\nfully.
+        If reviewers don’t feel comfortable making a decision about your task\nsubmission,
+        they can elevate to an instructor for review. You will always\nhave a chance
+        to address feedback from your reviewers and resubmit your reflections!\nReviewer
+        feedback will show up at the bottom of this page, once it’s available.\n\\r\n "
       csd5dlp-lessons_markdown_instruction: |
         <br><br>\r
         \r
@@ -61701,16 +61747,13 @@
         demonstrates your understanding of the lessons in Unit 5. Your response should
         clearly address each of the items below: \r
         \r
-        1. Which other unit(s) in
-        the curriculum is is most closely tied to (either because it sets up the later
-        unit or builds on an earlier unit)? How is it connected to the other unit(s)?
-        \r
-        2. Which lessons are particularly tricky to teach in this unit and why?
-        \r
-        3. What is the connection between early lessons and later lessons?\r
-        4.
-        To what depth are students expected to understand binary representation systems?
-        How does the order and structure of the lessons support this understanding?\r
+        1. Which lessons are particularly
+        tricky to teach in this unit and why? \r
+        2. What is the connection between
+        the first chapter and second chapter of this unit?\r
+        3. To what depth are
+        students expected to understand binary representation systems? How does the
+        order and structure of the lessons support this understanding?\r
         \r
         \r
         >##
@@ -61731,7 +61774,6 @@
         resubmit your reflections! Reviewer feedback will show up at the bottom of
         this page, once it’s available. \r
          \r
-        \r
         \r
       csd5dlp-tools_markdown_instruction: |
         \r
@@ -61752,23 +61794,21 @@
         that demonstrates your understanding of the lessons in Unit 5. Your response
         should clearly address each of the items below: \r
         \r
-        1. Chapter 2 of this
-        unit includes some lessons with a spreadsheet tool. \r
-        \t* What skills do
-        students need to develop with this tool?\r
-        \t* How does this tool support
-        their understanding of the CS content in this unit?\r
+        1. This unit makes
+        use of a tool optional (teachers can use a spreadsheet tool if they want).
+        If a teacher asked about whether to use a tool or not what kind of things
+        would say/ask in response to support them?\r
         \r
-        >## Getting Credit
-        for Completing this Reflection \r
+        >## Getting Credit for Completing
+        this Reflection \r
         \r
-        >- Once you submit your reflection,
-        your response to the prompt above will be shared anonymously and reviewed
-        by your peers, and you will review the work done by other facilitators. Reviewers
-        will be looking for thoughtful and thorough answers that demonstrate that
-        you have spent time considering the reflection questions listed above. Reviewers
-        will have an opportunity to give feedback on your submission, and you can
-        respond to that feedback and resubmit.\r
+        >- Once you submit your reflection, your response
+        to the prompt above will be shared anonymously and reviewed by your peers,
+        and you will review the work done by other facilitators. Reviewers will be
+        looking for thoughtful and thorough answers that demonstrate that you have
+        spent time considering the reflection questions listed above. Reviewers will
+        have an opportunity to give feedback on your submission, and you can respond
+        to that feedback and resubmit.\r
         - In order to get credit for completing
         this prompt, two reviewers need to agree that you have responded to the prompts
         fully. If reviewers don’t feel comfortable making a decision about your task
@@ -61778,59 +61818,35 @@
         \r
          \r
         \r
-        \r
-      csd6dlp-assessment_markdown_instruction: |
-        <br><br>\r
-        \r
-        > **NOTE: before
-        you start this reflection, make sure you’ve reviewed the lesson in Unit 6,
-        and have a good sense of the the role of assessment across the unit. If you
-        haven’t already reviewed the materials, do that now and come back to this
-        reflection later.**\r
-        \r
-        \r
-        # Assessment in Unit 6\r
-        \r
-        For this reflection,
-        you’re going to consider each of the prompts below and craft a written response
-        that demonstrates your understanding of the lessons in Unit 6. Your response
-        should clearly address each of the items below: \r
-        \r
-        1. What summative
-        and formative assessment opportunities are built into the unit? \r
-        \t* What’s
-        the role of the project(s) in the unit? \r
-        \t* How does the project(s) apply
-        content and skills that were developed during the unit? \r
-        2. Which student
-        practices (PPCCC) are honed the most in this unit through the activities and
-        projects? \r
-        3. What are the core 2017 CSTA standards concepts (algorithms
-        & programming, computing systems, data analysis, impacts of computing, and
-        networks & the internet), and practices (Fostering an Inclusive Computing
-        Culture, Collaborating Around Computing, Recognizing and Defining Computational
-        Problems, Developing and Using Abstractions, Creating Computational Artifacts,
-        Testing and Refining Computational Artifacts, and Communicating About Computing)
-        emphasized in this unit? How are they emphasized?\r
-        \r
-        >## Getting Credit
-        for Completing this Reflection \r
-        \r
-        >- Once you submit your reflection,
-        your response to the prompt above will be shared anonymously and reviewed
-        by your peers, and you will review the work done by other facilitators. Reviewers
-        will be looking for thoughtful and thorough answers that demonstrate that
-        you have spent time considering the reflection questions listed above. Reviewers
-        will have an opportunity to give feedback on your submission, and you can
-        respond to that feedback and resubmit.\r
-        - In order to get credit for completing
-        this prompt, two reviewers need to agree that you have responded to the prompts
-        fully. If reviewers don’t feel comfortable making a decision about your task
-        submission, they can elevate to an instructor for review. You will always
-        have a chance to address feedback from your reviewers and resubmit your reflections!
-        Reviewer feedback will show up at the bottom of this page, once it’s available.
-        \r
-         \r
+      csd6dlp-assessment_markdown_instruction: "<br><br>\\r\n\\r\n> **NOTE: before\nyou
+        start this reflection, make sure you’ve reviewed the lesson in Unit 6,\nand
+        have a good sense of the the role of assessment across the unit. If you\nhaven’t
+        already reviewed the materials, do that now and come back to this\nreflection
+        later.**\\r\n\\r\n\\r\n# Assessment in Unit 6\\r\n\\r\nFor this reflection,\nyou’re
+        going to consider each of the prompts below and craft a written response\nthat
+        demonstrates your understanding of the lessons in Unit 6. Your response\nshould
+        clearly address each of the items below: \\r\n\\r\n1. What skills and\nknowledge
+        should students leave this unit with? What summative and formative\nassessment
+        opportunities are built into the unit to assess those skills and\nknowledge?\\r\n2.
+        What are the core 2017 CSTA standards concepts (algorithms\n& programming,
+        computing systems, data analysis, impacts of computing, and\nnetworks & the
+        internet), and practices (Fostering an Inclusive Computing\nCulture, Collaborating
+        Around Computing, Recognizing and Defining Computational\nProblems, Developing
+        and Using Abstractions, Creating Computational Artifacts,\nTesting and Refining
+        Computational Artifacts, and Communicating About Computing)\nemphasized in
+        this unit? How are they emphasized?\\r\n\\r\n>## Getting Credit\nfor Completing
+        this Reflection \\r\n\\r\n>- Once you submit your reflection,\nyour response
+        to the prompt above will be shared anonymously and reviewed\nby your peers,
+        and you will review the work done by other facilitators. Reviewers\nwill be
+        looking for thoughtful and thorough answers that demonstrate that\nyou have
+        spent time considering the reflection questions listed above. Reviewers\nwill
+        have an opportunity to give feedback on your submission, and you can\nrespond
+        to that feedback and resubmit.\\r\n- In order to get credit for completing\nthis
+        prompt, two reviewers need to agree that you have responded to the prompts\nfully.
+        If reviewers don’t feel comfortable making a decision about your task\nsubmission,
+        they can elevate to an instructor for review. You will always\nhave a chance
+        to address feedback from your reviewers and resubmit your reflections!\nReviewer
+        feedback will show up at the bottom of this page, once it’s available.\n\\r\n "
       csd6dlp-lessons_markdown_instruction: |
         <br><br>\r
         \r
@@ -61849,17 +61865,14 @@
         clearly address each of the items below: \r
         \r
         1. Which lessons are particularly
-        tricky to teach in this unit and why? \r
-        2. How is the content spiraled or
-        scaffolded within the unit? \r
-        3. Which lessons are particularly foundational
-        in the unit?\r
-        4. Which programming skills from Unit 3 does this unit rely
-        upon? Which new skills are introduced?\r
-        5. How does the way students program
-        with the Circuit Playground connect back to the Input-Output-Store-Process
+        tricky to teach in this unit and why?\r
+        2. Which lessons are particularly
+        foundational in the unit?\r
+        3. Which programming skills from Unit 3 does
+        this unit rely upon? What new skills are introduced?\r
+        4. How does the way
+        students program with the Circuit Playground connect back to the Input-Output-Store-Process
         model from Unit 1?\r
-        \r
         \r
         >## Getting Credit for Completing this Reflection
         \r
@@ -61878,7 +61891,6 @@
         address feedback from your reviewers and resubmit your reflections! Reviewer
         feedback will show up at the bottom of this page, once it’s available. \r
 
-        \r
         \r
         \r
       csd6dlp-tools_markdown_instruction: |
@@ -61903,32 +61915,29 @@
         1. What advice do
         you have for teachers about how to handle the transition from programming
         in Game Lab to programming in App Lab? \r
-        \t* What’s the philosophy of App
-        Lab with Maker Toolkit? \r
-        \t* Why are we using App Lab with the Maker Toolkit
-        and Circuit playground rather than teaching without them? \r
-        2. In what ways
-        are the tools in the unit educational rather than professional? \r
+        \t* What’s the philosophy of programming
+        in App Lab with Maker Toolkit? \r
+        2. In what ways are the tools in the unit
+        educational rather than professional? \r
         \r
-        >##
-        Getting Credit for Completing this Reflection \r
+        >## Getting Credit for Completing
+        this Reflection \r
         \r
-        >- Once you submit your
-        reflection, your response to the prompt above will be shared anonymously and
-        reviewed by your peers, and you will review the work done by other facilitators.
-        Reviewers will be looking for thoughtful and thorough answers that demonstrate
-        that you have spent time considering the reflection questions listed above.
-        Reviewers will have an opportunity to give feedback on your submission, and
-        you can respond to that feedback and resubmit.\r
-        - In order to get credit
-        for completing this prompt, two reviewers need to agree that you have responded
-        to the prompts fully. If reviewers don’t feel comfortable making a decision
-        about your task submission, they can elevate to an instructor for review.
-        You will always have a chance to address feedback from your reviewers and
-        resubmit your reflections! Reviewer feedback will show up at the bottom of
-        this page, once it’s available. \r
+        >- Once you submit your reflection, your response
+        to the prompt above will be shared anonymously and reviewed by your peers,
+        and you will review the work done by other facilitators. Reviewers will be
+        looking for thoughtful and thorough answers that demonstrate that you have
+        spent time considering the reflection questions listed above. Reviewers will
+        have an opportunity to give feedback on your submission, and you can respond
+        to that feedback and resubmit.\r
+        - In order to get credit for completing
+        this prompt, two reviewers need to agree that you have responded to the prompts
+        fully. If reviewers don’t feel comfortable making a decision about your task
+        submission, they can elevate to an instructor for review. You will always
+        have a chance to address feedback from your reviewers and resubmit your reflections!
+        Reviewer feedback will show up at the bottom of this page, once it’s available.
+        \r
          \r
-        \r
         \r
       csp-pre-survey-2017-q36-e_markdown_instruction: |-
         I worry because of another
@@ -62601,134 +62610,80 @@
         \r
         1. What’s the role
         of the practice Performance Task(s), or PTs, in the unit? \r
-         - How does
-        the practice Explore PT build on what content and skills were developed during
-        the unit? \r
-        2. What summative and formative assessment opportunities are
-        built into the unit? \r
+        2. What summative
+        and formative assessment opportunities are built into the unit? \r
         \r
         \r
         \r
-        >## Getting Credit for Completing this
-        Reflection \r
+        >##
+        Getting Credit for Completing this Reflection \r
         \r
-        >- Once you submit your reflection, your response to the
-        prompt above will be shared anonymously and reviewed by your peers, and you
-        will review the work done by other facilitators. Reviewers will be looking
-        for thoughtful and thorough answers that demonstrate that you have spent time
-        considering the reflection questions listed above. Reviewers will have an
-        opportunity to give feedback on your submission, and you can respond to that
-        feedback and resubmit.\r
-        - In order to get credit for completing this prompt,
-        two reviewers need to agree that you have responded to the prompts fully.
-        If reviewers don’t feel comfortable making a decision about your task submission,
-        they can elevate to an instructor for review. You will always have a chance
-        to address feedback from your reviewers and resubmit your reflections! Reviewer
-        feedback will show up at the bottom of this page, once it’s available. \r
-
-        \r
-        \r
-        \r
-      csp4dlp-lessons_markdown_instruction: |+
-        <br><br>\r
-        \r
-        > **NOTE: before you
-        start this reflection, make sure you’ve reviewed the lesson in Unit 4, and
-        have a good sense of the connections between lessons. If you haven’t already
-        reviewed the materials, do that now and come back to this reflection later.**\r
-        \r
-        \r
-        #
-        Unit 4 Lesson Connections and Philosophy\r
-        \r
-        For this reflection, you’re
-        going to consider each of the prompts below and craft a written response that
-        demonstrates your understanding of the lessons in Unit 4. Your response should
-        clearly address each of the items below: \r
-        \r
-        1. What skills and knowledge
-        should students leave the unit with?\r
-         - Which Big Idea(s) are students
-        learning the most about? Where and how are those BI(s) addressed? \r
-         - Which
-        skills or Computational Practices are honed through the activities and projects?
-        \r
-        2. What is the connection between early lessons and later lessons?\r
-
-        - How is the content spiraled or scaffolded within the unit? \r
-         - What foundation
-        is being laid early on and how is it leveraged throughout the unit? Why? \r
-
-        - What recommendations do you have about the optional lessons in this unit?
-        (when and why would a teacher choose to use them?)\r
-        3. How can the material
-        covered in the earlier units be connected to unit 4 topics? (specifically
-        the internet and data) \r
-        4. Which lessons are particularly tricky to teach
-        in this unit and why? \r
+        >- Once you submit your
+        reflection, your response to the prompt above will be shared anonymously and
+        reviewed by your peers, and you will review the work done by other facilitators.
+        Reviewers will be looking for thoughtful and thorough answers that demonstrate
+        that you have spent time considering the reflection questions listed above.
+        Reviewers will have an opportunity to give feedback on your submission, and
+        you can respond to that feedback and resubmit.\r
+        - In order to get credit
+        for completing this prompt, two reviewers need to agree that you have responded
+        to the prompts fully. If reviewers don’t feel comfortable making a decision
+        about your task submission, they can elevate to an instructor for review.
+        You will always have a chance to address feedback from your reviewers and
+        resubmit your reflections! Reviewer feedback will show up at the bottom of
+        this page, once it’s available. \r
          \r
         \r
-        >## Getting Credit for Completing this
-        Reflection \r
-        \r
-        >- Once you submit your reflection, your response to the
-        prompt above will be shared anonymously and reviewed by your peers, and you
-        will review the work done by other facilitators. Reviewers will be looking
-        for thoughtful and thorough answers that demonstrate that you have spent time
-        considering the reflection questions listed above. Reviewers will have an
-        opportunity to give feedback on your submission, and you can respond to that
-        feedback and resubmit.\r
-        - In order to get credit for completing this prompt,
-        two reviewers need to agree that you have responded to the prompts fully.
-        If reviewers don’t feel comfortable making a decision about your task submission,
-        they can elevate to an instructor for review. You will always have a chance
-        to address feedback from your reviewers and resubmit your reflections! Reviewer
-        feedback will show up at the bottom of this page, once it’s available. \r
-
-      csp4dlp-tools_markdown_instruction: |
-        <br><br>\r
-        \r
-        > **NOTE: before you start
-        this reflection, make sure you’ve reviewed the lesson in Unit 4, and have
-        a good sense of the the role of tools in the lessons. If you haven’t already
-        reviewed the materials, do that now and come back to this reflection later.**\r
-        \r
-        \r
-        #
-        Unit 4 Tool Philosophy and Use\r
-        \r
-        For this reflection, you’re going to
-        consider each of the prompts below and craft a written response that demonstrates
-        your understanding of the lessons in Unit 4. Your response should clearly
-        address each of the items below:\r
-        \r
-        - Why are we using whatever tools
-        are present in the unit rather than teaching without them? \r
-        - In what ways
-        are the tools in the unit educational rather than professional? \r
-        - What’s
-        the philosophy of teaching with these tools? \r
-        \r
-        \r
-        \r
-        >## Getting Credit
-        for Completing this Reflection \r
-        \r
-        >- Once you submit your reflection,
-        your response to the prompt above will be shared anonymously and reviewed
-        by your peers, and you will review the work done by other facilitators. Reviewers
-        will be looking for thoughtful and thorough answers that demonstrate that
-        you have spent time considering the reflection questions listed above. Reviewers
-        will have an opportunity to give feedback on your submission, and you can
-        respond to that feedback and resubmit.\r
-        - In order to get credit for completing
-        this prompt, two reviewers need to agree that you have responded to the prompts
-        fully. If reviewers don’t feel comfortable making a decision about your task
-        submission, they can elevate to an instructor for review. You will always
-        have a chance to address feedback from your reviewers and resubmit your reflections!
-        Reviewer feedback will show up at the bottom of this page, once it’s available.
-        \r
-         \r
+      csp4dlp-lessons_markdown_instruction: "<br><br>\\r\n\\r\n> **NOTE: before you\nstart
+        this reflection, make sure you’ve reviewed the lesson in Unit 4, and\nhave
+        a good sense of the connections between lessons. If you haven’t already\nreviewed
+        the materials, do that now and come back to this reflection later.**\\r\n\\r\n\\r\n#\nUnit
+        4 Lesson Connections and Philosophy\\r\n\\r\nFor this reflection, you’re\ngoing
+        to consider each of the prompts below and craft a written response that\ndemonstrates
+        your understanding of the lessons in Unit 4. Your response should\nclearly
+        address each of the items below: \\r\n\\r\n1. Which Big Idea(s) are\nstudents
+        learning the most about? Where and how are those BI(s) addressed?\n\\r\n2.
+        Which skills or Computational Practices are honed through the activities\nand
+        projects? \\r\n3. What recommendations do you have about the optional lessons\nin
+        this unit? (when and why would a teacher choose to use them?)\\r\n4. How\ncan
+        the material covered in the earlier units be connected to Unit 4 topics?\n(specifically
+        the internet and data) \\r\n5. Which lessons are particularly\ntricky to teach
+        in this unit and why? \\r\n \\r\n\\r\n>## Getting Credit for\nCompleting this
+        Reflection \\r\n\\r\n>- Once you submit your reflection, your\nresponse to
+        the prompt above will be shared anonymously and reviewed by your\npeers, and
+        you will review the work done by other facilitators. Reviewers\nwill be looking
+        for thoughtful and thorough answers that demonstrate that\nyou have spent
+        time considering the reflection questions listed above. Reviewers\nwill have
+        an opportunity to give feedback on your submission, and you can\nrespond to
+        that feedback and resubmit.\\r\n- In order to get credit for completing\nthis
+        prompt, two reviewers need to agree that you have responded to the prompts\nfully.
+        If reviewers don’t feel comfortable making a decision about your task\nsubmission,
+        they can elevate to an instructor for review. You will always\nhave a chance
+        to address feedback from your reviewers and resubmit your reflections!\nReviewer
+        feedback will show up at the bottom of this page, once it’s available.\n\\r\n "
+      csp4dlp-tools_markdown_instruction: "<br><br>\\r\n\\r\n> **NOTE: before you
+        start\nthis reflection, make sure you’ve reviewed the lesson in Unit 4, and
+        have\na good sense of the the role of tools in the lessons. If you haven’t
+        already\nreviewed the materials, do that now and come back to this reflection
+        later.**\\r\n\\r\n\\r\n#\nUnit 4 Tool Philosophy and Use\\r\n\\r\nFor this
+        reflection, you’re going to\nconsider each of the prompts below and craft
+        a written response that demonstrates\nyour understanding of the lessons in
+        Unit 4. Your response should clearly\naddress each of the items below:\\r\n\\r\n-
+        Why are we using whatever tools\nare present in the unit rather than teaching
+        without them? \\r\n- What’s the\nphilosophy of teaching with these tools?
+        \\r\n\\r\n\\r\n>## Getting Credit for\nCompleting this Reflection \\r\n\\r\n>-
+        Once you submit your reflection, your\nresponse to the prompt above will be
+        shared anonymously and reviewed by your\npeers, and you will review the work
+        done by other facilitators. Reviewers\nwill be looking for thoughtful and
+        thorough answers that demonstrate that\nyou have spent time considering the
+        reflection questions listed above. Reviewers\nwill have an opportunity to
+        give feedback on your submission, and you can\nrespond to that feedback and
+        resubmit.\\r\n- In order to get credit for completing\nthis prompt, two reviewers
+        need to agree that you have responded to the prompts\nfully. If reviewers
+        don’t feel comfortable making a decision about your task\nsubmission, they
+        can elevate to an instructor for review. You will always\nhave a chance to
+        address feedback from your reviewers and resubmit your reflections!\nReviewer
+        feedback will show up at the bottom of this page, once it’s available.\n\\r\n "
       csp5dlp-assessment_markdown_instruction: |
         <br><br>\r
         \r
@@ -62794,44 +62749,37 @@
         demonstrates your understanding of the lessons in Unit 5. Your response should
         clearly address each of the items below: \r
         \r
-        1. What skills and knowledge
-        should students leave the unit with?\r
-         - Which Big Idea(s) are students
-        learning the most about? Where and how are those BI(s) addressed? \r
-         - Which
-        skills or Computational Practices are honed through the activities and projects?
+        1. Which Big Idea(s) are
+        students learning the most about? Where and how are those BI(s) addressed?
         \r
-        2. What is the connection between early lessons and later lessons?\r
-
-        - How is the content spiraled or scaffolded within the unit? \r
-         - What foundation
-        is being laid early on and how is it leveraged throughout the unit? Why? \r
-        3.
-        What advice do you have for teachers about how to handle the transition from
-        turtle (back in unit 3)  to event-driven programming (here in unit 5)? \r
-        4.
-        Which lessons are particularly tricky to teach in this unit and why? \r
-
+        2. Which skills or Computational Practices are honed through the activities
+        and projects? \r
+        3. What advice do you have for teachers about how to handle
+        the transition from turtle (back in unit 3)  to event-driven programming (here
+        in unit 5)?  \r
+        4. What lessons are foundational to this unit? How are they
+        important to success in later lessons?\r
+        5. Which lessons are particularly
+        tricky to teach in this unit and why? \r
         \r
+        >## Getting Credit for Completing
+        this Reflection \r
         \r
-        >## Getting Credit for Completing this Reflection \r
+        >- Once you submit your reflection, your response
+        to the prompt above will be shared anonymously and reviewed by your peers,
+        and you will review the work done by other facilitators. Reviewers will be
+        looking for thoughtful and thorough answers that demonstrate that you have
+        spent time considering the reflection questions listed above. Reviewers will
+        have an opportunity to give feedback on your submission, and you can respond
+        to that feedback and resubmit.\r
+        - In order to get credit for completing
+        this prompt, two reviewers need to agree that you have responded to the prompts
+        fully. If reviewers don’t feel comfortable making a decision about your task
+        submission, they can elevate to an instructor for review. You will always
+        have a chance to address feedback from your reviewers and resubmit your reflections!
+        Reviewer feedback will show up at the bottom of this page, once it’s available.
         \r
-        >- Once
-        you submit your reflection, your response to the prompt above will be shared
-        anonymously and reviewed by your peers, and you will review the work done
-        by other facilitators. Reviewers will be looking for thoughtful and thorough
-        answers that demonstrate that you have spent time considering the reflection
-        questions listed above. Reviewers will have an opportunity to give feedback
-        on your submission, and you can respond to that feedback and resubmit.\r
-        -
-        In order to get credit for completing this prompt, two reviewers need to agree
-        that you have responded to the prompts fully. If reviewers don’t feel comfortable
-        making a decision about your task submission, they can elevate to an instructor
-        for review. You will always have a chance to address feedback from your reviewers
-        and resubmit your reflections! Reviewer feedback will show up at the bottom
-        of this page, once it’s available. \r
          \r
-        \r
       csp5dlp-tools_markdown_instruction: |
         \r
         \r
@@ -62851,9 +62799,9 @@
         that demonstrates your understanding of the lessons in Unit 5. Your response
         should clearly address each of the items below:\r
         \r
-        - What’s the philosophy
+        1. What’s the philosophy
         of teaching with Applab? \r
-        - What’s the general cadence and structure of
+        2. What’s the general cadence and structure of
         a lesson in unit 5? *(how are the levels in a typical lesson paced out, and
         what’s the general progression)*\r
         \r
@@ -62875,7 +62823,6 @@
         submission, they can elevate to an instructor for review. You will always
         have a chance to address feedback from your reviewers and resubmit your reflections!
         Reviewer feedback will show up at the bottom of this page, once it’s available.
-        \r
       csp_U3_plan_code_FR_markdown_instruction: |-
         <img src="https://images.code.org/01d3b0664443216b4363ec31914e592a-image-1506460763004.png"
         style="float: right">\r
@@ -66551,8 +66498,8 @@
         \r
         Use
         loops to draw this staircase.\r
-        - Each stairstep is 50 pixels tall and 50
-        pixels wide\r
+        - Each stairstep is 50 pixels long and 50
+        pixels tall\r
         - You will need to turn 90 degrees in each direction
       ramp_artist_loops6_markdown_instruction: |-
         This staircase is much bigger, but
