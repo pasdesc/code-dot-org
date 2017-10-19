@@ -231,6 +231,7 @@
   "quantity": "magn",
   "reinfFeedbackMsg": "Þú getur ýtt á \"Spila áfram\" til að fara aftur í að spila leikinn þinn.",
   "relative": "afstætt",
+  "runAgent": "Run Agent",
   "score": "Stig",
   "seconds": "sekúnda/ur",
   "selectChooseButton": "Velja",
@@ -286,6 +287,5 @@
   "weather": "veður",
   "weatherTypeClear": "heiðskírt",
   "weatherTypeRain": "regn",
-  "weatherTypeThunder": "þrumur",
-  "runAgent": "Run Agent"
+  "weatherTypeThunder": "þrumur"
 }

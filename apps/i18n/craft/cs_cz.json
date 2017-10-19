@@ -231,6 +231,7 @@
   "quantity": "množství",
   "reinfFeedbackMsg": "Můžeš stisknout \"Hraj dál\" a vrátíš se do své hry.",
   "relative": "relative",
+  "runAgent": "Run Agent",
   "score": "Skóre",
   "seconds": "second(s)",
   "selectChooseButton": "Vyber",
@@ -286,6 +287,5 @@
   "weather": "počasí",
   "weatherTypeClear": "jasno",
   "weatherTypeRain": "déšť",
-  "weatherTypeThunder": "bouřka",
-  "runAgent": "Run Agent"
+  "weatherTypeThunder": "bouřka"
 }

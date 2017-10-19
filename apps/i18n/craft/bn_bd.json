@@ -231,6 +231,7 @@
   "quantity": "quantity",
   "reinfFeedbackMsg": "আপনি খেলায় ফিরে যেতে \"খেলতে থাকুন\" টিপতে পারেন।",
   "relative": "relative",
+  "runAgent": "Run Agent",
   "score": "Score",
   "seconds": "second(s)",
   "selectChooseButton": "নির্বাচন করা",
@@ -286,6 +287,5 @@
   "weather": "weather",
   "weatherTypeClear": "clear",
   "weatherTypeRain": "rain",
-  "weatherTypeThunder": "thunder",
-  "runAgent": "Run Agent"
+  "weatherTypeThunder": "thunder"
 }

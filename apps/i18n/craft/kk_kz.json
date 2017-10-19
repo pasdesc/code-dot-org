@@ -231,6 +231,7 @@
   "quantity": "quantity",
   "reinfFeedbackMsg": "Ойынға қайта оралу үшін «Ойынды жалғастыру» батырмасына басыңыз.",
   "relative": "relative",
+  "runAgent": "Run Agent",
   "score": "Ұпай",
   "seconds": "second(s)",
   "selectChooseButton": "Таңдау",
@@ -286,6 +287,5 @@
   "weather": "weather",
   "weatherTypeClear": "clear",
   "weatherTypeRain": "rain",
-  "weatherTypeThunder": "thunder",
-  "runAgent": "Run Agent"
+  "weatherTypeThunder": "thunder"
 }

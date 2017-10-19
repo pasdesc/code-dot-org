@@ -231,6 +231,7 @@
   "quantity": "quantity",
   "reinfFeedbackMsg": "คุณสามารถกด  \"เล่นต่อไป\" เพื่อกลับไปเล่นเกมต่อ",
   "relative": "relative",
+  "runAgent": "Run Agent",
   "score": "คะแนน",
   "seconds": "second(s)",
   "selectChooseButton": "เลือก",
@@ -286,6 +287,5 @@
   "weather": "weather",
   "weatherTypeClear": "clear",
   "weatherTypeRain": "rain",
-  "weatherTypeThunder": "thunder",
-  "runAgent": "Run Agent"
+  "weatherTypeThunder": "thunder"
 }

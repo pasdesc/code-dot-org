@@ -231,6 +231,7 @@
   "quantity": "quantity",
   "reinfFeedbackMsg": "Du kannst \"weiterspielen\" wählen, um zu deinem Spiel zurückzukehren.",
   "relative": "relative",
+  "runAgent": "Run Agent",
   "score": "Punktzahl",
   "seconds": "second(s)",
   "selectChooseButton": "Auswählen",
@@ -286,6 +287,5 @@
   "weather": "weather",
   "weatherTypeClear": "clear",
   "weatherTypeRain": "rain",
-  "weatherTypeThunder": "thunder",
-  "runAgent": "Run Agent"
+  "weatherTypeThunder": "thunder"
 }

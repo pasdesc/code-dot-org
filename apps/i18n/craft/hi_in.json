@@ -231,6 +231,7 @@
   "quantity": "quantity",
   "reinfFeedbackMsg": "अपना गेम खेलने के लिए वापस जाने हेतु आप \"Keep Playing\" दबा सकते हैं।",
   "relative": "relative",
+  "runAgent": "Run Agent",
   "score": "स्कोर",
   "seconds": "second(s)",
   "selectChooseButton": "चयन करें",
@@ -286,6 +287,5 @@
   "weather": "weather",
   "weatherTypeClear": "clear",
   "weatherTypeRain": "rain",
-  "weatherTypeThunder": "thunder",
-  "runAgent": "Run Agent"
+  "weatherTypeThunder": "thunder"
 }

@@ -231,6 +231,7 @@
   "quantity":"quantity",
   "reinfFeedbackMsg":"Du kan trycka på \"Fortsätt spela\" för att återgå till spelet.",
   "relative":"relative",
+  "runAgent":"Run Agent",
   "score":"Poäng",
   "seconds":"second(s)",
   "selectChooseButton":"Välj",

@@ -231,6 +231,7 @@
   "quantity": "quantity",
   "reinfFeedbackMsg": "A \"Folytasd\" gomb megnyomásával tudod folytatni a játékod.",
   "relative": "relative",
+  "runAgent": "Run Agent",
   "score": "Pontszám",
   "seconds": "second(s)",
   "selectChooseButton": "Válassz",
@@ -286,6 +287,5 @@
   "weather": "weather",
   "weatherTypeClear": "clear",
   "weatherTypeRain": "rain",
-  "weatherTypeThunder": "mennydörgés",
-  "runAgent": "Run Agent"
+  "weatherTypeThunder": "mennydörgés"
 }

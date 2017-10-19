@@ -1,4 +1,6 @@
 {
+  "filterOrgNames": "Created by",
+  "filterOrgNamesAll": "全部",
   "filterGrades": "年级",
   "filterGradesPre": "预读",
   "filterGrades25": "2-5年级",
@@ -57,7 +59,5 @@
   "hideAllTutorialsButton": "隐藏各种语言的活动",
   "noTutorialsYourLanguage": "没有任何当前语言的活动。通过单击下面的按钮来尝试在其他语言的活动。",
   "bottomGuidelinesLink": "单击此处查看提交代码一小时教程的指南和标准。",
-  "bottomSpecialNeedsLink": "点击这里以获取有关帮助有特殊需求学生的更多信息。",
-  "filterOrgNames": "Created by",
-  "filterOrgNamesAll": "All"
+  "bottomSpecialNeedsLink": "点击这里以获取有关帮助有特殊需求学生的更多信息。"
 }

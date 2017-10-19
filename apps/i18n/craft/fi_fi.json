@@ -231,6 +231,7 @@
   "quantity": "määrä",
   "reinfFeedbackMsg": "Voit palata pelin pariin valitsemalla \"Jatka pelaamista\".",
   "relative": "suhteellinen",
+  "runAgent": "Run Agent",
   "score": "Pisteet",
   "seconds": "sekuntia",
   "selectChooseButton": "Valitse",
@@ -286,6 +287,5 @@
   "weather": "sää",
   "weatherTypeClear": "tyhjennä",
   "weatherTypeRain": "sade",
-  "weatherTypeThunder": "ukkonen",
-  "runAgent": "Run Agent"
+  "weatherTypeThunder": "ukkonen"
 }

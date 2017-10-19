@@ -231,6 +231,7 @@
   "quantity": "რაოდენობა",
   "reinfFeedbackMsg": "დააჭირეთ ღილაკს \"განაგრძეთ თამაში\" და დაუბრუნდით თამაშს.",
   "relative": "ფარდობითი",
+  "runAgent": "Run Agent",
   "score": "ქულა",
   "seconds": "წამ(ებ)ი",
   "selectChooseButton": "არჩევა",
@@ -286,6 +287,5 @@
   "weather": "ამინდი",
   "weatherTypeClear": "გასუფთავება",
   "weatherTypeRain": "წვიმა",
-  "weatherTypeThunder": "მეხი",
-  "runAgent": "Run Agent"
+  "weatherTypeThunder": "მეხი"
 }

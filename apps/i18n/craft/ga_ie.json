@@ -231,6 +231,7 @@
   "quantity": "méid",
   "reinfFeedbackMsg": "Is féidir leat \"Lean ar aghaidh ag imirt\" a chliceáil chun filleadh ar do chluiche.",
   "relative": "coibhneasta",
+  "runAgent": "Run Agent",
   "score": "Scór",
   "seconds": "soicind(í)",
   "selectChooseButton": "Roghnaigh",
@@ -286,6 +287,5 @@
   "weather": "aimsir",
   "weatherTypeClear": "glan",
   "weatherTypeRain": "báisteach",
-  "weatherTypeThunder": "toirneach",
-  "runAgent": "Run Agent"
+  "weatherTypeThunder": "toirneach"
 }

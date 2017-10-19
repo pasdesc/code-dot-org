@@ -231,6 +231,7 @@
   "quantity": "kuantitas",
   "reinfFeedbackMsg": "Kamu bisa menekan \"Tetap Main\" untuk kembali memainkan permainan kamu.",
   "relative": "relative",
+  "runAgent": "Run Agent",
   "score": "Skor",
   "seconds": "detik",
   "selectChooseButton": "Pilih",
@@ -286,6 +287,5 @@
   "weather": "cuaca",
   "weatherTypeClear": "cerah",
   "weatherTypeRain": "hujan",
-  "weatherTypeThunder": "guntur",
-  "runAgent": "Run Agent"
+  "weatherTypeThunder": "guntur"
 }

@@ -231,6 +231,7 @@
   "quantity": "quantity",
   "reinfFeedbackMsg": "Anda boleh menekan \"Teruskan bermain\" untuk kembali ke bermain permainan anda.",
   "relative": "relative",
+  "runAgent": "Run Agent",
   "score": "Score",
   "seconds": "second(s)",
   "selectChooseButton": "Pilih",
@@ -286,6 +287,5 @@
   "weather": "weather",
   "weatherTypeClear": "clear",
   "weatherTypeRain": "rain",
-  "weatherTypeThunder": "thunder",
-  "runAgent": "Run Agent"
+  "weatherTypeThunder": "thunder"
 }

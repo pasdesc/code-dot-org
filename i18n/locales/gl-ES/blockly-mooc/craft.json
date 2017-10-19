@@ -231,6 +231,7 @@
   "quantity":"quantity",
   "reinfFeedbackMsg":"Pode presionar \"Continuar xogando\" para voltar a xogar o seu jogo.",
   "relative":"relative",
+  "runAgent":"Run Agent",
   "score":"Score",
   "seconds":"second(s)",
   "selectChooseButton":"Seleccione",

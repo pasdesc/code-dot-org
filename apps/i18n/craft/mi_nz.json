@@ -231,6 +231,7 @@
   "quantity": "quantity",
   "reinfFeedbackMsg": "Ki te hoki atu ki tō kēmu tākaro anō ai me pēhi i te \"Tākaro Tonu\".",
   "relative": "relative",
+  "runAgent": "Run Agent",
   "score": "Tapeke piro",
   "seconds": "second(s)",
   "selectChooseButton": "Tīpako",
@@ -286,6 +287,5 @@
   "weather": "weather",
   "weatherTypeClear": "clear",
   "weatherTypeRain": "rain",
-  "weatherTypeThunder": "thunder",
-  "runAgent": "Run Agent"
+  "weatherTypeThunder": "thunder"
 }

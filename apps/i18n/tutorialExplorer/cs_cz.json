@@ -1,4 +1,6 @@
 {
+  "filterOrgNames": "Created by",
+  "filterOrgNamesAll": "Vše",
   "filterGrades": "Třídy",
   "filterGradesPre": "Předškolák",
   "filterGrades25": "Třídy 2-5",
@@ -57,7 +59,5 @@
   "hideAllTutorialsButton": "Skrýt aktivity pro mnoho jazyků",
   "noTutorialsYourLanguage": "Neexistují žádné aktivity ve vašem jazyce. Zkuste aktivity v jiných jazicích kliknutím na tlačítko níže.",
   "bottomGuidelinesLink": "Klepnutím sem zobrazíte naše kritéria a pokyny pro kurzy Hodiny kódu.",
-  "bottomSpecialNeedsLink": "Klepněte zde pro další informace k podpoře studentů se zvláštními potřebami.",
-  "filterOrgNames": "Created by",
-  "filterOrgNamesAll": "All"
+  "bottomSpecialNeedsLink": "Klepněte zde pro další informace k podpoře studentů se zvláštními potřebami."
 }

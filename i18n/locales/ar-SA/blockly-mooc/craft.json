@@ -231,6 +231,7 @@
   "quantity":"quantity",
   "reinfFeedbackMsg":"يمكنك الضغط على \"Keep Playing\" للعودة إلى ممارسة اللعبة.",
   "relative":"relative",
+  "runAgent":"Run Agent",
   "score":"مجموع النقاط",
   "seconds":"second(s)",
   "selectChooseButton":"تحديد",

@@ -231,6 +231,7 @@
   "quantity": "数量",
   "reinfFeedbackMsg": "「プレイを続ける」を押してゲームプレイを続けましょう。",
   "relative": "関係",
+  "runAgent": "Run Agent",
   "score": "スコア",
   "seconds": "秒",
   "selectChooseButton": "選択",
@@ -286,6 +287,5 @@
   "weather": "天気",
   "weatherTypeClear": "クリア",
   "weatherTypeRain": "雨",
-  "weatherTypeThunder": "雷",
-  "runAgent": "Run Agent"
+  "weatherTypeThunder": "雷"
 }

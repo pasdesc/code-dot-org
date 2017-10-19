@@ -231,6 +231,7 @@
   "quantity": "quantity",
   "reinfFeedbackMsg": "يمكنك الضغط على \"Keep Playing\" للعودة إلى ممارسة اللعبة.",
   "relative": "relative",
+  "runAgent": "Run Agent",
   "score": "مجموع النقاط",
   "seconds": "second(s)",
   "selectChooseButton": "تحديد",
@@ -286,6 +287,5 @@
   "weather": "weather",
   "weatherTypeClear": "clear",
   "weatherTypeRain": "rain",
-  "weatherTypeThunder": "thunder",
-  "runAgent": "Run Agent"
+  "weatherTypeThunder": "thunder"
 }

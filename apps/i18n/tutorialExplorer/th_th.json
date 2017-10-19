@@ -1,4 +1,6 @@
 {
+  "filterOrgNames": "Created by",
+  "filterOrgNamesAll": "All",
   "filterGrades": "ระดับชั้น",
   "filterGradesPre": "อ่านก่อน",
   "filterGrades25": "Grades 2-5",
@@ -57,7 +59,5 @@
   "hideAllTutorialsButton": "ซ่อนกิจกรรมสำหรับหลายภาษา",
   "noTutorialsYourLanguage": "ไม่มีกิจกรรมที่รองรับภาษาของคุณ ลองกิจกรรมในภาษาอื่นโดยกดปุ่มด้านล่าง",
   "bottomGuidelinesLink": "Click here to see our criteria and submission guidelines for Hour of Code tutorials.",
-  "bottomSpecialNeedsLink": "Click here for more information on supporting special needs students.",
-  "filterOrgNames": "Created by",
-  "filterOrgNamesAll": "All"
+  "bottomSpecialNeedsLink": "Click here for more information on supporting special needs students."
 }

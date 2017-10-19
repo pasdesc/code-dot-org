@@ -231,6 +231,7 @@
   "quantity": "quantity",
   "reinfFeedbackMsg": "באפשרותך להקיש \"להמשיך לשחק\" על מנת לחזור לשחק את המשחק.",
   "relative": "relative",
+  "runAgent": "Run Agent",
   "score": "ניקוד",
   "seconds": "second(s)",
   "selectChooseButton": "בחר",
@@ -286,6 +287,5 @@
   "weather": "weather",
   "weatherTypeClear": "clear",
   "weatherTypeRain": "rain",
-  "weatherTypeThunder": "thunder",
-  "runAgent": "Run Agent"
+  "weatherTypeThunder": "thunder"
 }

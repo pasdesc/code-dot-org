@@ -231,6 +231,7 @@
   "quantity": "quantity",
   "reinfFeedbackMsg": "Paspausk \"Tęsti Žaidimą\" jei nori grįžti į žaidimą.",
   "relative": "relative",
+  "runAgent": "Run Agent",
   "score": "Rezultatas",
   "seconds": "second(s)",
   "selectChooseButton": "Pasirinkti",
@@ -286,6 +287,5 @@
   "weather": "weather",
   "weatherTypeClear": "clear",
   "weatherTypeRain": "rain",
-  "weatherTypeThunder": "thunder",
-  "runAgent": "Run Agent"
+  "weatherTypeThunder": "thunder"
 }

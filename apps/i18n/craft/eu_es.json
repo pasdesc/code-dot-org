@@ -231,6 +231,7 @@
   "quantity": "kopurua",
   "reinfFeedbackMsg": "\"Jokatzen jarraitu\" sakatu dezakezu zure jokoan jokatzen jarraitzeko.",
   "relative": "erlatiboa",
+  "runAgent": "Run Agent",
   "score": "Puntuaketa",
   "seconds": "segundo",
   "selectChooseButton": "Aukeratu",
@@ -286,6 +287,5 @@
   "weather": "eguraldia",
   "weatherTypeClear": "oskarbi",
   "weatherTypeRain": "euria",
-  "weatherTypeThunder": "trumoia",
-  "runAgent": "Run Agent"
+  "weatherTypeThunder": "trumoia"
 }

@@ -1,4 +1,6 @@
 {
+  "filterOrgNames": "Created by",
+  "filterOrgNamesAll": "All",
   "filterGrades": "Klasės",
   "filterGradesPre": "Nemokantys skaityti",
   "filterGrades25": "2-5 Klasės",
@@ -57,7 +59,5 @@
   "hideAllTutorialsButton": "Slėpti daugelio kalbų veiklas",
   "noTutorialsYourLanguage": "Nėra veiklų Jūsų pasirinkta kalba. Išmėginkite veiklas kitomis kalbomis, spustelėję žemiau esantį mygtuką.",
   "bottomGuidelinesLink": "Spauskite čia, norėdami pamatyti mūsų kriterijus ir pateikimo gaires „Programavimo valandos“ pamokėlėms.",
-  "bottomSpecialNeedsLink": "Spauskite čia, norėdami gauti daugiau informacijos apie paramą specialiųjų poreikių mokiniams.",
-  "filterOrgNames": "Created by",
-  "filterOrgNamesAll": "All"
+  "bottomSpecialNeedsLink": "Spauskite čia, norėdami gauti daugiau informacijos apie paramą specialiųjų poreikių mokiniams."
 }

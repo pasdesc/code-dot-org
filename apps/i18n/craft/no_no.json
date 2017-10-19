@@ -16,7 +16,7 @@
   "blockActionExplodeEntity": "eksploder",
   "blockActionFill": "fyll fra",
   "blockActionFlashEntity": "blink",
-  "blockActionGetItemCount": "hent gjenstand antall",
+  "blockActionGetItemCount": "hent antall gjenstander",
   "blockActionGetItemCountInSlotNumber": "hent gjenstand antall i spornummer",
   "blockActionGetItemDetail": "hent gjenstand detalj",
   "blockActionGetItemDetailInSlotNumber": "hent gjenstand detalj i spornummer",
@@ -231,6 +231,7 @@
   "quantity": "antall",
   "reinfFeedbackMsg": "Du kan trykke \"Fortsett å spille\" for å fortsette med spillet ditt.",
   "relative": "relativ",
+  "runAgent": "Run Agent",
   "score": "Poengsum",
   "seconds": "sekund(er)",
   "selectChooseButton": "Velg",
@@ -286,6 +287,5 @@
   "weather": "vær",
   "weatherTypeClear": "tøm",
   "weatherTypeRain": "regn",
-  "weatherTypeThunder": "torden",
-  "runAgent": "Run Agent"
+  "weatherTypeThunder": "torden"
 }

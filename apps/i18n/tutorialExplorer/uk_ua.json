@@ -1,4 +1,6 @@
 {
+  "filterOrgNames": "Created by",
+  "filterOrgNamesAll": "Все",
   "filterGrades": "Класи",
   "filterGradesPre": "Дошкілля",
   "filterGrades25": "2-5 класи",
@@ -57,7 +59,5 @@
   "hideAllTutorialsButton": "Приховати заходи багатьма мовами",
   "noTutorialsYourLanguage": "Для Вашої мови немає розроблених вправ. Спробуйте вправи на інших мовах, клацнувши кнопку нижче.",
   "bottomGuidelinesLink": "Клацніть тут, щоб переглянути наші критерії та інструкції з подання підручників для Години коду.",
-  "bottomSpecialNeedsLink": "Клацніть тут, щоб переглянути докладнішу інформацію про підтримку учнів з особливими потребами.",
-  "filterOrgNames": "Created by",
-  "filterOrgNamesAll": "All"
+  "bottomSpecialNeedsLink": "Клацніть тут, щоб переглянути докладнішу інформацію про підтримку учнів з особливими потребами."
 }

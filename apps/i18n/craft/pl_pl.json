@@ -231,6 +231,7 @@
   "quantity": "ilość",
   "reinfFeedbackMsg": "Możesz nacisnąć \"Graj dalej\", aby wrócić do gry.",
   "relative": "relative",
+  "runAgent": "Run Agent",
   "score": "Wynik",
   "seconds": "sekunda(y)",
   "selectChooseButton": "Wybierz",
@@ -286,6 +287,5 @@
   "weather": "pogoda",
   "weatherTypeClear": "wyczyść",
   "weatherTypeRain": "deszcz",
-  "weatherTypeThunder": "grzmot",
-  "runAgent": "Run Agent"
+  "weatherTypeThunder": "grzmot"
 }

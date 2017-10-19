@@ -74,7 +74,7 @@
   "blockTypeCobblestone": "keien",
   "blockTypeDirt": "aarde",
   "blockTypeDirtCoarse": "ruwe aarde",
-  "blockTypeDoorIron": "iron door",
+  "blockTypeDoorIron": "ijzeren deur",
   "blockTypeEmpty": "leeg",
   "blockTypeFarmlandWet": "akkerland",
   "blockTypeGlass": "glas",
@@ -231,6 +231,7 @@
   "quantity": "hoeveelheid",
   "reinfFeedbackMsg": "Druk op \"Verder spelen\" om verder te gaan met je spel.",
   "relative": "relatief",
+  "runAgent": "Run Agent",
   "score": "Punt maken",
   "seconds": "seconde(n)",
   "selectChooseButton": "Selecteren",
@@ -286,6 +287,5 @@
   "weather": "weer",
   "weatherTypeClear": "wissen",
   "weatherTypeRain": "regen",
-  "weatherTypeThunder": "onweer",
-  "runAgent": "Run Agent"
+  "weatherTypeThunder": "onweer"
 }

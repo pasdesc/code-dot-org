@@ -231,6 +231,7 @@
   "quantity": "quantity",
   "reinfFeedbackMsg": "شما می توانید دکمه \"نگه داشتن بازی\" را برای بازگشت به بازی خود فشار دهید.",
   "relative": "relative",
+  "runAgent": "Run Agent",
   "score": "Score",
   "seconds": "second(s)",
   "selectChooseButton": "انتخاب",
@@ -286,6 +287,5 @@
   "weather": "weather",
   "weatherTypeClear": "clear",
   "weatherTypeRain": "rain",
-  "weatherTypeThunder": "thunder",
-  "runAgent": "Run Agent"
+  "weatherTypeThunder": "thunder"
 }
