@@ -193,13 +193,6 @@ class Course < ApplicationRecord
     end
   end
 
-  # @param user [User]
-  # @returns [Boolean] Whether the user has any experiment enabled which is
-  #   associated with an alternate course script.
-  def self.has_any_course_experiments?(user)
-    Experiment.any_enabled?(user: user, experiment_names: CourseScript.experiments)
-  end
-
   # Get the set of valid courses for the dropdown in our sections table, using
   # any alternate scripts based on any relevant experiments or progress.
   def self.courses_for_user(user)
