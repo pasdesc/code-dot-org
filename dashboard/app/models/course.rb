@@ -181,12 +181,10 @@ class Course < ApplicationRecord
   end
 
   # Get the set of valid courses for the dropdown in our sections table. This
-  # should be static data for users without experiments enabled, but contains
+  # should be static data for signed-out users, but contains
   # localized strings so we can only cache on a per locale basis.
   def self.valid_courses(user = nil)
-    # Do not cache if the user might have an experiment enabled which puts them
-    # on an alternate script.
-    return Course.courses_for_user_with_experiments(user) if user && has_any_course_experiments?(user)
+    return Course.courses_for_user(user) if user
     Rails.cache.fetch("valid_courses/#{I18n.locale}") do
       Course.
         all.
@@ -203,8 +201,8 @@ class Course < ApplicationRecord
   end
 
   # Get the set of valid courses for the dropdown in our sections table, using
-  # any alternate scripts based on any experiments the user belongs to.
-  def self.courses_for_user_with_experiments(user)
+  # any alternate scripts based on any relevant experiments or progress.
+  def self.courses_for_user(user)
     Course.
       all.
       select {|course| ScriptConstants.script_in_category?(:full_course, course[:name])}.
