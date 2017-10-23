@@ -311,6 +311,16 @@ class CourseTest < ActiveSupport::TestCase
     assert_equal csp.id, courses[0][:id]
     csp_assign_info = courses[0]
     assert_equal [csp1.id, csp2_alt.id, csp3.id], csp_assign_info[:script_ids]
+
+    # student has alternate script_ids when teacher is in experiment and section
+    # is assigned to this course
+    student = create(:student)
+    course_section = create :section, user: teacher_with_experiment, course: csp
+    create :follower, section: course_section, student_user: student
+    courses = Course.valid_courses(student)
+    assert_equal csp.id, courses[0][:id]
+    csp_assign_info = courses[0]
+    assert_equal [csp1.id, csp2_alt.id, csp3.id], csp_assign_info[:script_ids]
   end
 
   test "update_teacher_resources" do
