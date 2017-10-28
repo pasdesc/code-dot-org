@@ -46,7 +46,7 @@ module Pd::Application
       self.course = PROGRAMS.key(program)
     end
 
-    before_save :match_partner, if: :form_data_changed?
+    before_create :match_partner, if: -> {regional_partner.nil?}
     def match_partner
       self.regional_partner = RegionalPartner.find_by_region(zip_code, state_code)
     end
@@ -422,6 +422,7 @@ module Pd::Application
       end
     end
 
+    # @override
     def self.csv_header
       # strip all markdown formatting out of the labels
       markdown = Redcarpet::Markdown.new(Redcarpet::Render::StripDown)
@@ -430,6 +431,7 @@ module Pd::Application
       end
     end
 
+    # @override
     def to_csv_row
       hash = sanitize_form_data_hash
       CSV.generate do |csv|
