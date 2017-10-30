@@ -190,6 +190,42 @@ describe("FormController", () => {
       });
     });
 
+    describe("With saveProgressInSession=true", () => {
+      beforeEach(() => {
+        sessionStorage.removeItem("DummyForm");
+        form.setProps({saveProgressInSession: true});
+      });
+
+      it("Saves form data to session storage", () => {
+        const testFormData = {field1: 'test value 1'};
+        form.instance().handleChange(testFormData);
+        expect(sessionStorage["DummyForm"]).to.eql(JSON.stringify({
+          currentPage: 0,
+          data: testFormData
+        }));
+      });
+
+      it("Saves current page to session storage", () => {
+        form.instance().nextPage();
+        expect(sessionStorage["DummyForm"]).to.eql(JSON.stringify({
+          currentPage: 1,
+          data: {}
+        }));
+      });
+
+      it("Loads current page and form data from session storage on mount", () => {
+        const testData = {field2: 'test value 2'};
+        sessionStorage["DummyForm"] = JSON.stringify({
+          currentPage: 2,
+          data: testData
+        });
+
+        form.mount();
+        expect(form.state("currentPage")).to.equal(2);
+        expect(form.state("data")).to.eql(testData);
+      });
+    });
+
     describe("validateCurrentPageRequiredFields()", () => {
       let render;
       before(() => {
