@@ -1,6 +1,6 @@
 ---
 title: '<%= hoc_s(:title_op_ed) %>'
-layout: geniş
+layout: wide
 nav: promote_nav
 ---
 <%= view :signup_button %>
