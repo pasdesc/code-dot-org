@@ -7737,6 +7737,10 @@ react-tooltip@^3.2.7:
   dependencies:
     classnames "^2.2.0"
 
+react-trigger-change@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/react-trigger-change/-/react-trigger-change-1.0.2.tgz#af573398ecef2475362b84f8c08c07fea23914c3"
+
 react-virtualized-select@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/react-virtualized-select/-/react-virtualized-select-3.0.1.tgz#7a9727849987c9d49bbbd8707a8254c4288a815a"
