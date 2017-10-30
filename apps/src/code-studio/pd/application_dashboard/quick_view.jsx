@@ -9,8 +9,8 @@
 import React, {PropTypes} from 'react';
 import QuickViewTable from './quick_view_table';
 import Spinner from '../components/spinner';
-import $ from 'jquery';
 import {Button} from 'react-bootstrap';
+import $ from 'jquery';
 
 const styles = {
   button: {
