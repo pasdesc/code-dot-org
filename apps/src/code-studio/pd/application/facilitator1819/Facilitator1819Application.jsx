@@ -22,6 +22,8 @@ export default class Facilitator1819Application extends FormController {
 
   static submitButtonText = "Complete and Send";
 
+  static sessionStorageKey = "Facilitator1819Application";
+
   // This is just for testing & bug bashing, but should not be merged
   // TODO: remove this before merging
   componentDidMount() {
